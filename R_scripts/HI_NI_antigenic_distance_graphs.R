@@ -204,12 +204,12 @@ g2 <- ggplot(data, aes(xlab, distance)) +
     legend.text = element_text(size=min_text_size)
   )
 
-setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/figures_current/")
+setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
 
 
 g_combo <- g1 + g2 + plot_layout(width=c(1,1)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = min_text_size, face="bold"))
 g_combo <- g_combo & ylim(0,6.5)
 
-tiff("HI_NI_antigenic_distance.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
+tiff("Figure_4_HI_NI_antigenic_distance.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
 g_combo
 dev.off()
