@@ -1,0 +1,999 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=493;
+	Taxlabels
+		A/swine/Maryland/A01104048/2012|08/16/2012|Maryland
+		A/swine/Ohio/12TOSU308/2012|08/03/2012|Ohio
+		A/swine/Indiana/A01260041/2012|10/15/2012|Indiana
+		A/swine/South_Dakota/A01366093/2013|12/03/2013|South_Dakota
+		A/swine/Nebraska/A01781225/2016|09/08/2016|Nebraska
+		A/swine/Nebraska/A01476165/2014|07/28/2014|Nebraska
+		A/swine/Iowa/A02154766/2018|03/02/2018|Iowa
+		A/swine/Kansas/A01377619/2015|10/22/2015|Kansas
+		A/swine/Iowa/A02215031/2017|04/12/2017|Iowa
+		A/swine/Nebraska/A01847244/2015|04/09/2015|Nebraska
+		A/swine/Kansas/A01785429/2018|01/29/2018|Kansas
+		A/swine/Nebraska/A01785583/2018|07/11/2018|Nebraska
+		A/swine/Iowa/A02478878/2019|11/14/2019|Iowa
+		A/swine/Kentucky/A02525075/2021|01/13/2021|Kentucky
+		A/swine/Minnesota/A02245312/2019|10/31/2019|Minnesota
+		A/swine/Iowa/A02478976/2019|12/24/2019|Iowa
+		A/swine/Iowa/A02525136/2021|02/01/2021|Iowa
+		A/swine/Kansas/A01785815/2019|01/04/2019|Kansas
+		A/swine/Iowa/A02524556/2020|08/19/2020|Iowa
+		A/swine/Nebraska/A02158807/2018|05/23/2018|Nebraska
+		A/swine/Nebraska/A02142683/2018|02/14/2018|Nebraska
+		A/swine/Nebraska/A01785951/2019|02/07/2019|Nebraska
+		A/swine/SouthDakota/A01678549/2018|03/19/2018|Unknown
+		A/swine/Iowa/A02157567/2018|04/09/2018|Iowa
+		A/swine/Nebraska/A01785383/2017|12/11/2017|Nebraska
+		A/swine/Iowa/A02431991/2019|04/02/2019|Iowa
+		A/swine/Nebraska/A01785261/2017|05/02/2017|Nebraska
+		A/swine/Nebraska/A01785250/2017|03/06/2017|Nebraska
+		A/swine/Iowa/A01840226/2014|12/19/2014|Iowa
+		A/swine/Iowa/A01944877/2015|10/28/2015|Iowa
+		A/swine/USA/A01291038/2013|10/15/2013|Unknown
+		A/swine/South_Dakota/A01481392/2014|05/13/2014|South_Dakota
+		A/swine/Kansas/A01377165/2013|12/02/2013|Kansas
+		A/swine/Illinois/A01489873/2014|11/06/2014|Illinois
+		A/swine/Illinois/A01489874/2014|11/11/2014|Illinois
+		A/swine/Nebraska/A01393702/2013|12/16/2013|Nebraska
+		A/swine/South_Dakota/A01481928/2014|06/25/2014|South_Dakota
+		A/swine/Ohio/A01351683/2013|07/16/2013|Ohio
+		A/swine/Kansas/A01377090/2013|10/10/2013|Kansas
+		A/swine/Iowa/13H091/2013|08/28/2013|Iowa
+		A/swine/Iowa/13H094/2013|08/28/2013|Iowa
+		A/swine/Missouri/A01493970/2014|04/03/2014|Missouri
+		A/swine/Maryland/D0384/2013|11/29/2013|Maryland
+		A/swine/Kansas/14_000624/2015|01/12/2015|Kansas
+		A/swine/Iowa/A01778878/2016|08/22/2016|Iowa
+		A/swine/Iowa/A01857687/2015|09/30/2015|Iowa
+		A/swine/Nebraska/A02215046/2017|04/26/2017|Nebraska
+		A/swine/Iowa/A02478735/2019|10/09/2019|Iowa
+		A/swine/Indiana/13TOSU1141/2013|07/31/2013|Indiana
+		A/swine/Iowa/13H076/2013|08/28/2013|Iowa
+		A/swine/Iowa/13H098/2013|08/28/2013|Iowa
+		A/swine/Indiana/A01260398/2013|10/08/2013|Indiana
+		A/swine/Indiana/13TOSU1128/2013|07/25/2013|Indiana
+		A/swine/Indiana/13TOSU1983/2013|08/31/2013|Indiana
+		A/swine/Indiana/13TOSU4563/2013|08/31/2013|Indiana
+		A/swine/Indiana/13TOSU1319/2013|08/01/2013|Indiana
+		A/swine/Indiana/13TOSU1991/2013|08/31/2013|Indiana
+		A/swine/Ohio/13TOSU1560/2013|08/31/2013|Ohio
+		A/swine/Indiana/13TOSU5147/2013|08/31/2013|Indiana
+		A/swine/Illinois/A01394861/2013|10/02/2013|Illinois
+		A/swine/Ohio/13TOSU2194/2013|09/01/2013|Ohio
+		A/swine/Indiana/13TOSU5869/2013|08/31/2013|Indiana
+		A/swine/Ohio/13TOSU0410/2013|06/01/2013|Ohio
+		A/swine/Iowa/A01432817/2013|06/15/2013|Iowa
+		A/swine/Illinois/A01409675/2013|12/20/2013|Illinois
+		A/swine/Illinois/A01411232/2013|12/18/2013|Illinois
+		A/swine/Illinois/A01409717/2013|12/26/2013|Illinois
+		A/swine/Illinois/A01410409/2014|03/15/2014|Illinois
+		A/swine/Ohio/13TOSU0726/2013|07/31/2013|Ohio
+		A/swine/Indiana/13TOSU5669/2013|08/31/2013|Indiana
+		A/swine/Iowa/A01410633/2014|04/15/2014|Iowa
+		A/swine/Iowa/A01366680/2014|01/10/2014|Iowa
+		A/swine/Iowa/A01480042/2014|02/07/2014|Iowa
+		A/swine/Minnesota/A01409450/2013|11/15/2013|Minnesota
+		A/swine/Iowa/A01365906/2013|11/15/2013|Iowa
+		A/swine/Iowa/A01432867/2013|07/15/2013|Iowa
+		A/swine/Iowa/A01290438/2013|09/15/2013|Iowa
+		A/swine/Iowa/A01475456/2014|05/15/2014|Iowa
+		A/swine/Illinois/A01509209/2014|04/15/2014|Illinois
+		A/swine/Illinois/A01410786/2014|05/15/2014|Illinois
+		A/swine/Illinois/A01476977/2014|11/13/2014|Illinois
+		A/swine/Illinois/A01729658/2016|01/14/2016|Illinois
+		A/swine/Iowa/A02214841/2017|04/11/2017|Iowa
+		A/swine/Iowa/A01290860/2013|11/15/2013|Iowa
+		A/swine/Pennsylvania/A01104050/2012|08/09/2012|Pennsylvania
+		A/swine/North_Carolina/A01432997/2013|08/15/2013|North_Carolina
+		A/swine/North_Carolina/A01432998/2013|08/15/2013|North_Carolina
+		A/swine/North_Carolina/A01411902/2014|07/28/2014|North_Carolina
+		A/swine/North_Carolina/A01477162/2014|07/31/2014|North_Carolina
+		A/swine/North_Carolina/A01291329/2013|09/15/2013|North_Carolina
+		A/swine/North_Carolina/A01476074/2014|07/09/2014|North_Carolina
+		A/swine/North_Carolina/A01410672/2014|04/15/2014|North_Carolina
+		A/swine/Ohio/12TOSU50/2012|06/22/2012|Ohio
+		A/swine/Kentucky/D0385/2013|05/20/2013|Kentucky
+		A/swine/South_Dakota/A01350803/2013|05/30/2013|South_Dakota
+		A/swine/Minnesota/A01395294/2013|11/19/2013|Minnesota
+		A/swine/Iowa/13H087/2013|08/28/2013|Iowa
+		A/swine/Minnesota/A01394278/2013|09/19/2013|Minnesota
+		A/swine/Minnesota/A01394021/2013|10/15/2013|Minnesota
+		A/swine/Minnesota/A01392079/2013|09/18/2013|Minnesota
+		A/swine/North_Carolina/A01668240/2016|11/10/2016|North_Carolina
+		A/swine/North_Carolina/A01945976/2015|10/27/2015|North_Carolina
+		A/swine/North_Carolina/A01945939/2015|10/24/2015|North_Carolina
+		A/swine/Michigan/A02025547/2015|08/13/2015|Michigan
+		A/swine/Indiana/A01260254/2013|03/20/2013|Indiana
+		A/swine/Indiana/A01260521/2014|03/19/2014|Indiana
+		A/swine/Indiana/A01260523/2014|04/03/2014|Indiana
+		A/swine/Minnesota/A01469329/2014|12/18/2014|Minnesota
+		A/swine/Indiana/15TOSU0841/2015|06/25/2015|Indiana
+		A/swine/Indiana/15TOSU0495/2015|06/25/2015|Indiana
+		A/swine/Indiana/15TOSU8822/2015|07/24/2015|Indiana
+		A/swine/Arkansas/A01797106/2015|11/02/2015|Arkansas
+		'A/swine/Ohio/OH18_09978.4/2018|04/29/2018|Ohio'
+		A/swine/Ohio/A02134225/2017|10/17/2017|Ohio
+		A/swine/Ohio/OH_18_6906/2018|03/25/2018|Ohio
+		A/swine/Arkansas/A01671574/2016|12/21/2016|Arkansas
+		A/swine/Indiana/A02214844/2017|04/03/2017|Indiana
+		A/swine/Illinois/A01410453/2014|03/15/2014|Illinois
+		A/swine/Illinois/A01475190/2014|03/15/2014|Illinois
+		A/swine/Illinois/A01410110/2014|01/15/2014|Illinois
+		A/swine/North_Carolina/A01410529/2014|03/15/2014|North_Carolina
+		A/swine/Indiana/A01555087/2014|12/01/2014|Indiana
+		A/swine/Illinois/A01411461/2014|02/15/2014|Illinois
+		A/swine/Illinois/A01411097/2014|01/15/2014|Illinois
+		A/swine/Indiana/A01777672/2016|07/06/2016|Indiana
+		A/swine/Indiana/A01260918/2015|06/11/2015|Indiana
+		A/swine/Michigan/A01671226/2016|12/06/2016|Michigan
+		A/swine/Indiana/A01812250/2016|11/14/2016|Indiana
+		A/swine/Indiana/A01840146/2014|12/12/2014|Indiana
+		A/swine/Arkansas/A01840147/2014|12/12/2014|Arkansas
+		A/swine/Arkansas/A01555162/2014|12/11/2014|Arkansas
+		A/swine/Arkansas/A01840096/2014|12/09/2014|Arkansas
+		A/swine/Indiana/A01672517/2017|01/20/2017|Indiana
+		A/swine/Ohio/A01840053/2014|12/03/2014|Ohio
+		A/swine/Arkansas/A01476939/2014|11/10/2014|Arkansas
+		A/swine/North_Dakota/A01782435/2016|10/18/2016|North_Dakota
+		A/swine/Iowa/16TOSU2424/2016|06/09/2016|Iowa
+		A/swine/Iowa/16TOSU2677/2016|06/09/2016|Iowa
+		A/swine/Iowa/16TOSU2673/2016|06/09/2016|Iowa
+		A/swine/Iowa/16TOSU2822/2016|06/09/2016|Iowa
+		A/swine/Arkansas/A01857979/2015|10/26/2015|Arkansas
+		A/swine/Indiana/16TOSU2234/2016|06/18/2016|Indiana
+		A/swine/Indiana/16TOSU2894/2016|06/12/2016|Indiana
+		A/swine/Kentucky/16TOSU8970/2016|08/01/2016|Kentucky
+		A/swine/Indiana/16TOSU4438/2016|07/01/2016|Indiana
+		A/swine/Kentucky/16TOSU3279/2016|07/07/2016|Kentucky
+		A/swine/Ohio/16TOSU1230/2016|05/28/2016|Ohio
+		A/swine/Iowa/16TOSU2298/2016|06/01/2016|Iowa
+		A/swine/Indiana/16TOSU2990/2016|06/12/2016|Indiana
+		A/swine/Michigan/16TOSU3404/2016|06/01/2016|Michigan
+		A/swine/Michigan/16TOSU3388/2016|06/18/2016|Michigan
+		A/swine/Illinois/16TOSU6940/2016|06/01/2016|Illinois
+		A/swine/Iowa/16TOSU2289/2016|06/09/2016|Iowa
+		A/swine/Indiana/16TOSU4114/2016|06/01/2016|Indiana
+		A/swine/Iowa/16TOSU2585/2016|06/09/2016|Iowa
+		A/swine/Michigan/16TOSU3399/2016|06/18/2016|Michigan
+		A/swine/Iowa/16TOSU2534/2016|06/09/2016|Iowa
+		A/swine/Illinois/16TOSU7168/2016|06/01/2016|Illinois
+		A/swine/Iowa/16TOSU2464/2016|06/09/2016|Iowa
+		A/swine/Indiana/A01812245/2016|07/21/2016|Indiana
+		A/swine/Indiana/16TOSU7618/2016|07/01/2016|Indiana
+		A/swine/Kentucky/16TOSU3477/2016|07/07/2016|Kentucky
+		A/swine/Michigan/16TOSU5086/2016|08/01/2016|Michigan
+		A/swine/Iowa/16TOSU2709/2016|06/09/2016|Iowa
+		A/swine/Iowa/16TOSU2493/2016|06/09/2016|Iowa
+		A/swine/Iowa/16TOSU2708/2016|06/09/2016|Iowa
+		A/swine/Oklahoma/A01475757/2014|06/15/2014|Oklahoma
+		A/swine/Iowa/A02076659/2015|04/29/2015|Iowa
+		A/swine/Minnesota/A01940765/2015|10/19/2015|Minnesota
+		A/swine/Minnesota/A01940427/2015|09/21/2015|Minnesota
+		A/swine/Minnesota/A01940814/2015|10/19/2015|Minnesota
+		A/swine/Minnesota/A01941131/2015|11/16/2015|Minnesota
+		A/swine/Minnesota/A01940148/2015|08/24/2015|Minnesota
+		A/swine/Iowa/A01501048/2014|05/13/2014|Iowa
+		A/swine/Iowa/A01410752/2014|04/15/2014|Iowa
+		A/swine/Iowa/A01410995/2014|06/19/2014|Iowa
+		A/swine/North_Carolina/A01840322/2015|01/09/2015|North_Carolina
+		A/swine/North_Carolina/A01476719/2014|10/14/2014|North_Carolina
+		A/swine/North_Carolina/A01476367/2014|09/08/2014|North_Carolina
+		A/swine/Illinois/A01797275/2015|11/02/2015|Illinois
+		A/swine/Indiana/A01812202/2016|04/24/2016|Indiana
+		A/swine/Illinois/A01749100/2015|10/20/2015|Illinois
+		A/swine/North_Carolina/A01476427/2014|09/17/2014|North_Carolina
+		A/swine/North_Carolina/A02025897/2015|09/03/2015|North_Carolina
+		A/swine/North_Carolina/A01476072/2014|07/09/2014|North_Carolina
+		A/swine/Kansas/14_032477/2014|12/10/2014|Kansas
+		A/swine/Pennsylvania/A01733733/2016|03/17/2016|Pennsylvania
+		A/swine/North_Carolina/A01840071/2014|12/03/2014|North_Carolina
+		A/swine/North_Carolina/A01476771/2014|10/21/2014|North_Carolina
+		A/swine/North_Carolina/A01410593/2014|04/15/2014|North_Carolina
+		A/swine/Iowa/A01476223/2014|08/15/2014|Iowa
+		A/swine/North_Carolina/A01410687/2014|04/15/2014|North_Carolina
+		A/swine/North_Carolina/A01729044/2016|01/05/2016|North_Carolina
+		A/swine/North_Carolina/A01945728/2015|10/19/2015|North_Carolina
+		A/swine/North_Carolina/A01477142/2014|07/30/2014|North_Carolina
+		A/swine/Arkansas/A01555090/2014|12/02/2014|Arkansas
+		A/swine/North_Carolina/A01476177/2014|08/01/2014|North_Carolina
+		A/swine/North_Carolina/A01410691/2014|04/15/2014|North_Carolina
+		A/swine/North_Carolina/A01770059/2015|08/03/2015|North_Carolina
+		A/swine/North_Carolina/A01895763/2016|04/20/2016|North_Carolina
+		A/swine/North_Carolina/A02034953/2015|07/29/2015|North_Carolina
+		A/swine/USA/A01410908/2014|05/15/2014|Unknown
+		A/swine/Iowa/A02076873/2015|05/08/2015|Iowa
+		A/swine/Illinois/A02076874/2015|05/07/2015|Illinois
+		A/swine/North_Carolina/A01555533/2015|02/03/2015|North_Carolina
+		A/swine/North_Carolina/A01727367/2015|12/08/2015|North_Carolina
+		A/swine/North_Carolina/A01945473/2015|10/09/2015|North_Carolina
+		A/swine/North_Carolina/A01857100/2015|08/31/2015|North_Carolina
+		A/swine/North_Carolina/A01796260/2015|11/06/2015|North_Carolina
+		A/swine/North_Carolina/A01796262/2015|11/06/2015|North_Carolina
+		A/swine/North_Carolina/A01770073/2015|08/04/2015|North_Carolina
+		A/swine/North_Carolina/A02034471/2015|07/17/2015|North_Carolina
+		A/swine/North_Carolina/A02025575/2015|08/12/2015|North_Carolina
+		A/swine/North_Carolina/A01840289/2015|01/07/2015|North_Carolina
+		A/swine/North_Carolina/A01857103/2015|08/31/2015|North_Carolina
+		A/swine/North_Carolina/A01857097/2015|09/02/2015|North_Carolina
+		A/swine/North_Carolina/A01841335/2015|03/05/2015|North_Carolina
+		A/swine/North_Carolina/A01555667/2015|02/23/2015|North_Carolina
+		A/swine/North_Carolina/A01476730/2014|10/13/2014|North_Carolina
+		A/swine/North_Carolina/A01945753/2015|10/20/2015|North_Carolina
+		A/swine/North_Carolina/A01410688/2014|04/15/2014|North_Carolina
+		A/swine/North_Carolina/A01410877/2014|05/15/2014|North_Carolina
+		A/swine/Iowa/A01475548/2014|05/15/2014|Iowa
+		A/swine/Iowa/A01410847/2014|05/15/2014|Iowa
+		A/swine/North_Carolina/A01476196/2014|08/06/2014|North_Carolina
+		A/swine/North_Carolina/A01476848/2014|10/21/2014|North_Carolina
+		A/swine/North_Carolina/A02024129/2015|05/20/2015|North_Carolina
+		A/swine/North_Carolina/A01555522/2015|02/03/2015|North_Carolina
+		A/swine/Indiana/A01260361/2013|08/08/2013|Indiana
+		A/swine/North_Carolina/A01290778/2013|11/15/2013|North_Carolina
+		A/swine/North_Carolina/A01410511/2014|03/15/2014|North_Carolina
+		A/swine/Indiana/A01432300/2012|12/13/2012|Indiana
+		A/swine/North_Carolina/A01730588/2016|01/28/2016|North_Carolina
+		A/swine/North_Carolina/A02135886/2017|11/07/2017|North_Carolina
+		A/swine/North_Carolina/A01290717/2013|11/15/2013|North_Carolina
+		A/swine/Indiana/A01410396/2014|03/15/2014|Indiana
+		A/swine/North_Carolina/A01290447/2013|09/15/2013|North_Carolina
+		A/swine/Illinois/A01241916/2012|03/01/2012|Illinois
+		A/swine/Indiana/A01203372/2012|04/03/2012|Indiana
+		A/swine/Ohio/13TOSU2130/2013|08/01/2013|Ohio
+		A/swine/Indiana/13TOSU1207/2013|07/01/2013|Indiana
+		A/swine/North_Carolina/A01300820/2012|07/19/2012|North_Carolina
+		A/swine/Virginia/A01290329/2013|08/15/2013|Virginia
+		A/swine/NY/A01104005/2011|09/13/2011|New_York
+		A/swine/Illinois/A01290508/2013|10/15/2013|Illinois
+		A/swine/Alabama/D0383/2012|12/11/2012|Alabama
+		A/swine/Iowa/A01202878/2011|11/17/2011|Iowa
+		A/swine/Indiana/A01327213/2012|02/06/2012|Indiana
+		A/swine/Indiana/A01271853/2012|11/06/2012|Indiana
+		A/swine/Illinois/A01240891/2012|01/05/2012|Illinois
+		A/swine/Illinois/A01202978/2011|12/16/2011|Illinois
+		A/swine/Illinois/A01327905/2012|05/08/2012|Illinois
+		A/swine/Texas/A01104013/2012|02/15/2012|Texas
+		A/swine/Iowa/A01243736/2012|07/25/2012|Iowa
+		A/swine/Illinois/A00857134/2011|10/04/2011|Illinois
+		A/swine/Iowa/A01202659/2011|10/06/2011|Iowa
+		A/swine/Illinois/A01203672/2012|07/21/2012|Illinois
+		A/swine/Indiana/A01203522/2012|05/15/2012|Indiana
+		A/swine/Wyoming/A01380322/2013|04/30/2013|Wyoming
+		A/swine/Wyoming/A01381213/2013|05/21/2013|Wyoming
+		A/swine/Wyoming/A01444566/2013|01/13/2013|Wyoming
+		A/swine/Wyoming/A01381202/2013|05/21/2013|Wyoming
+		A/swine/Illinois/A01398587/2013|08/07/2013|Illinois
+		A/swine/Iowa/A01477719/2014|10/09/2014|Iowa
+		A/swine/Iowa/A01894589/2016|04/01/2016|Iowa
+		A/swine/Nebraska/A01678580/2018|08/24/2018|Nebraska
+		A/swine/Nebraska/A01394342/2013|10/28/2013|Nebraska
+		A/swine/South_Dakota/A01366063/2013|11/29/2013|South_Dakota
+		A/swine/Nebraska/A01394567/2013|10/31/2013|Nebraska
+		A/swine/Nebraska/A01567651/2015|01/12/2015|Nebraska
+		A/swine/Nebraska/A01565950/2014|10/16/2014|Nebraska
+		A/swine/Illinois/A01411761/2014|04/15/2014|Illinois
+		A/swine/Nebraska/A01493915/2014|04/09/2014|Nebraska
+		A/swine/Nebraska/A01409533/2013|11/20/2013|Nebraska
+		A/swine/Ohio/11SW113/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW95/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW173/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW109/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW218/2011|08/12/2011|Ohio
+		A/swine/Ohio/11SW180/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW211/2011|08/12/2011|Ohio
+		A/swine/Ohio/11SW349/2011|09/30/2011|Ohio
+		A/swine/Ohio/11SW169/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW214/2011|08/31/2011|Ohio
+		A/swine/Ohio/11SW161/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW195/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW189/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW179/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW219/2011|08/31/2011|Ohio
+		A/swine/Ohio/11SW97/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW98/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW119/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW166/2011|08/08/2011|Ohio
+		A/swine/Ohio/11SW93/2011|08/05/2011|Ohio
+		A/swine/Ohio/11SW206/2011|08/12/2011|Ohio
+		A/swine/Ohio/10SW130/2010|07/02/2010|Ohio
+		A/swine/Indiana/A00968322/2010|10/20/2010|Indiana
+		A/swine/Illinois/A01076719/2010|11/01/2010|Illinois
+		A/swine/Ohio/10SW133/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW122/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW126/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW135/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW128/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW219/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW139/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW208/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW220/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW202/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW218/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW214/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW203/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW121/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW125/2010|08/12/2010|Ohio
+		A/swine/Ohio/10SW216/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW206/2010|08/24/2010|Ohio
+		A/swine/Ohio/10SW132/2010|08/12/2010|Ohio
+		A/swine/Minnesota/A01076999/2010|09/22/2010|Minnesota
+		A/swine/Indiana/A01260093/2012|10/30/2012|Indiana
+		A/swine/North_Carolina/A01475277/2014|04/15/2014|North_Carolina
+		A/swine/North_Carolina/A01410732/2014|04/15/2014|North_Carolina
+		A/swine/North_Carolina/A01410709/2014|04/15/2014|North_Carolina
+		A/swine/North_Carolina/A01432566/2013|03/15/2013|North_Carolina
+		A/swine/North_Carolina/A01410180/2014|01/15/2014|North_Carolina
+		A/swine/North_Carolina/A01410043/2013|12/20/2013|North_Carolina
+		A/swine/Iowa/A01290742/2013|11/15/2013|Iowa
+		A/swine/Ohio/11TOSU562/2011|10/28/2011|Ohio
+		A/swine/Ohio/12TOSU374/2012|08/03/2012|Ohio
+		A/swine/Ohio/A01133466/2012|08/06/2012|Ohio
+		A/swine/Ohio/12TOSU484/2012|08/10/2012|Ohio
+		A/swine/Indiana/A01260667/2014|09/24/2014|Indiana
+		A/swine/Minnesota/A01471950/2015|06/29/2015|Minnesota
+		A/swine/Nebraska/A01823468/2015|07/09/2015|Nebraska
+		A/swine/Iowa/A02218156/2017|07/10/2017|Iowa
+		A/swine/Oklahoma/A01777830/2016|07/22/2016|Oklahoma
+		A/swine/Texas/A01785616/2018|09/11/2018|Texas
+		A/swine/Iowa/A02524561/2020|08/21/2020|Iowa
+		A/swine/Iowa/A02525184/2021|02/15/2021|Iowa
+		A/swine/Iowa/A02478861/2019|11/11/2019|Iowa
+		A/swine/Kansas/A02245371/2019|12/27/2019|Kansas
+		A/swine/Iowa/A02478605/2019|08/05/2019|Iowa
+		A/swine/Iowa/A02525241/2021|03/04/2021|Iowa
+		A/swine/Iowa/A02478750/2019|10/09/2019|Iowa
+		A/swine/Iowa/A02524937/2020|12/01/2020|Iowa
+		A/swine/Iowa/A02525020/2020|12/27/2020|Iowa
+		A/swine/Iowa/A02524434/2020|06/17/2020|Iowa
+		A/swine/Iowa/A02479300/2020|05/01/2020|Iowa
+		A/swine/Iowa/A02479059/2020|02/06/2020|Iowa
+		A/swine/Iowa/A02524818/2020|10/28/2020|Iowa
+		A/swine/Ohio/A02525262/2021|03/15/2021|Ohio
+		A/swine/Indiana/A02525280/2021|03/23/2021|Indiana
+		A/swine/Minnesota/A02525121/2021|01/28/2021|Minnesota
+		A/swine/Iowa/A02524773/2020|10/21/2020|Iowa
+		A/swine/Iowa/A02524962/2020|12/08/2020|Iowa
+		A/swine/Iowa/A02478703/2019|09/25/2019|Iowa
+		A/swine/Missouri/A02524505/2020|07/27/2020|Missouri
+		A/swine/Iowa/A02525046/2021|01/08/2021|Iowa
+		A/swine/Iowa/A02525023/2020|12/29/2020|Iowa
+		A/swine/Iowa/A02525305/2021|03/25/2021|Iowa
+		A/swine/Iowa/A02524639/2020|09/16/2020|Iowa
+		A/swine/Iowa/A02524770/2020|10/20/2020|Iowa
+		A/swine/Iowa/A02245581/2020|04/06/2020|Iowa
+		A/swine/Iowa/A02524684/2020|10/01/2020|Iowa
+		A/swine/Iowa/A02524750/2020|10/15/2020|Iowa
+		A/swine/Iowa/A02478553/2019|06/07/2019|Iowa
+		A/swine/Minnesota/A02524741/2020|10/15/2020|Minnesota
+		A/swine/Iowa/A02479228/2020|04/16/2020|Iowa
+		A/swine/Iowa/A02524889/2020|11/10/2020|Iowa
+		A/swine/Iowa/A02479050/2020|02/06/2020|Iowa
+		A/swine/Pennsylvania/A02525244/2021|03/04/2021|Pennsylvania
+		A/swine/Pennsylvania/A02479128/2020|03/12/2020|Pennsylvania
+		A/swine/Pennsylvania/A02524504/2020|07/24/2020|Pennsylvania
+		A/swine/Pennsylvania/A02479125/2020|03/11/2020|Pennsylvania
+		A/swine/Pennsylvania/A02525204/2021|02/23/2021|Pennsylvania
+		A/swine/Pennsylvania/A02524416/2020|06/11/2020|Pennsylvania
+		A/swine/Iowa/A02478584/2019|07/10/2019|Iowa
+		A/swine/Iowa/A02478604/2019|08/01/2019|Iowa
+		A/swine/North_Carolina/A02478666/2019|09/12/2019|North_Carolina
+		A/swine/North_Carolina/A02524744/2020|10/12/2020|North_Carolina
+		A/swine/North_Carolina/A02524576/2020|08/28/2020|North_Carolina
+		A/swine/Illinois/A02524655/2020|09/22/2020|Illinois
+		A/swine/Ohio/A02525155/2021|02/09/2021|Ohio
+		A/swine/Ohio/A02478879/2019|11/14/2019|Ohio
+		A/swine/Indiana/A02479020/2020|01/22/2020|Indiana
+		A/swine/Indiana/A02478983/2020|01/09/2020|Indiana
+		A/swine/North_Carolina/A02245253/2019|09/19/2019|North_Carolina
+		A/swine/North_Carolina/A02245701/2020|08/25/2020|North_Carolina
+		A/swine/North_Carolina/A02524944/2020|12/07/2020|North_Carolina
+		A/swine/North_Carolina/A02245825/2020|12/08/2020|North_Carolina
+		A/swine/North_Carolina/A02245385/2020|01/10/2020|North_Carolina
+		A/swine/North_Carolina/A02524603/2020|09/08/2020|North_Carolina
+		A/swine/North_Carolina/A02524585/2020|09/03/2020|North_Carolina
+		A/swine/North_Carolina/A02524538/2020|08/06/2020|North_Carolina
+		A/swine/Iowa/A02524660/2020|09/24/2020|Iowa
+		A/swine/North_Carolina/A02245746/2020|10/14/2020|North_Carolina
+		A/swine/North_Carolina/A02245817/2020|11/23/2020|North_Carolina
+		A/swine/Iowa/A02524689/2020|10/01/2020|Iowa
+		A/swine/North_Carolina/A02524478/2020|07/01/2020|North_Carolina
+		A/swine/North_Carolina/A02245682/2020|08/04/2020|North_Carolina
+		A/swine/Iowa/A02525263/2021|03/16/2021|Iowa
+		A/swine/North_Carolina/A02525218/2021|02/24/2021|North_Carolina
+		A/swine/North_Carolina/A02525064/2021|01/13/2021|North_Carolina
+		A/swine/North_Carolina/A02479083/2020|02/20/2020|North_Carolina
+		A/swine/Iowa/A02479026/2020|01/22/2020|Iowa
+		A/swine/Iowa/A02478455/2019|04/25/2019|Iowa
+		A/swine/Iowa/A02478494/2019|05/16/2019|Iowa
+		A/swine/Minnesota/A02245584/2020|04/07/2020|Minnesota
+		A/swine/Iowa/A02245386/2020|01/09/2020|Iowa
+		A/swine/Minnesota/A02245709/2020|09/03/2020|Minnesota
+		A/swine/Iowa/A02245753/2020|10/19/2020|Iowa
+		A/swine/Iowa/A02245769/2020|10/22/2020|Iowa
+		A/swine/Iowa/A02478617/2019|08/19/2019|Iowa
+		A/swine/Iowa/A02478536/2019|06/03/2019|Iowa
+		A/swine/Iowa/A02478937/2019|12/04/2019|Iowa
+		A/swine/Iowa/A02478649/2019|09/09/2019|Iowa
+		A/swine/Iowa/A02478795/2019|10/22/2019|Iowa
+		A/swine/Illinois/A02478510/2019|05/22/2019|Illinois
+		A/swine/Illinois/A02478554/2019|06/10/2019|Illinois
+		A/swine/Iowa/A02478825/2019|10/29/2019|Iowa
+		A/swine/Indiana/A02478818/2019|10/28/2019|Indiana
+		A/swine/Iowa/A02478636/2019|08/26/2019|Iowa
+		A/swine/Minnesota/A02524760/2020|10/17/2020|Minnesota
+		A/swine/Indiana/A02478626/2019|08/22/2019|Indiana
+		A/swine/Iowa/A02479154/2020|03/19/2020|Iowa
+		A/swine/Indiana/A02479029/2019|12/31/2019|Indiana
+		A/swine/Michigan/A02479000/2020|01/16/2020|Michigan
+		A/swine/Ohio/A02245339/2019|11/19/2019|Ohio
+		A/swine/Ohio/A02479175/2020|03/24/2020|Ohio
+		A/swine/Indiana/A02478733/2019|10/01/2019|Indiana
+		A/swine/Indiana/A02478925/2019|11/26/2019|Indiana
+		A/swine/Illinois/A02479045/2020|02/03/2020|Illinois
+		A/swine/North_Carolina/A02245824/2020|12/07/2020|North_Carolina
+		A/swine/North_Carolina/A02479327/2020|05/14/2020|North_Carolina
+		A/swine/Indiana/A02479009/2020|01/24/2020|Indiana
+		A/swine/Indiana/A02525066/2021|01/14/2021|Indiana
+		A/swine/Pennsylvania/A02524956/2020|12/02/2020|Pennsylvania
+		A/swine/Indiana/A02245511/2020|02/24/2020|Indiana
+		A/swine/Illinois/A02479016/2020|01/20/2020|Illinois
+		A/swine/Iowa/A02479421/2020|06/06/2020|Iowa
+		A/swine/Iowa/A02479140/2020|03/11/2020|Iowa
+		A/swine/Indiana/A01812311/2020|08/31/2020|Indiana
+		A/swine/Indiana/A02525078/2021|01/05/2021|Indiana
+		A/swine/Indiana/A02525243/2021|03/04/2021|Indiana
+		A/swine/South_Carolina/A02525279/2021|03/26/2021|South_Carolina
+		A/swine/Indiana/A01812305/2020|04/24/2020|Indiana
+		A/swine/Iowa/A02524494/2020|07/13/2020|Iowa
+		A/swine/Texas/A01785299/2017|09/25/2017|Texas
+		A/swine/Texas/A01785298/2017|09/20/2017|Texas
+		A/swine/Minnesota/A01280462/2013|01/23/2013|Minnesota
+		A/swine/Iowa/A02076179/2015|04/07/2015|Iowa
+		A/swine/Illinois/A01847805/2015|04/24/2015|Illinois
+		A/swine/Illinois/A01555050/2014|11/21/2014|Illinois
+		A/swine/Illinois/A01536186/2014|03/14/2014|Illinois
+		A/swine/Illinois/A01502060/2014|06/18/2014|Illinois
+		A/swine/Ilinois/A02090306/2015|07/21/2015|Unknown
+		A/swine/Illinois/A02090639/2015|08/26/2015|Illinois
+		A/swine/Illinois/A01945691/2015|10/19/2015|Illinois
+		A/swine/Illinois/A01727602/2015|12/11/2015|Illinois
+		A/swine/Iowa/A01728784/2016|01/04/2016|Iowa
+		A/swine/Missouri/A01775853/2016|05/24/2016|Missouri
+		A/swine/Iowa/A01932044/2017|02/08/2017|Iowa
+		A/swine/Iowa/A02172377/2018|07/13/2018|Iowa
+		A/swine/Illinois/A01840991/2015|03/11/2015|Illinois
+		A/swine/Iowa/A02025916/2015|09/08/2015|Iowa
+		A/swine/Illinois/A01727528/2015|12/11/2015|Illinois
+		A/swine/Illinois/A01478890/2015|02/19/2015|Illinois
+		A/swine/Illinois/A01489869/2014|08/27/2014|Illinois
+		A/swine/Illinois/A01462594/2015|01/23/2015|Illinois
+		A/swine/Iowa/A01840866/2015|02/25/2015|Iowa
+		A/swine/Illinois/A01475273/2014|04/15/2014|Illinois
+		A/swine/Illinois/A01462644/2015|01/29/2015|Illinois
+		A/swine/Iowa/A01432840/2013|06/15/2013|Iowa
+		A/swine/Indiana/A01104029/2012|08/01/2012|Indiana
+		A/swine/Iowa/A01432271/2012|12/15/2012|Iowa
+		A/swine/Ohio/12TOSU439/2012|08/06/2012|Ohio
+		A/swine/Ohio/13TOSU1547/2013|08/01/2013|Ohio
+		A/swine/Nebraska/A02254794/2018|07/30/2018|Nebraska
+		A/swine/Minnesota/A01350866/2013|06/04/2013|Minnesota
+		A/swine/South_Dakota/A01481811/2014|06/17/2014|South_Dakota
+		A/swine/Iowa/A01501240/2014|05/19/2014|Iowa
+		A/swine/Iowa/A01729543/2016|01/12/2016|Iowa
+		A/swine/Indiana/A01260321/2013|06/25/2013|Indiana
+		A/swine/Ohio/A01349495/2013|03/22/2013|Ohio
+		A/swine/Ohio/A01349302/2013|03/12/2013|Ohio
+		A/swine/Ohio/A01349305/2013|03/12/2013|Ohio
+		A/swine/Ohio/A01351573/2013|07/10/2013|Ohio
+		A/swine/Ohio/A01364406/2013|08/27/2013|Ohio
+		A/swine/Iowa/A01244302/2012|11/15/2012|Iowa
+		A/swine/Indiana/A00968373/2012|07/13/2012|Indiana
+		A/swine/Ohio/A01208180/2012|07/31/2012|Ohio
+		A/swine/Ohio/A01208457/2012|08/07/2012|Ohio
+		A/swine/Ohio/12TOSU421/2012|08/06/2012|Ohio
+		A/swine/Ohio/12TOSU338/2012|08/03/2012|Ohio
+		A/swine/Ohio/A00152576/2012|08/15/2012|Ohio
+		;
+End;
+
+Begin trees;
+	Translate
+		1 A/swine/Maryland/A01104048/2012|08/16/2012|Maryland,
+		2 A/swine/Ohio/12TOSU308/2012|08/03/2012|Ohio,
+		3 A/swine/Indiana/A01260041/2012|10/15/2012|Indiana,
+		4 A/swine/South_Dakota/A01366093/2013|12/03/2013|South_Dakota,
+		5 A/swine/Nebraska/A01781225/2016|09/08/2016|Nebraska,
+		6 A/swine/Nebraska/A01476165/2014|07/28/2014|Nebraska,
+		7 A/swine/Iowa/A02154766/2018|03/02/2018|Iowa,
+		8 A/swine/Kansas/A01377619/2015|10/22/2015|Kansas,
+		9 A/swine/Iowa/A02215031/2017|04/12/2017|Iowa,
+		10 A/swine/Nebraska/A01847244/2015|04/09/2015|Nebraska,
+		11 A/swine/Kansas/A01785429/2018|01/29/2018|Kansas,
+		12 A/swine/Nebraska/A01785583/2018|07/11/2018|Nebraska,
+		13 A/swine/Iowa/A02478878/2019|11/14/2019|Iowa,
+		14 A/swine/Kentucky/A02525075/2021|01/13/2021|Kentucky,
+		15 A/swine/Minnesota/A02245312/2019|10/31/2019|Minnesota,
+		16 A/swine/Iowa/A02478976/2019|12/24/2019|Iowa,
+		17 A/swine/Iowa/A02525136/2021|02/01/2021|Iowa,
+		18 A/swine/Kansas/A01785815/2019|01/04/2019|Kansas,
+		19 A/swine/Iowa/A02524556/2020|08/19/2020|Iowa,
+		20 A/swine/Nebraska/A02158807/2018|05/23/2018|Nebraska,
+		21 A/swine/Nebraska/A02142683/2018|02/14/2018|Nebraska,
+		22 A/swine/Nebraska/A01785951/2019|02/07/2019|Nebraska,
+		23 A/swine/SouthDakota/A01678549/2018|03/19/2018|Unknown,
+		24 A/swine/Iowa/A02157567/2018|04/09/2018|Iowa,
+		25 A/swine/Nebraska/A01785383/2017|12/11/2017|Nebraska,
+		26 A/swine/Iowa/A02431991/2019|04/02/2019|Iowa,
+		27 A/swine/Nebraska/A01785261/2017|05/02/2017|Nebraska,
+		28 A/swine/Nebraska/A01785250/2017|03/06/2017|Nebraska,
+		29 A/swine/Iowa/A01840226/2014|12/19/2014|Iowa,
+		30 A/swine/Iowa/A01944877/2015|10/28/2015|Iowa,
+		31 A/swine/USA/A01291038/2013|10/15/2013|Unknown,
+		32 A/swine/South_Dakota/A01481392/2014|05/13/2014|South_Dakota,
+		33 A/swine/Kansas/A01377165/2013|12/02/2013|Kansas,
+		34 A/swine/Illinois/A01489873/2014|11/06/2014|Illinois,
+		35 A/swine/Illinois/A01489874/2014|11/11/2014|Illinois,
+		36 A/swine/Nebraska/A01393702/2013|12/16/2013|Nebraska,
+		37 A/swine/South_Dakota/A01481928/2014|06/25/2014|South_Dakota,
+		38 A/swine/Ohio/A01351683/2013|07/16/2013|Ohio,
+		39 A/swine/Kansas/A01377090/2013|10/10/2013|Kansas,
+		40 A/swine/Iowa/13H091/2013|08/28/2013|Iowa,
+		41 A/swine/Iowa/13H094/2013|08/28/2013|Iowa,
+		42 A/swine/Missouri/A01493970/2014|04/03/2014|Missouri,
+		43 A/swine/Maryland/D0384/2013|11/29/2013|Maryland,
+		44 A/swine/Kansas/14_000624/2015|01/12/2015|Kansas,
+		45 A/swine/Iowa/A01778878/2016|08/22/2016|Iowa,
+		46 A/swine/Iowa/A01857687/2015|09/30/2015|Iowa,
+		47 A/swine/Nebraska/A02215046/2017|04/26/2017|Nebraska,
+		48 A/swine/Iowa/A02478735/2019|10/09/2019|Iowa,
+		49 A/swine/Indiana/13TOSU1141/2013|07/31/2013|Indiana,
+		50 A/swine/Iowa/13H076/2013|08/28/2013|Iowa,
+		51 A/swine/Iowa/13H098/2013|08/28/2013|Iowa,
+		52 A/swine/Indiana/A01260398/2013|10/08/2013|Indiana,
+		53 A/swine/Indiana/13TOSU1128/2013|07/25/2013|Indiana,
+		54 A/swine/Indiana/13TOSU1983/2013|08/31/2013|Indiana,
+		55 A/swine/Indiana/13TOSU4563/2013|08/31/2013|Indiana,
+		56 A/swine/Indiana/13TOSU1319/2013|08/01/2013|Indiana,
+		57 A/swine/Indiana/13TOSU1991/2013|08/31/2013|Indiana,
+		58 A/swine/Ohio/13TOSU1560/2013|08/31/2013|Ohio,
+		59 A/swine/Indiana/13TOSU5147/2013|08/31/2013|Indiana,
+		60 A/swine/Illinois/A01394861/2013|10/02/2013|Illinois,
+		61 A/swine/Ohio/13TOSU2194/2013|09/01/2013|Ohio,
+		62 A/swine/Indiana/13TOSU5869/2013|08/31/2013|Indiana,
+		63 A/swine/Ohio/13TOSU0410/2013|06/01/2013|Ohio,
+		64 A/swine/Iowa/A01432817/2013|06/15/2013|Iowa,
+		65 A/swine/Illinois/A01409675/2013|12/20/2013|Illinois,
+		66 A/swine/Illinois/A01411232/2013|12/18/2013|Illinois,
+		67 A/swine/Illinois/A01409717/2013|12/26/2013|Illinois,
+		68 A/swine/Illinois/A01410409/2014|03/15/2014|Illinois,
+		69 A/swine/Ohio/13TOSU0726/2013|07/31/2013|Ohio,
+		70 A/swine/Indiana/13TOSU5669/2013|08/31/2013|Indiana,
+		71 A/swine/Iowa/A01410633/2014|04/15/2014|Iowa,
+		72 A/swine/Iowa/A01366680/2014|01/10/2014|Iowa,
+		73 A/swine/Iowa/A01480042/2014|02/07/2014|Iowa,
+		74 A/swine/Minnesota/A01409450/2013|11/15/2013|Minnesota,
+		75 A/swine/Iowa/A01365906/2013|11/15/2013|Iowa,
+		76 A/swine/Iowa/A01432867/2013|07/15/2013|Iowa,
+		77 A/swine/Iowa/A01290438/2013|09/15/2013|Iowa,
+		78 A/swine/Iowa/A01475456/2014|05/15/2014|Iowa,
+		79 A/swine/Illinois/A01509209/2014|04/15/2014|Illinois,
+		80 A/swine/Illinois/A01410786/2014|05/15/2014|Illinois,
+		81 A/swine/Illinois/A01476977/2014|11/13/2014|Illinois,
+		82 A/swine/Illinois/A01729658/2016|01/14/2016|Illinois,
+		83 A/swine/Iowa/A02214841/2017|04/11/2017|Iowa,
+		84 A/swine/Iowa/A01290860/2013|11/15/2013|Iowa,
+		85 A/swine/Pennsylvania/A01104050/2012|08/09/2012|Pennsylvania,
+		86 A/swine/North_Carolina/A01432997/2013|08/15/2013|North_Carolina,
+		87 A/swine/North_Carolina/A01432998/2013|08/15/2013|North_Carolina,
+		88 A/swine/North_Carolina/A01411902/2014|07/28/2014|North_Carolina,
+		89 A/swine/North_Carolina/A01477162/2014|07/31/2014|North_Carolina,
+		90 A/swine/North_Carolina/A01291329/2013|09/15/2013|North_Carolina,
+		91 A/swine/North_Carolina/A01476074/2014|07/09/2014|North_Carolina,
+		92 A/swine/North_Carolina/A01410672/2014|04/15/2014|North_Carolina,
+		93 A/swine/Ohio/12TOSU50/2012|06/22/2012|Ohio,
+		94 A/swine/Kentucky/D0385/2013|05/20/2013|Kentucky,
+		95 A/swine/South_Dakota/A01350803/2013|05/30/2013|South_Dakota,
+		96 A/swine/Minnesota/A01395294/2013|11/19/2013|Minnesota,
+		97 A/swine/Iowa/13H087/2013|08/28/2013|Iowa,
+		98 A/swine/Minnesota/A01394278/2013|09/19/2013|Minnesota,
+		99 A/swine/Minnesota/A01394021/2013|10/15/2013|Minnesota,
+		100 A/swine/Minnesota/A01392079/2013|09/18/2013|Minnesota,
+		101 A/swine/North_Carolina/A01668240/2016|11/10/2016|North_Carolina,
+		102 A/swine/North_Carolina/A01945976/2015|10/27/2015|North_Carolina,
+		103 A/swine/North_Carolina/A01945939/2015|10/24/2015|North_Carolina,
+		104 A/swine/Michigan/A02025547/2015|08/13/2015|Michigan,
+		105 A/swine/Indiana/A01260254/2013|03/20/2013|Indiana,
+		106 A/swine/Indiana/A01260521/2014|03/19/2014|Indiana,
+		107 A/swine/Indiana/A01260523/2014|04/03/2014|Indiana,
+		108 A/swine/Minnesota/A01469329/2014|12/18/2014|Minnesota,
+		109 A/swine/Indiana/15TOSU0841/2015|06/25/2015|Indiana,
+		110 A/swine/Indiana/15TOSU0495/2015|06/25/2015|Indiana,
+		111 A/swine/Indiana/15TOSU8822/2015|07/24/2015|Indiana,
+		112 A/swine/Arkansas/A01797106/2015|11/02/2015|Arkansas,
+		113 'A/swine/Ohio/OH18_09978.4/2018|04/29/2018|Ohio',
+		114 A/swine/Ohio/A02134225/2017|10/17/2017|Ohio,
+		115 A/swine/Ohio/OH_18_6906/2018|03/25/2018|Ohio,
+		116 A/swine/Arkansas/A01671574/2016|12/21/2016|Arkansas,
+		117 A/swine/Indiana/A02214844/2017|04/03/2017|Indiana,
+		118 A/swine/Illinois/A01410453/2014|03/15/2014|Illinois,
+		119 A/swine/Illinois/A01475190/2014|03/15/2014|Illinois,
+		120 A/swine/Illinois/A01410110/2014|01/15/2014|Illinois,
+		121 A/swine/North_Carolina/A01410529/2014|03/15/2014|North_Carolina,
+		122 A/swine/Indiana/A01555087/2014|12/01/2014|Indiana,
+		123 A/swine/Illinois/A01411461/2014|02/15/2014|Illinois,
+		124 A/swine/Illinois/A01411097/2014|01/15/2014|Illinois,
+		125 A/swine/Indiana/A01777672/2016|07/06/2016|Indiana,
+		126 A/swine/Indiana/A01260918/2015|06/11/2015|Indiana,
+		127 A/swine/Michigan/A01671226/2016|12/06/2016|Michigan,
+		128 A/swine/Indiana/A01812250/2016|11/14/2016|Indiana,
+		129 A/swine/Indiana/A01840146/2014|12/12/2014|Indiana,
+		130 A/swine/Arkansas/A01840147/2014|12/12/2014|Arkansas,
+		131 A/swine/Arkansas/A01555162/2014|12/11/2014|Arkansas,
+		132 A/swine/Arkansas/A01840096/2014|12/09/2014|Arkansas,
+		133 A/swine/Indiana/A01672517/2017|01/20/2017|Indiana,
+		134 A/swine/Ohio/A01840053/2014|12/03/2014|Ohio,
+		135 A/swine/Arkansas/A01476939/2014|11/10/2014|Arkansas,
+		136 A/swine/North_Dakota/A01782435/2016|10/18/2016|North_Dakota,
+		137 A/swine/Iowa/16TOSU2424/2016|06/09/2016|Iowa,
+		138 A/swine/Iowa/16TOSU2677/2016|06/09/2016|Iowa,
+		139 A/swine/Iowa/16TOSU2673/2016|06/09/2016|Iowa,
+		140 A/swine/Iowa/16TOSU2822/2016|06/09/2016|Iowa,
+		141 A/swine/Arkansas/A01857979/2015|10/26/2015|Arkansas,
+		142 A/swine/Indiana/16TOSU2234/2016|06/18/2016|Indiana,
+		143 A/swine/Indiana/16TOSU2894/2016|06/12/2016|Indiana,
+		144 A/swine/Kentucky/16TOSU8970/2016|08/01/2016|Kentucky,
+		145 A/swine/Indiana/16TOSU4438/2016|07/01/2016|Indiana,
+		146 A/swine/Kentucky/16TOSU3279/2016|07/07/2016|Kentucky,
+		147 A/swine/Ohio/16TOSU1230/2016|05/28/2016|Ohio,
+		148 A/swine/Iowa/16TOSU2298/2016|06/01/2016|Iowa,
+		149 A/swine/Indiana/16TOSU2990/2016|06/12/2016|Indiana,
+		150 A/swine/Michigan/16TOSU3404/2016|06/01/2016|Michigan,
+		151 A/swine/Michigan/16TOSU3388/2016|06/18/2016|Michigan,
+		152 A/swine/Illinois/16TOSU6940/2016|06/01/2016|Illinois,
+		153 A/swine/Iowa/16TOSU2289/2016|06/09/2016|Iowa,
+		154 A/swine/Indiana/16TOSU4114/2016|06/01/2016|Indiana,
+		155 A/swine/Iowa/16TOSU2585/2016|06/09/2016|Iowa,
+		156 A/swine/Michigan/16TOSU3399/2016|06/18/2016|Michigan,
+		157 A/swine/Iowa/16TOSU2534/2016|06/09/2016|Iowa,
+		158 A/swine/Illinois/16TOSU7168/2016|06/01/2016|Illinois,
+		159 A/swine/Iowa/16TOSU2464/2016|06/09/2016|Iowa,
+		160 A/swine/Indiana/A01812245/2016|07/21/2016|Indiana,
+		161 A/swine/Indiana/16TOSU7618/2016|07/01/2016|Indiana,
+		162 A/swine/Kentucky/16TOSU3477/2016|07/07/2016|Kentucky,
+		163 A/swine/Michigan/16TOSU5086/2016|08/01/2016|Michigan,
+		164 A/swine/Iowa/16TOSU2709/2016|06/09/2016|Iowa,
+		165 A/swine/Iowa/16TOSU2493/2016|06/09/2016|Iowa,
+		166 A/swine/Iowa/16TOSU2708/2016|06/09/2016|Iowa,
+		167 A/swine/Oklahoma/A01475757/2014|06/15/2014|Oklahoma,
+		168 A/swine/Iowa/A02076659/2015|04/29/2015|Iowa,
+		169 A/swine/Minnesota/A01940765/2015|10/19/2015|Minnesota,
+		170 A/swine/Minnesota/A01940427/2015|09/21/2015|Minnesota,
+		171 A/swine/Minnesota/A01940814/2015|10/19/2015|Minnesota,
+		172 A/swine/Minnesota/A01941131/2015|11/16/2015|Minnesota,
+		173 A/swine/Minnesota/A01940148/2015|08/24/2015|Minnesota,
+		174 A/swine/Iowa/A01501048/2014|05/13/2014|Iowa,
+		175 A/swine/Iowa/A01410752/2014|04/15/2014|Iowa,
+		176 A/swine/Iowa/A01410995/2014|06/19/2014|Iowa,
+		177 A/swine/North_Carolina/A01840322/2015|01/09/2015|North_Carolina,
+		178 A/swine/North_Carolina/A01476719/2014|10/14/2014|North_Carolina,
+		179 A/swine/North_Carolina/A01476367/2014|09/08/2014|North_Carolina,
+		180 A/swine/Illinois/A01797275/2015|11/02/2015|Illinois,
+		181 A/swine/Indiana/A01812202/2016|04/24/2016|Indiana,
+		182 A/swine/Illinois/A01749100/2015|10/20/2015|Illinois,
+		183 A/swine/North_Carolina/A01476427/2014|09/17/2014|North_Carolina,
+		184 A/swine/North_Carolina/A02025897/2015|09/03/2015|North_Carolina,
+		185 A/swine/North_Carolina/A01476072/2014|07/09/2014|North_Carolina,
+		186 A/swine/Kansas/14_032477/2014|12/10/2014|Kansas,
+		187 A/swine/Pennsylvania/A01733733/2016|03/17/2016|Pennsylvania,
+		188 A/swine/North_Carolina/A01840071/2014|12/03/2014|North_Carolina,
+		189 A/swine/North_Carolina/A01476771/2014|10/21/2014|North_Carolina,
+		190 A/swine/North_Carolina/A01410593/2014|04/15/2014|North_Carolina,
+		191 A/swine/Iowa/A01476223/2014|08/15/2014|Iowa,
+		192 A/swine/North_Carolina/A01410687/2014|04/15/2014|North_Carolina,
+		193 A/swine/North_Carolina/A01729044/2016|01/05/2016|North_Carolina,
+		194 A/swine/North_Carolina/A01945728/2015|10/19/2015|North_Carolina,
+		195 A/swine/North_Carolina/A01477142/2014|07/30/2014|North_Carolina,
+		196 A/swine/Arkansas/A01555090/2014|12/02/2014|Arkansas,
+		197 A/swine/North_Carolina/A01476177/2014|08/01/2014|North_Carolina,
+		198 A/swine/North_Carolina/A01410691/2014|04/15/2014|North_Carolina,
+		199 A/swine/North_Carolina/A01770059/2015|08/03/2015|North_Carolina,
+		200 A/swine/North_Carolina/A01895763/2016|04/20/2016|North_Carolina,
+		201 A/swine/North_Carolina/A02034953/2015|07/29/2015|North_Carolina,
+		202 A/swine/USA/A01410908/2014|05/15/2014|Unknown,
+		203 A/swine/Iowa/A02076873/2015|05/08/2015|Iowa,
+		204 A/swine/Illinois/A02076874/2015|05/07/2015|Illinois,
+		205 A/swine/North_Carolina/A01555533/2015|02/03/2015|North_Carolina,
+		206 A/swine/North_Carolina/A01727367/2015|12/08/2015|North_Carolina,
+		207 A/swine/North_Carolina/A01945473/2015|10/09/2015|North_Carolina,
+		208 A/swine/North_Carolina/A01857100/2015|08/31/2015|North_Carolina,
+		209 A/swine/North_Carolina/A01796260/2015|11/06/2015|North_Carolina,
+		210 A/swine/North_Carolina/A01796262/2015|11/06/2015|North_Carolina,
+		211 A/swine/North_Carolina/A01770073/2015|08/04/2015|North_Carolina,
+		212 A/swine/North_Carolina/A02034471/2015|07/17/2015|North_Carolina,
+		213 A/swine/North_Carolina/A02025575/2015|08/12/2015|North_Carolina,
+		214 A/swine/North_Carolina/A01840289/2015|01/07/2015|North_Carolina,
+		215 A/swine/North_Carolina/A01857103/2015|08/31/2015|North_Carolina,
+		216 A/swine/North_Carolina/A01857097/2015|09/02/2015|North_Carolina,
+		217 A/swine/North_Carolina/A01841335/2015|03/05/2015|North_Carolina,
+		218 A/swine/North_Carolina/A01555667/2015|02/23/2015|North_Carolina,
+		219 A/swine/North_Carolina/A01476730/2014|10/13/2014|North_Carolina,
+		220 A/swine/North_Carolina/A01945753/2015|10/20/2015|North_Carolina,
+		221 A/swine/North_Carolina/A01410688/2014|04/15/2014|North_Carolina,
+		222 A/swine/North_Carolina/A01410877/2014|05/15/2014|North_Carolina,
+		223 A/swine/Iowa/A01475548/2014|05/15/2014|Iowa,
+		224 A/swine/Iowa/A01410847/2014|05/15/2014|Iowa,
+		225 A/swine/North_Carolina/A01476196/2014|08/06/2014|North_Carolina,
+		226 A/swine/North_Carolina/A01476848/2014|10/21/2014|North_Carolina,
+		227 A/swine/North_Carolina/A02024129/2015|05/20/2015|North_Carolina,
+		228 A/swine/North_Carolina/A01555522/2015|02/03/2015|North_Carolina,
+		229 A/swine/Indiana/A01260361/2013|08/08/2013|Indiana,
+		230 A/swine/North_Carolina/A01290778/2013|11/15/2013|North_Carolina,
+		231 A/swine/North_Carolina/A01410511/2014|03/15/2014|North_Carolina,
+		232 A/swine/Indiana/A01432300/2012|12/13/2012|Indiana,
+		233 A/swine/North_Carolina/A01730588/2016|01/28/2016|North_Carolina,
+		234 A/swine/North_Carolina/A02135886/2017|11/07/2017|North_Carolina,
+		235 A/swine/North_Carolina/A01290717/2013|11/15/2013|North_Carolina,
+		236 A/swine/Indiana/A01410396/2014|03/15/2014|Indiana,
+		237 A/swine/North_Carolina/A01290447/2013|09/15/2013|North_Carolina,
+		238 A/swine/Illinois/A01241916/2012|03/01/2012|Illinois,
+		239 A/swine/Indiana/A01203372/2012|04/03/2012|Indiana,
+		240 A/swine/Ohio/13TOSU2130/2013|08/01/2013|Ohio,
+		241 A/swine/Indiana/13TOSU1207/2013|07/01/2013|Indiana,
+		242 A/swine/North_Carolina/A01300820/2012|07/19/2012|North_Carolina,
+		243 A/swine/Virginia/A01290329/2013|08/15/2013|Virginia,
+		244 A/swine/NY/A01104005/2011|09/13/2011|New_York,
+		245 A/swine/Illinois/A01290508/2013|10/15/2013|Illinois,
+		246 A/swine/Alabama/D0383/2012|12/11/2012|Alabama,
+		247 A/swine/Iowa/A01202878/2011|11/17/2011|Iowa,
+		248 A/swine/Indiana/A01327213/2012|02/06/2012|Indiana,
+		249 A/swine/Indiana/A01271853/2012|11/06/2012|Indiana,
+		250 A/swine/Illinois/A01240891/2012|01/05/2012|Illinois,
+		251 A/swine/Illinois/A01202978/2011|12/16/2011|Illinois,
+		252 A/swine/Illinois/A01327905/2012|05/08/2012|Illinois,
+		253 A/swine/Texas/A01104013/2012|02/15/2012|Texas,
+		254 A/swine/Iowa/A01243736/2012|07/25/2012|Iowa,
+		255 A/swine/Illinois/A00857134/2011|10/04/2011|Illinois,
+		256 A/swine/Iowa/A01202659/2011|10/06/2011|Iowa,
+		257 A/swine/Illinois/A01203672/2012|07/21/2012|Illinois,
+		258 A/swine/Indiana/A01203522/2012|05/15/2012|Indiana,
+		259 A/swine/Wyoming/A01380322/2013|04/30/2013|Wyoming,
+		260 A/swine/Wyoming/A01381213/2013|05/21/2013|Wyoming,
+		261 A/swine/Wyoming/A01444566/2013|01/13/2013|Wyoming,
+		262 A/swine/Wyoming/A01381202/2013|05/21/2013|Wyoming,
+		263 A/swine/Illinois/A01398587/2013|08/07/2013|Illinois,
+		264 A/swine/Iowa/A01477719/2014|10/09/2014|Iowa,
+		265 A/swine/Iowa/A01894589/2016|04/01/2016|Iowa,
+		266 A/swine/Nebraska/A01678580/2018|08/24/2018|Nebraska,
+		267 A/swine/Nebraska/A01394342/2013|10/28/2013|Nebraska,
+		268 A/swine/South_Dakota/A01366063/2013|11/29/2013|South_Dakota,
+		269 A/swine/Nebraska/A01394567/2013|10/31/2013|Nebraska,
+		270 A/swine/Nebraska/A01567651/2015|01/12/2015|Nebraska,
+		271 A/swine/Nebraska/A01565950/2014|10/16/2014|Nebraska,
+		272 A/swine/Illinois/A01411761/2014|04/15/2014|Illinois,
+		273 A/swine/Nebraska/A01493915/2014|04/09/2014|Nebraska,
+		274 A/swine/Nebraska/A01409533/2013|11/20/2013|Nebraska,
+		275 A/swine/Ohio/11SW113/2011|08/05/2011|Ohio,
+		276 A/swine/Ohio/11SW95/2011|08/05/2011|Ohio,
+		277 A/swine/Ohio/11SW173/2011|08/08/2011|Ohio,
+		278 A/swine/Ohio/11SW109/2011|08/05/2011|Ohio,
+		279 A/swine/Ohio/11SW218/2011|08/12/2011|Ohio,
+		280 A/swine/Ohio/11SW180/2011|08/08/2011|Ohio,
+		281 A/swine/Ohio/11SW211/2011|08/12/2011|Ohio,
+		282 A/swine/Ohio/11SW349/2011|09/30/2011|Ohio,
+		283 A/swine/Ohio/11SW169/2011|08/08/2011|Ohio,
+		284 A/swine/Ohio/11SW214/2011|08/31/2011|Ohio,
+		285 A/swine/Ohio/11SW161/2011|08/08/2011|Ohio,
+		286 A/swine/Ohio/11SW195/2011|08/08/2011|Ohio,
+		287 A/swine/Ohio/11SW189/2011|08/08/2011|Ohio,
+		288 A/swine/Ohio/11SW179/2011|08/08/2011|Ohio,
+		289 A/swine/Ohio/11SW219/2011|08/31/2011|Ohio,
+		290 A/swine/Ohio/11SW97/2011|08/05/2011|Ohio,
+		291 A/swine/Ohio/11SW98/2011|08/05/2011|Ohio,
+		292 A/swine/Ohio/11SW119/2011|08/05/2011|Ohio,
+		293 A/swine/Ohio/11SW166/2011|08/08/2011|Ohio,
+		294 A/swine/Ohio/11SW93/2011|08/05/2011|Ohio,
+		295 A/swine/Ohio/11SW206/2011|08/12/2011|Ohio,
+		296 A/swine/Ohio/10SW130/2010|07/02/2010|Ohio,
+		297 A/swine/Indiana/A00968322/2010|10/20/2010|Indiana,
+		298 A/swine/Illinois/A01076719/2010|11/01/2010|Illinois,
+		299 A/swine/Ohio/10SW133/2010|08/12/2010|Ohio,
+		300 A/swine/Ohio/10SW122/2010|08/12/2010|Ohio,
+		301 A/swine/Ohio/10SW126/2010|08/12/2010|Ohio,
+		302 A/swine/Ohio/10SW135/2010|08/12/2010|Ohio,
+		303 A/swine/Ohio/10SW128/2010|08/12/2010|Ohio,
+		304 A/swine/Ohio/10SW219/2010|08/24/2010|Ohio,
+		305 A/swine/Ohio/10SW139/2010|08/12/2010|Ohio,
+		306 A/swine/Ohio/10SW208/2010|08/24/2010|Ohio,
+		307 A/swine/Ohio/10SW220/2010|08/24/2010|Ohio,
+		308 A/swine/Ohio/10SW202/2010|08/24/2010|Ohio,
+		309 A/swine/Ohio/10SW218/2010|08/24/2010|Ohio,
+		310 A/swine/Ohio/10SW214/2010|08/24/2010|Ohio,
+		311 A/swine/Ohio/10SW203/2010|08/24/2010|Ohio,
+		312 A/swine/Ohio/10SW121/2010|08/12/2010|Ohio,
+		313 A/swine/Ohio/10SW125/2010|08/12/2010|Ohio,
+		314 A/swine/Ohio/10SW216/2010|08/24/2010|Ohio,
+		315 A/swine/Ohio/10SW206/2010|08/24/2010|Ohio,
+		316 A/swine/Ohio/10SW132/2010|08/12/2010|Ohio,
+		317 A/swine/Minnesota/A01076999/2010|09/22/2010|Minnesota,
+		318 A/swine/Indiana/A01260093/2012|10/30/2012|Indiana,
+		319 A/swine/North_Carolina/A01475277/2014|04/15/2014|North_Carolina,
+		320 A/swine/North_Carolina/A01410732/2014|04/15/2014|North_Carolina,
+		321 A/swine/North_Carolina/A01410709/2014|04/15/2014|North_Carolina,
+		322 A/swine/North_Carolina/A01432566/2013|03/15/2013|North_Carolina,
+		323 A/swine/North_Carolina/A01410180/2014|01/15/2014|North_Carolina,
+		324 A/swine/North_Carolina/A01410043/2013|12/20/2013|North_Carolina,
+		325 A/swine/Iowa/A01290742/2013|11/15/2013|Iowa,
+		326 A/swine/Ohio/11TOSU562/2011|10/28/2011|Ohio,
+		327 A/swine/Ohio/12TOSU374/2012|08/03/2012|Ohio,
+		328 A/swine/Ohio/A01133466/2012|08/06/2012|Ohio,
+		329 A/swine/Ohio/12TOSU484/2012|08/10/2012|Ohio,
+		330 A/swine/Indiana/A01260667/2014|09/24/2014|Indiana,
+		331 A/swine/Minnesota/A01471950/2015|06/29/2015|Minnesota,
+		332 A/swine/Nebraska/A01823468/2015|07/09/2015|Nebraska,
+		333 A/swine/Iowa/A02218156/2017|07/10/2017|Iowa,
+		334 A/swine/Oklahoma/A01777830/2016|07/22/2016|Oklahoma,
+		335 A/swine/Texas/A01785616/2018|09/11/2018|Texas,
+		336 A/swine/Iowa/A02524561/2020|08/21/2020|Iowa,
+		337 A/swine/Iowa/A02525184/2021|02/15/2021|Iowa,
+		338 A/swine/Iowa/A02478861/2019|11/11/2019|Iowa,
+		339 A/swine/Kansas/A02245371/2019|12/27/2019|Kansas,
+		340 A/swine/Iowa/A02478605/2019|08/05/2019|Iowa,
+		341 A/swine/Iowa/A02525241/2021|03/04/2021|Iowa,
+		342 A/swine/Iowa/A02478750/2019|10/09/2019|Iowa,
+		343 A/swine/Iowa/A02524937/2020|12/01/2020|Iowa,
+		344 A/swine/Iowa/A02525020/2020|12/27/2020|Iowa,
+		345 A/swine/Iowa/A02524434/2020|06/17/2020|Iowa,
+		346 A/swine/Iowa/A02479300/2020|05/01/2020|Iowa,
+		347 A/swine/Iowa/A02479059/2020|02/06/2020|Iowa,
+		348 A/swine/Iowa/A02524818/2020|10/28/2020|Iowa,
+		349 A/swine/Ohio/A02525262/2021|03/15/2021|Ohio,
+		350 A/swine/Indiana/A02525280/2021|03/23/2021|Indiana,
+		351 A/swine/Minnesota/A02525121/2021|01/28/2021|Minnesota,
+		352 A/swine/Iowa/A02524773/2020|10/21/2020|Iowa,
+		353 A/swine/Iowa/A02524962/2020|12/08/2020|Iowa,
+		354 A/swine/Iowa/A02478703/2019|09/25/2019|Iowa,
+		355 A/swine/Missouri/A02524505/2020|07/27/2020|Missouri,
+		356 A/swine/Iowa/A02525046/2021|01/08/2021|Iowa,
+		357 A/swine/Iowa/A02525023/2020|12/29/2020|Iowa,
+		358 A/swine/Iowa/A02525305/2021|03/25/2021|Iowa,
+		359 A/swine/Iowa/A02524639/2020|09/16/2020|Iowa,
+		360 A/swine/Iowa/A02524770/2020|10/20/2020|Iowa,
+		361 A/swine/Iowa/A02245581/2020|04/06/2020|Iowa,
+		362 A/swine/Iowa/A02524684/2020|10/01/2020|Iowa,
+		363 A/swine/Iowa/A02524750/2020|10/15/2020|Iowa,
+		364 A/swine/Iowa/A02478553/2019|06/07/2019|Iowa,
+		365 A/swine/Minnesota/A02524741/2020|10/15/2020|Minnesota,
+		366 A/swine/Iowa/A02479228/2020|04/16/2020|Iowa,
+		367 A/swine/Iowa/A02524889/2020|11/10/2020|Iowa,
+		368 A/swine/Iowa/A02479050/2020|02/06/2020|Iowa,
+		369 A/swine/Pennsylvania/A02525244/2021|03/04/2021|Pennsylvania,
+		370 A/swine/Pennsylvania/A02479128/2020|03/12/2020|Pennsylvania,
+		371 A/swine/Pennsylvania/A02524504/2020|07/24/2020|Pennsylvania,
+		372 A/swine/Pennsylvania/A02479125/2020|03/11/2020|Pennsylvania,
+		373 A/swine/Pennsylvania/A02525204/2021|02/23/2021|Pennsylvania,
+		374 A/swine/Pennsylvania/A02524416/2020|06/11/2020|Pennsylvania,
+		375 A/swine/Iowa/A02478584/2019|07/10/2019|Iowa,
+		376 A/swine/Iowa/A02478604/2019|08/01/2019|Iowa,
+		377 A/swine/North_Carolina/A02478666/2019|09/12/2019|North_Carolina,
+		378 A/swine/North_Carolina/A02524744/2020|10/12/2020|North_Carolina,
+		379 A/swine/North_Carolina/A02524576/2020|08/28/2020|North_Carolina,
+		380 A/swine/Illinois/A02524655/2020|09/22/2020|Illinois,
+		381 A/swine/Ohio/A02525155/2021|02/09/2021|Ohio,
+		382 A/swine/Ohio/A02478879/2019|11/14/2019|Ohio,
+		383 A/swine/Indiana/A02479020/2020|01/22/2020|Indiana,
+		384 A/swine/Indiana/A02478983/2020|01/09/2020|Indiana,
+		385 A/swine/North_Carolina/A02245253/2019|09/19/2019|North_Carolina,
+		386 A/swine/North_Carolina/A02245701/2020|08/25/2020|North_Carolina,
+		387 A/swine/North_Carolina/A02524944/2020|12/07/2020|North_Carolina,
+		388 A/swine/North_Carolina/A02245825/2020|12/08/2020|North_Carolina,
+		389 A/swine/North_Carolina/A02245385/2020|01/10/2020|North_Carolina,
+		390 A/swine/North_Carolina/A02524603/2020|09/08/2020|North_Carolina,
+		391 A/swine/North_Carolina/A02524585/2020|09/03/2020|North_Carolina,
+		392 A/swine/North_Carolina/A02524538/2020|08/06/2020|North_Carolina,
+		393 A/swine/Iowa/A02524660/2020|09/24/2020|Iowa,
+		394 A/swine/North_Carolina/A02245746/2020|10/14/2020|North_Carolina,
+		395 A/swine/North_Carolina/A02245817/2020|11/23/2020|North_Carolina,
+		396 A/swine/Iowa/A02524689/2020|10/01/2020|Iowa,
+		397 A/swine/North_Carolina/A02524478/2020|07/01/2020|North_Carolina,
+		398 A/swine/North_Carolina/A02245682/2020|08/04/2020|North_Carolina,
+		399 A/swine/Iowa/A02525263/2021|03/16/2021|Iowa,
+		400 A/swine/North_Carolina/A02525218/2021|02/24/2021|North_Carolina,
+		401 A/swine/North_Carolina/A02525064/2021|01/13/2021|North_Carolina,
+		402 A/swine/North_Carolina/A02479083/2020|02/20/2020|North_Carolina,
+		403 A/swine/Iowa/A02479026/2020|01/22/2020|Iowa,
+		404 A/swine/Iowa/A02478455/2019|04/25/2019|Iowa,
+		405 A/swine/Iowa/A02478494/2019|05/16/2019|Iowa,
+		406 A/swine/Minnesota/A02245584/2020|04/07/2020|Minnesota,
+		407 A/swine/Iowa/A02245386/2020|01/09/2020|Iowa,
+		408 A/swine/Minnesota/A02245709/2020|09/03/2020|Minnesota,
+		409 A/swine/Iowa/A02245753/2020|10/19/2020|Iowa,
+		410 A/swine/Iowa/A02245769/2020|10/22/2020|Iowa,
+		411 A/swine/Iowa/A02478617/2019|08/19/2019|Iowa,
+		412 A/swine/Iowa/A02478536/2019|06/03/2019|Iowa,
+		413 A/swine/Iowa/A02478937/2019|12/04/2019|Iowa,
+		414 A/swine/Iowa/A02478649/2019|09/09/2019|Iowa,
+		415 A/swine/Iowa/A02478795/2019|10/22/2019|Iowa,
+		416 A/swine/Illinois/A02478510/2019|05/22/2019|Illinois,
+		417 A/swine/Illinois/A02478554/2019|06/10/2019|Illinois,
+		418 A/swine/Iowa/A02478825/2019|10/29/2019|Iowa,
+		419 A/swine/Indiana/A02478818/2019|10/28/2019|Indiana,
+		420 A/swine/Iowa/A02478636/2019|08/26/2019|Iowa,
+		421 A/swine/Minnesota/A02524760/2020|10/17/2020|Minnesota,
+		422 A/swine/Indiana/A02478626/2019|08/22/2019|Indiana,
+		423 A/swine/Iowa/A02479154/2020|03/19/2020|Iowa,
+		424 A/swine/Indiana/A02479029/2019|12/31/2019|Indiana,
+		425 A/swine/Michigan/A02479000/2020|01/16/2020|Michigan,
+		426 A/swine/Ohio/A02245339/2019|11/19/2019|Ohio,
+		427 A/swine/Ohio/A02479175/2020|03/24/2020|Ohio,
+		428 A/swine/Indiana/A02478733/2019|10/01/2019|Indiana,
+		429 A/swine/Indiana/A02478925/2019|11/26/2019|Indiana,
+		430 A/swine/Illinois/A02479045/2020|02/03/2020|Illinois,
+		431 A/swine/North_Carolina/A02245824/2020|12/07/2020|North_Carolina,
+		432 A/swine/North_Carolina/A02479327/2020|05/14/2020|North_Carolina,
+		433 A/swine/Indiana/A02479009/2020|01/24/2020|Indiana,
+		434 A/swine/Indiana/A02525066/2021|01/14/2021|Indiana,
+		435 A/swine/Pennsylvania/A02524956/2020|12/02/2020|Pennsylvania,
+		436 A/swine/Indiana/A02245511/2020|02/24/2020|Indiana,
+		437 A/swine/Illinois/A02479016/2020|01/20/2020|Illinois,
+		438 A/swine/Iowa/A02479421/2020|06/06/2020|Iowa,
+		439 A/swine/Iowa/A02479140/2020|03/11/2020|Iowa,
+		440 A/swine/Indiana/A01812311/2020|08/31/2020|Indiana,
+		441 A/swine/Indiana/A02525078/2021|01/05/2021|Indiana,
+		442 A/swine/Indiana/A02525243/2021|03/04/2021|Indiana,
+		443 A/swine/South_Carolina/A02525279/2021|03/26/2021|South_Carolina,
+		444 A/swine/Indiana/A01812305/2020|04/24/2020|Indiana,
+		445 A/swine/Iowa/A02524494/2020|07/13/2020|Iowa,
+		446 A/swine/Texas/A01785299/2017|09/25/2017|Texas,
+		447 A/swine/Texas/A01785298/2017|09/20/2017|Texas,
+		448 A/swine/Minnesota/A01280462/2013|01/23/2013|Minnesota,
+		449 A/swine/Iowa/A02076179/2015|04/07/2015|Iowa,
+		450 A/swine/Illinois/A01847805/2015|04/24/2015|Illinois,
+		451 A/swine/Illinois/A01555050/2014|11/21/2014|Illinois,
+		452 A/swine/Illinois/A01536186/2014|03/14/2014|Illinois,
+		453 A/swine/Illinois/A01502060/2014|06/18/2014|Illinois,
+		454 A/swine/Ilinois/A02090306/2015|07/21/2015|Unknown,
+		455 A/swine/Illinois/A02090639/2015|08/26/2015|Illinois,
+		456 A/swine/Illinois/A01945691/2015|10/19/2015|Illinois,
+		457 A/swine/Illinois/A01727602/2015|12/11/2015|Illinois,
+		458 A/swine/Iowa/A01728784/2016|01/04/2016|Iowa,
+		459 A/swine/Missouri/A01775853/2016|05/24/2016|Missouri,
+		460 A/swine/Iowa/A01932044/2017|02/08/2017|Iowa,
+		461 A/swine/Iowa/A02172377/2018|07/13/2018|Iowa,
+		462 A/swine/Illinois/A01840991/2015|03/11/2015|Illinois,
+		463 A/swine/Iowa/A02025916/2015|09/08/2015|Iowa,
+		464 A/swine/Illinois/A01727528/2015|12/11/2015|Illinois,
+		465 A/swine/Illinois/A01478890/2015|02/19/2015|Illinois,
+		466 A/swine/Illinois/A01489869/2014|08/27/2014|Illinois,
+		467 A/swine/Illinois/A01462594/2015|01/23/2015|Illinois,
+		468 A/swine/Iowa/A01840866/2015|02/25/2015|Iowa,
+		469 A/swine/Illinois/A01475273/2014|04/15/2014|Illinois,
+		470 A/swine/Illinois/A01462644/2015|01/29/2015|Illinois,
+		471 A/swine/Iowa/A01432840/2013|06/15/2013|Iowa,
+		472 A/swine/Indiana/A01104029/2012|08/01/2012|Indiana,
+		473 A/swine/Iowa/A01432271/2012|12/15/2012|Iowa,
+		474 A/swine/Ohio/12TOSU439/2012|08/06/2012|Ohio,
+		475 A/swine/Ohio/13TOSU1547/2013|08/01/2013|Ohio,
+		476 A/swine/Nebraska/A02254794/2018|07/30/2018|Nebraska,
+		477 A/swine/Minnesota/A01350866/2013|06/04/2013|Minnesota,
+		478 A/swine/South_Dakota/A01481811/2014|06/17/2014|South_Dakota,
+		479 A/swine/Iowa/A01501240/2014|05/19/2014|Iowa,
+		480 A/swine/Iowa/A01729543/2016|01/12/2016|Iowa,
+		481 A/swine/Indiana/A01260321/2013|06/25/2013|Indiana,
+		482 A/swine/Ohio/A01349495/2013|03/22/2013|Ohio,
+		483 A/swine/Ohio/A01349302/2013|03/12/2013|Ohio,
+		484 A/swine/Ohio/A01349305/2013|03/12/2013|Ohio,
+		485 A/swine/Ohio/A01351573/2013|07/10/2013|Ohio,
+		486 A/swine/Ohio/A01364406/2013|08/27/2013|Ohio,
+		487 A/swine/Iowa/A01244302/2012|11/15/2012|Iowa,
+		488 A/swine/Indiana/A00968373/2012|07/13/2012|Indiana,
+		489 A/swine/Ohio/A01208180/2012|07/31/2012|Ohio,
+		490 A/swine/Ohio/A01208457/2012|08/07/2012|Ohio,
+		491 A/swine/Ohio/12TOSU421/2012|08/06/2012|Ohio,
+		492 A/swine/Ohio/12TOSU338/2012|08/03/2012|Ohio,
+		493 A/swine/Ohio/A00152576/2012|08/15/2012|Ohio
+		;
+tree TREE1 = [&R] (((258:0.004229999999999998,(((259:5.5E-4,260:5.5E-4):0.00469,(261:0.002239999999999999,(262:0.005039999999999999,(263:6.2E-4,(((((264:0.0018799999999999997,(265:0.005769999999999997,266:0.015390000000000001):0.00179):6.3E-4,(267:0.0,268:0.0):5.5E-4):5.5E-4,269:6.2E-4):6.2E-4,(270:0.003130000000000001,271:6.3E-4):0.006280000000000001):5.5E-4,(272:0.0012400000000000015,(273:0.0037599999999999995,274:0.0012600000000000007):0.0012600000000000007):5.5E-4):6.3E-4):0.00503):8.9E-4):0.0012400000000000015):0.0034000000000000037,((275:5.5E-4,(276:6.2E-4,277:6.2E-4):5.5E-4):6.2E-4,((((278:0.0,279:0.0):0.0,(280:0.0,281:0.0):0.0):0.0,(((282:0.0,283:0.0):0.0,(284:0.0,285:0.0):0.0):0.0,((286:0.0,287:0.0):0.0,(288:0.0,289:0.0):0.0):0.0):0.0):5.5E-4,(((290:0.0,291:0.0):0.0,(292:0.0,(293:0.0,294:0.0):0.0):0.0):6.2E-4,295:6.3E-4):5.5E-4):6.3E-4):0.0014500000000000068):0.0011999999999999927):0.0025100000000000053,(296:6.2E-4,((297:5.5E-4,298:6.3E-4):6.3E-4,((299:6.2E-4,(300:6.2E-4,301:6.3E-4):5.5E-4):5.5E-4,(302:6.3E-4,(((303:0.0,(304:0.0,305:0.0):0.0):0.0,((306:0.0,307:0.0):0.0,(308:0.0,309:0.0):0.0):0.0):0.0,(((310:0.0,311:0.0):0.0,(312:0.0,313:0.0):0.0):0.0,((314:0.0,315:0.0):0.0,(316:0.0,317:0.0):0.0):0.0):0.0):5.5E-4):5.5E-4):5.5E-4):5.5E-4):0.00204):3.086155511124062E-4,((((245:0.007770000000000003,246:0.010430000000000002):5.5E-4,(((247:6.2E-4,(((248:5.5E-4,249:0.006249999999999999):6.3E-4,(250:5.5E-4,(251:6.2E-4,252:0.0037599999999999995):5.5E-4):5.5E-4):0.0018300000000000052,(253:0.0012899999999999995,254:0.0037100000000000015):6.2E-4):5.5E-4):5.5E-4,255:5.5E-4):5.5E-4,256:6.3E-4):5.5E-4):0.0012500000000000011,257:0.004369999999999999):5.5E-4,(244:5.5E-4,(((239:5.5E-4,(240:0.0018700000000000001,241:5.5E-4):0.007519999999999999):0.003159999999999996,(242:0.005110000000000003,243:0.01217):0.001799999999999996):6.1E-4,(238:0.0018400000000000014,(237:0.0043300000000000005,((229:0.005650000000000002,((230:0.0025499999999999967,231:0.0037799999999999986):0.001230000000000002,(232:5.5E-4,((233:0.005340000000000001,234:0.012790000000000003):0.005430000000000004,(235:0.0012599999999999972,236:0.0018699999999999967):6.0E-4):0.005039999999999996):5.5E-4):5.7E-4):0.0018899999999999958,(((318:0.0018699999999999967,((319:0.003779999999999995,(320:0.0012600000000000007,321:5.5E-4):0.001229999999999995):0.008940000000000003,(322:5.5E-4,323:0.003130000000000001):0.00698):5.4E-4):5.5E-4,(324:0.0050499999999999955,325:0.0031299999999999974):0.008850000000000004):5.9E-4,(326:5.5E-4,(((101:0.0030799999999999994,(102:6.3E-4,103:5.5E-4):5.5E-4):0.01719,(104:0.014600000000000002,((105:5.5E-4,(106:0.006260000000000002,107:0.0037500000000000033):5.5E-4):6.3E-4,((108:0.004379999999999995,((((109:6.2E-4,(110:5.5E-4,111:5.5E-4):5.5E-4):0.0025000000000000022,(112:6.2E-4,((113:0.00503,(114:0.0012400000000000015,115:0.0018799999999999997):0.00443):0.0018700000000000001,(116:0.0024999999999999988,117:0.0031200000000000012):5.5E-4):6.3E-4):0.0037499999999999964):6.2E-4,(118:0.0,119:0.0):6.3E-4):5.5E-4,((120:6.3E-4,(121:5.5E-4,122:0.00375):0.001239999999999998):5.5E-4,(123:0.0,124:0.0):5.5E-4):5.5E-4):5.5E-4):0.002490000000000006,((125:0.009719999999999996,126:0.006939999999999995):0.003020000000000002,(127:0.011979999999999998,((128:0.008170000000000004,(((((129:6.2E-4,(130:5.5E-4,131:5.5E-4):6.3E-4):5.5E-4,(132:6.1E-4,133:0.01645):5.5E-4):5.5E-4,134:5.5E-4):5.5E-4,135:5.5E-4):5.5E-4,((136:0.007560000000000001,(((137:0.0,138:0.0):0.0,(139:0.0,140:0.0):0.0):0.0018700000000000001,141:6.2E-4):0.0018700000000000001):0.0024799999999999996,(((((142:0.0,143:0.0):6.3E-4,(144:0.0012600000000000007,(145:0.0,146:0.0):5.5E-4):0.0012500000000000011):6.3E-4,((((147:0.0,148:0.0):0.0,(149:0.0,150:0.0):0.0):0.0,((151:0.0,152:0.0):0.0,(153:0.0,(154:0.0,155:0.0):0.0):0.0):0.0):5.5E-4,(156:6.2E-4,(157:0.0,(158:0.0,159:0.0):0.0):6.3E-4):5.5E-4):5.5E-4):5.5E-4,((160:0.0,(161:0.0,162:0.0):0.0):5.5E-4,163:5.5E-4):6.0E-4):6.2E-4,((164:0.0,165:0.0):5.5E-4,166:6.2E-4):5.5E-4):0.0068600000000000015):5.5E-4):5.5E-4):0.0043199999999999975,(((((167:0.0012500000000000011,(168:0.005139999999999999,((169:0.0,(170:0.0,171:0.0):0.0):6.2E-4,(172:6.3E-4,173:5.5E-4):5.5E-4):0.01082):5.8E-4):5.5E-4,174:5.5E-4):5.5E-4,175:5.5E-4):5.5E-4,176:0.0018699999999999967):0.0012500000000000011,((177:5.5E-4,(((((178:0.002960000000000001,(179:0.0014200000000000011,(180:6.2E-4,(181:0.003130000000000001,182:6.2E-4):6.3E-4):0.0029700000000000004):6.2E-4):0.0014200000000000011,(183:0.0012700000000000003,184:0.006280000000000001):6.1E-4):0.0012500000000000046,(185:0.0018899999999999993,186:0.007689999999999999):6.2E-4):5.5E-4,((((187:0.003130000000000001,(188:5.5E-4,189:6.2E-4):5.5E-4):0.0019300000000000012,(190:6.3E-4,(191:0.0024999999999999988,192:0.0012500000000000011):5.5E-4):5.5E-4):6.2E-4,(((193:0.0018799999999999997,194:5.5E-4):0.00596,(195:5.5E-4,196:0.00409):6.3E-4):5.5E-4,197:0.0012600000000000007):6.1E-4):5.5E-4,198:5.5E-4):5.5E-4):5.5E-4,((199:0.0018700000000000001,(200:0.003130000000000001,201:0.0024999999999999988):5.5E-4):0.005639999999999999,(202:5.5E-4,((203:5.5E-4,204:6.3E-4):0.0025099999999999983,((((205:0.0012600000000000007,((206:0.0012600000000000007,(207:5.5E-4,208:5.5E-4):5.5E-4):0.0012500000000000011,((209:0.0,210:0.0):0.003130000000000001,211:0.003130000000000001):5.5E-4):5.5E-4):0.0012600000000000007,(212:0.00563,(213:0.003769999999999999,(214:5.5E-4,(215:0.0037599999999999995,216:0.0024999999999999988):5.5E-4):6.3E-4):6.1E-4):5.5E-4):5.5E-4,((217:0.0012500000000000011,218:6.3E-4):5.5E-4,219:5.5E-4):5.5E-4):5.5E-4,220:0.0050100000000000006):6.2E-4):0.0012600000000000042):6.2E-4):5.5E-4):5.5E-4):5.5E-4,((221:5.5E-4,(222:6.2E-4,(223:0.0,224:0.0):0.0012600000000000007):5.5E-4):5.5E-4,(225:6.3E-4,(226:0.0012600000000000042,(227:6.2E-4,228:0.0018700000000000001):5.5E-4):6.3E-4):5.5E-4):5.5E-4):6.3E-4):0.001239999999999998):6.3E-4):0.001239999999999998):5.4E-4):0.0018699999999999967):0.0025599999999999998):5.7E-4):6.2E-4,((98:0.0012500000000000011,(99:0.001239999999999998,100:5.5E-4):6.2E-4):0.008169999999999997,(97:0.0025000000000000022,((93:5.5E-4,(94:0.0018799999999999997,(95:0.0018799999999999997,96:0.0025000000000000022):0.0012500000000000011):0.0012500000000000011):6.2E-4,((327:0.0,(328:0.0,329:0.0):0.0):6.3E-4,(((((330:0.01208,((331:0.0018700000000000001,332:0.0018899999999999993):0.015450000000000005,(333:0.014680000000000002,(334:0.00698,(((335:5.5E-4,((336:5.5E-4,337:0.0025000000000000022):0.007590000000000003,338:0.003169999999999999):5.9E-4):0.0012600000000000007,((339:0.0037300000000000007,(340:0.00255,341:0.009440000000000004):0.0012500000000000011):0.0012799999999999999,((342:0.0012600000000000007,(((343:5.5E-4,344:0.0012599999999999972):0.0037700000000000025,((345:0.0037700000000000025,(346:0.0018799999999999997,347:5.5E-4):0.0012599999999999972):5.5E-4,((348:0.0025099999999999983,(349:6.3E-4,(350:6.3E-4,(351:0.0025000000000000022,352:6.2E-4):5.5E-4):5.5E-4):0.001899999999999999):6.2E-4,353:0.0018799999999999997):5.5E-4):5.5E-4):6.2E-4,354:5.5E-4):5.5E-4):0.0012600000000000007,(((355:0.003139999999999997,((356:6.2E-4,357:0.0025299999999999975):0.003139999999999997,((358:0.003130000000000001,(359:6.3E-4,360:0.0012599999999999972):5.5E-4):0.0012599999999999972,(361:5.5E-4,(362:0.0018699999999999967,363:0.0025000000000000022):5.5E-4):5.5E-4):5.5E-4):0.003139999999999997):0.0025200000000000014,(364:6.2E-4,(365:0.003139999999999997,(366:5.5E-4,(367:0.003139999999999997,368:0.0018799999999999997):5.5E-4):5.5E-4):0.0012500000000000011):6.3E-4):0.0024999999999999988,(((((((((369:0.003130000000000001,(370:5.5E-4,371:0.0012599999999999972):5.5E-4):0.0025000000000000022,(372:5.5E-4,(373:0.0025099999999999983,374:0.0025099999999999983):5.5E-4):6.2E-4):0.0012599999999999972,(375:5.5E-4,376:6.3E-4):0.0012599999999999972):6.3E-4,(((377:5.5E-4,(378:0.0,379:0.0):0.003160000000000003):0.0025099999999999983,((380:0.0025000000000000022,(381:0.008210000000000002,(382:5.5E-4,(383:0.0,384:0.0):0.001899999999999999):5.5E-4):6.2E-4):6.4E-4,(((385:5.5E-4,((386:0.003139999999999997,(387:0.0,388:0.0):0.004389999999999998):5.5E-4,389:0.0012599999999999972):5.5E-4):5.5E-4,(390:0.0018799999999999997,(391:0.003139999999999997,(392:6.3E-4,393:0.0018799999999999997):6.3E-4):6.2E-4):5.5E-4):5.5E-4,((394:0.004389999999999998,(395:0.006289999999999997,396:0.00503):5.5E-4):0.0012500000000000011,(397:0.003130000000000001,((398:0.0012500000000000011,(399:0.0012500000000000011,400:0.0012500000000000011):0.003139999999999997):0.003139999999999997,(401:0.0069200000000000025,402:0.0012599999999999972):5.5E-4):6.3E-4):0.0050100000000000006):5.5E-4):6.3E-4):5.5E-4):6.1E-4,403:0.004409999999999997):5.5E-4):5.5E-4,(404:0.0,405:0.0):5.5E-4):5.5E-4,((406:0.0037700000000000025,(407:0.0025299999999999975,(408:0.0018900000000000028,(409:5.5E-4,410:0.0012599999999999972):0.0037900000000000017):6.2E-4):5.5E-4):0.0012599999999999972,(411:0.003130000000000001,(412:0.0018799999999999997,413:0.005040000000000003):0.0012599999999999972):6.3E-4):5.5E-4):5.5E-4,(414:0.0012599999999999972,415:0.0037599999999999995):5.5E-4):5.5E-4,((((416:0.0,417:0.0):5.5E-4,(418:6.3E-4,419:0.0012599999999999972):5.5E-4):5.5E-4,((420:5.5E-4,421:0.003130000000000001):6.3E-4,422:6.3E-4):5.5E-4):6.3E-4,(((((423:0.0018699999999999967,424:6.3E-4):5.5E-4,425:0.0012700000000000003):5.5E-4,(((426:6.3E-4,427:0.0018799999999999997):5.5E-4,428:5.5E-4):5.5E-4,(429:6.2E-4,430:0.0012599999999999972):5.5E-4):5.5E-4):5.5E-4,(((431:0.003840000000000003,432:0.0017199999999999993):5.5E-4,(433:6.3E-4,434:0.003139999999999997):6.3E-4):5.5E-4,(435:0.008820000000000001,(436:6.2E-4,(437:5.5E-4,((438:0.0018799999999999997,439:6.3E-4):6.2E-4,440:0.0025099999999999983):5.5E-4):5.5E-4):5.7E-4):5.5E-4):5.5E-4):5.5E-4,((441:5.5E-4,(442:5.5E-4,443:6.3E-4):6.3E-4):0.004389999999999998,444:0.008820000000000001):5.5E-4):6.3E-4):5.5E-4):5.5E-4,445:0.005650000000000002):0.0012400000000000015):6.3E-4):0.0018799999999999997):5.5E-4):0.0031599999999999996,(446:5.5E-4,447:6.2E-4):0.00315):0.008139999999999998):0.002570000000000003):0.0037900000000000017):0.0038699999999999984):5.5E-4,(448:0.00281,(449:0.013649999999999999,((450:0.0025000000000000022,451:5.5E-4):0.0028699999999999976,((452:6.3E-4,((453:8.3E-4,((((454:5.5E-4,(455:5.5E-4,(456:6.3E-4,(457:6.3E-4,(458:5.5E-4,459:0.0025099999999999983):6.3E-4):6.2E-4):0.00179):6.2E-4):0.0011499999999999982,(460:0.005680000000000001,461:0.01216):0.005029999999999996):5.5E-4,462:5.5E-4):5.5E-4,463:0.0012600000000000042):0.002909999999999996):6.8E-4,(464:0.007009999999999999,(465:0.0025599999999999998,(466:6.2E-4,(467:5.5E-4,468:5.5E-4):0.0012500000000000011):5.7E-4):6.3E-4):0.001469999999999999):9.8E-4):5.5E-4,(469:6.2E-4,470:0.003130000000000001):5.5E-4):5.5E-4):0.0025400000000000006):0.0025599999999999998):0.001240000000000005):5.5E-4,471:0.0024999999999999953):5.5E-4,472:0.0018699999999999967):5.5E-4,(((473:0.0,(474:0.0,475:0.0):0.0):5.5E-4,((476:0.030010000000000002,(477:5.5E-4,(478:0.0026399999999999965,(479:0.0013799999999999993,480:0.006780000000000001):0.0025000000000000022):0.0031100000000000017):6.3E-4):0.002009999999999998,(481:0.008230000000000001,((482:0.0,(483:0.0,484:0.0):0.0):5.5E-4,(485:0.0,486:0.0):0.0012599999999999972):0.0012500000000000011):6.1E-4):5.1E-4):5.5E-4,(((((4:0.002490000000000006,5:0.010760000000000006):0.0025299999999999975,((6:0.0018799999999999997,((7:0.013409999999999998,(8:5.5E-4,9:0.011369999999999998):0.004389999999999998):0.0025200000000000014,(10:5.5E-4,((11:0.0012500000000000011,((12:6.3E-4,((13:0.0012600000000000007,(14:0.008820000000000001,(15:5.5E-4,(16:0.003130000000000001,17:0.004389999999999998):5.5E-4):5.5E-4):0.0012500000000000011):0.0018700000000000001,(18:0.0012500000000000011,19:0.0075899999999999995):0.0012600000000000007):0.0012600000000000007):0.0012600000000000007,(((20:0.0025099999999999983,(21:0.0012600000000000007,22:0.005660000000000002):0.0012600000000000007):6.2E-4,23:0.0012600000000000007):5.5E-4,(24:5.5E-4,25:5.5E-4):5.5E-4):5.5E-4):5.5E-4):0.004400000000000001,(26:0.00817,(27:5.5E-4,28:0.0012500000000000011):5.5E-4):6.1E-4):0.006929999999999999):6.3E-4):0.0025000000000000022):0.0056799999999999976,((29:5.3E-4,30:0.00828):0.007690000000000002,(31:5.5E-4,(32:0.0025100000000000053,((33:6.3E-4,(34:6.3E-4,35:5.5E-4):0.0018700000000000036):6.3E-4,(36:6.2E-4,37:0.0018699999999999967):5.5E-4):5.5E-4):6.2E-4):0.00315):0.001229999999999995):5.5E-4):0.0012500000000000011,(38:0.004990000000000001,((39:5.5E-4,((40:0.005059999999999995,(41:0.0023999999999999994,(42:0.0069099999999999995,43:0.005659999999999998):5.4E-4):0.002799999999999997):0.0010500000000000023,((44:0.001350000000000004,(45:0.0019200000000000016,46:0.0025400000000000006):0.008180000000000003):0.005649999999999995,((47:0.008989999999999998,48:0.02425):0.0121,(((49:6.3E-4,(50:5.5E-4,51:5.5E-4):0.0012500000000000011):6.2E-4,((52:0.0025099999999999983,(((53:6.3E-4,54:5.5E-4):5.5E-4,(55:6.3E-4,56:6.3E-4):5.5E-4):5.5E-4,57:6.3E-4):6.2E-4):6.3E-4,(((58:0.0,59:0.0):5.5E-4,(60:0.0012599999999999972,61:6.2E-4):5.5E-4):5.5E-4,(62:6.3E-4,63:6.3E-4):5.5E-4):5.5E-4):5.5E-4):6.3E-4,(64:5.5E-4,((65:6.3E-4,(66:5.5E-4,(67:6.3E-4,68:6.3E-4):5.5E-4):5.5E-4):0.003140000000000004,(69:5.5E-4,70:6.2E-4):6.2E-4):5.5E-4):5.5E-4):5.5E-4):0.0013299999999999979):0.0011800000000000005):6.2E-4):5.5E-4,((71:5.5E-4,(72:0.0,73:0.0):6.2E-4):0.0012599999999999972,(74:6.3E-4,75:0.0012600000000000042):5.5E-4):0.0031200000000000047):6.2E-4):5.3E-4):5.5E-4,((76:0.0030700000000000033,((77:0.0025099999999999983,((78:6.3E-4,79:5.5E-4):0.0012600000000000042,(80:0.0018700000000000036,(81:0.003140000000000004,(82:0.006969999999999997,83:0.012089999999999997):0.0012100000000000027):5.5E-4):0.0018799999999999997):0.0012599999999999972):6.2E-4,84:0.0037500000000000033):5.5E-4):0.001239999999999998,(85:5.5E-4,((86:0.0,87:0.0):0.002610000000000001,((88:0.0,89:0.0):0.0069099999999999995,(90:0.0012100000000000027,(91:0.0012600000000000042,92:5.5E-4):0.003810000000000001):7.0E-4):6.1E-4):0.0036699999999999997):5.5E-4):5.5E-4):5.5E-4,((487:6.2E-4,((488:5.5E-4,489:0.0018699999999999967):0.0010300000000000031,((490:0.0,491:0.0):0.0,(492:0.0,493:0.0):0.0):6.2E-4):5.5E-4):5.5E-4,(1:5.5E-4,(2:6.2E-4,3:0.002490000000000006):5.5E-4):5.5E-4):5.5E-4):5.5E-4):5.5E-4):5.5E-4):5.5E-4):6.2E-4):5.8E-4):5.5E-4):5.5E-4):5.5E-4):6.2E-4):5.5E-4):0.001240000000000005):5.5E-4):5.5E-4):5.5E-4):7.713844488875914E-4);
+End;
