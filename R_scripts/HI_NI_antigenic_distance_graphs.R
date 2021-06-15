@@ -192,13 +192,14 @@ g2 <- ggplot(data, aes(xlab, distance)) +
   geom_hline(yintercept = 3, linetype = "longdash") +
   #geom_point(aes(color = clade), size = min_point_size, show.legend = F) +
   geom_point(aes(color = clade), size = min_point_size, show.legend = T) +
-  scale_color_hue(l=40,c=100) +
+  scale_color_hue(l=40) +
   #geom_label_repel(min.segment.length =  0, size = min_point_size, aes(label = clade, color = clade, segment.size = 1), show.legend = F, box.padding = 0.5) +
   #geom_label(aes(label=clade,color=clade), size = 5, fontface = "bold", show.legend = F) +
   labs(x="Antigen", y="NA Antigenic Distance", color = "NA Lineage") +
   theme(
     axis.text = element_text(size = min_text_size - 1, face = "bold"),
     #axis.text.x = element_text(color = c("#C77CFF", "#C77CFF", "#7CAE00")),
+    axis.text.x = element_text(color = darken(c("#C77CFF", "#C77CFF", "#7CAE00"),amount=0.25)),
     axis.title = element_text(size = min_text_size, face = "bold"),
     legend.title = element_text(size = min_text_size, face="bold"),
     legend.text = element_text(size=min_text_size)
