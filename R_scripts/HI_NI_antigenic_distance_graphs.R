@@ -4,6 +4,7 @@ library(ggplot2)
 library(ggrepel)
 library(tidyr)
 library(patchwork)
+library(colorspace)
 
 min_text_size = 15
 min_point_size = 5
@@ -199,7 +200,7 @@ g2 <- ggplot(data, aes(xlab, distance)) +
   theme(
     axis.text = element_text(size = min_text_size - 1, face = "bold"),
     #axis.text.x = element_text(color = c("#C77CFF", "#C77CFF", "#7CAE00")),
-    axis.text.x = element_text(color = darken(c("#C77CFF", "#C77CFF", "#7CAE00"),amount=0.25)),
+    axis.text.x = element_text(color = darken(c("#C77CFF", "#C77CFF", "#7CAE00"),amount=0.4)),
     axis.title = element_text(size = min_text_size, face = "bold"),
     legend.title = element_text(size = min_text_size, face="bold"),
     legend.text = element_text(size=min_text_size)
