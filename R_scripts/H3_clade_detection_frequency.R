@@ -17,6 +17,24 @@ setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/data_collectio
 df <- read.csv("classification_for_detection_frequency.csv", header = T)
 #df <- df[df$most.similar.blast.clade != "gamma",]
 df$format_date <- as.Date(df$date, "%m/%d/%Y")
+
+#deal with year only dates
+for(i in 1:length(df$format_date)) {
+  if(is.na(df$format_date[i])) {
+    df$format_date[i] <- as.Date(df$date[i], "%Y")
+    print(as.Date(df$date[i], "%Y"))
+  }
+}
+
+#deal with month-year only dates
+for(i in 1:length(df$format_date)) {
+  if(is.na(df$format_date[i])) {
+    df$format_date[i] <- as.Date(parse_date_time(df$date[i], orders = "my"))
+    #print(as.Date(df$date[i], "%b-%y"))
+  }
+}
+
+#convert date to decimal
 df$decimal_date <- decimal_date(df$format_date)
 df$year <- floor(df$decimal_date)
 df$most.similar.blast.clade <- as.factor(df$most.similar.blast.clade)
@@ -35,10 +53,9 @@ df_agg <- df %>%
 df_agg$year <- as.Date(ISOdate(df_agg$year,1,1))
 
 #relative frequency line graph
-ggplot(df_agg, aes(x=year,y=freq, color=most.similar.blast.clade)) +
-  geom_line(size=1.1) +
-  labs(x= "Year", y = "Percent")
-
+#(df_agg, aes(x=year,y=freq, color=most.similar.blast.clade)) +
+#  geom_line(size=1.1) +
+#  labs(x= "Year", y = "Percent")
 
 #relative frequency area graph
 ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade)) +
