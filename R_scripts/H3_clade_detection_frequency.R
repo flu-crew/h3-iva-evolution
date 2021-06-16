@@ -8,7 +8,7 @@ library(patchwork)
 
 axis_size <- 17
 axis_title_size <- 20
-x_axis_angle <- 45
+x_axis_angle <- 90
 coeff <-5 
 
 setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/data_collection/HA/")
@@ -58,16 +58,18 @@ df_agg$year <- as.Date(ISOdate(df_agg$year,1,1))
 #  labs(x= "Year", y = "Percent")
 
 #relative frequency area graph
-ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade)) +
+plot1 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade)) +
   geom_area(color="white") +
-  scale_x_date(labels = date_format("%Y"), breaks=date_breaks("1 year")) +
-  labs( x = "Time", y ="H3 Clade Frequency of Detection - By Proportion", fill = "Clade")+
+  scale_x_date(labels = date_format("%Y"), breaks=date_breaks("1 year"),
+               limits = as.Date(c('2011-01-01','2021-03-01'))) +
+  labs( x = "Time", y ="H3 Clade Freq. of Detection - Proportionate", fill = "Clade")+
   theme(
     panel.background = element_rect(fill = "white"),
     panel.grid.major = element_line(colour = "gray90"),
     panel.grid.minor = element_line(colour = "gray90"),
     axis.text = element_text(size=axis_size, face="bold"),
     axis.text.x = element_text(angle=x_axis_angle,vjust=0.5),
+    axis.title.x = element_text(vjust=-1.0),
     axis.title = element_text(size=axis_title_size, vjust = -0.35, face="bold"),
     legend.title = element_text(size=20, face="bold"),
     legend.text = element_text(size=20, face="bold")
@@ -75,7 +77,7 @@ ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade)) +
 
 
 #### EPS Graph ####
-setwd("//iastate/lss/research/pcgauger-lab/Megan/civa/civa_diversity_result/")
+setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/beast_analysis/")
 
 #get C-IVA detection frequency from dataframe above
 df_civa <- df[df$most.similar.blast.clade == "Cluster IVA",]
@@ -93,10 +95,10 @@ colnames(dataDetFreq) <- c("Time","Count")
 #vdlDetFreq <- vdlDetFreqYear
 
 #get IRD EPS data from csv
-dataIRD <- read.csv("run1_ird_results/civa.csv", header=TRUE, sep="\t")
+dataIRD <- read.csv("c-iva_sequences_subset_clean_final_alignment_gmrf_skyride_reconstruction.log.tsv", header=TRUE, sep="\t")
 
 #Graph with overlay
-ggplot(dataIRD, aes(x = Time, y = Median)) +
+plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), fill = "blue", alpha = 0.5) +
   geom_line(aes(y = Median, color = "Median EPS"), size = 1.5) + 
   geom_line(data = dataDetFreq , aes(y= Count/coeff, color = 'Public Detection'), size = 2) +
@@ -107,8 +109,8 @@ ggplot(dataIRD, aes(x = Time, y = Median)) +
   ) +
   scale_x_continuous(
     name = "Time",
-    breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020), 
-    limits = c(2010.565,2020.213)
+    breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020,2021), 
+    limits = c(2010.6,2021.230)
   ) +
   scale_color_manual(values = c(
     'Median EPS' = 'darkblue',
@@ -125,6 +127,14 @@ ggplot(dataIRD, aes(x = Time, y = Median)) +
         axis.text.x = element_text(angle=x_axis_angle, vjust = 0.5),
         axis.title.x = element_text(vjust=-1.0),
         axis.title.y.right = element_text(vjust=1.5,hjust=0.5),
-        legend.title = element_text(size=25,),
-        legend.text = element_text(size=20, face="bold"),
+        legend.title = element_text(size=axis_title_size,),
+        legend.text = element_text(size=axis_size, face="bold"),
   )
+
+setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
+
+tiff("Figure_1_detection_and_demography.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
+
+plot1+plot_spacer()+plot2 + plot_layout(width=c(1.0,0.01,1.0)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = 20, face="bold"))
+
+dev.off()
