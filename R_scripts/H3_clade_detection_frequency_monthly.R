@@ -9,7 +9,7 @@ library(patchwork)
 axis_size <- 17
 axis_title_size <- 20
 x_axis_angle <- 90
-coeff <-5 
+coeff <- 0.5 
 
 setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/data_collection/HA/")
 
@@ -37,8 +37,8 @@ df$decimal_date <- decimal_date(df$format_date)
 df$year <- floor(df$decimal_date)
 df$most.similar.blast.clade <- as.factor(df$most.similar.blast.clade)
 
-levels(df$most.similar.blast.clade) <-  c("2010.1", "2010.2", "Cluster IV","Cluster IVA","Cluster IVB","Other","Other","Other","Other","Other","Cluster I") 
-df$most.similar.blast.clade <- factor(df$most.similar.blast.clade, levels = c("2010.1", "2010.2","Cluster I","Cluster IV","Cluster IVA","Cluster IVB","Other") )
+levels(df$most.similar.blast.clade) <-  c("2010.1", "2010.2", "Cluster IV","Cluster IVA","Cluster IVB","Other","Other","Other","Other","Other","Other") 
+df$most.similar.blast.clade <- factor(df$most.similar.blast.clade, levels = c("2010.1", "2010.2","Cluster IV","Cluster IVA","Cluster IVB","Other") )
 
 #get relative frequency of clades by year
 df_agg <- df %>%
@@ -62,15 +62,18 @@ plot1 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade))
                limits = as.Date(c('2011-01-01','2021-03-01'))) +
   labs( x = "Time", y ="H3 Clade Freq. of Detection - Proportionate", fill = "Clade")+
   theme(
+    legend.position = "bottom",
     panel.background = element_rect(fill = "white"),
     panel.grid.major = element_line(colour = "gray90"),
     panel.grid.minor = element_line(colour = "gray90"),
     axis.text = element_text(size=axis_size, face="bold"),
     axis.text.x = element_text(angle=x_axis_angle,vjust=0.5),
-    axis.title.x = element_text(vjust=-1.0),
+    axis.title.x = element_blank(),
+    #axis.title.x = element_text(vjust=-1.0),
     axis.title = element_text(size=axis_title_size, vjust = -0.35, face="bold"),
-    legend.title = element_text(size=20, face="bold"),
-    legend.text = element_text(size=20, face="bold")
+    legend.title = element_blank(),
+    #legend.title = element_text(size=axis_title_size, face="bold"),
+    legend.text = element_text(size=axis_size, face="bold")
   ) 
 
 
@@ -79,10 +82,21 @@ setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/beast_analysis
 
 #get C-IVA detection frequency from dataframe above
 df_civa <- df[df$most.similar.blast.clade == "Cluster IVA",]
+df_civa$month <- month(df_civa$format_date)
+
+df_civa$my <- paste(df_civa$monthly, df_civa$year)
+
 dataDetFreq <- df_civa %>%
-  group_by(year) %>%
+  group_by(month, year) %>%
+  #group_by(year) %>%
   summarize(Count = n())
-colnames(dataDetFreq) <- c("Time","Count")
+colnames(dataDetFreq) <- c("Month","Year", "Count")
+
+dataDetFreq <- dataDetFreq %>%
+  group_by(Year) %>%
+  summarize(Count = mean(Count))
+dataDetFreq$Time <- dataDetFreq$Year
+
 
 #get VDL detection frequency
 #vdlDetFreq <- read.csv("cIVa_VDL_detection_frequency_updated.csv", header=TRUE)
@@ -100,14 +114,13 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), fill = "blue", alpha = 0.5) +
   geom_line(aes(y = Median, color = "Median EPS"), size = 1.5) + 
   geom_line(data = dataDetFreq , aes(y= Count/coeff, color = 'Public Detection'), size = 2) +
-  #geom_line(data = vdlDetFreq, aes(y=Count/coeff,color='VDL Detection'), size = 2) +
   scale_y_continuous(
     name = "Effective Population Size (EPS)",
-    sec.axis = sec_axis(~.*coeff, name = "Detection Frequency")
+    sec.axis = sec_axis(~.*coeff, name = "Avg. Detection Frequency per Month")
   ) +
   scale_x_continuous(
     name = "Time",
-    breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020,2021), 
+    breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020,2021),
     limits = c(2010.6,2021.230)
   ) +
   scale_color_manual(values = c(
@@ -122,8 +135,9 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
         title = element_text(size=25,face="bold"),
         axis.title = element_text(size=axis_title_size,face="bold"),
         axis.text = element_text(size=axis_size,face="bold"),
+        axis.title.x = element_blank(),
         axis.text.x = element_text(angle=x_axis_angle, vjust = 0.5),
-        axis.title.x = element_text(vjust=-1.0),
+        #axis.title.x = element_text(vjust=-1.0),
         axis.title.y.right = element_text(vjust=1.5,hjust=0.5),
         legend.title = element_text(size=axis_title_size,),
         legend.text = element_text(size=axis_size, face="bold"),
@@ -131,7 +145,7 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
 
 setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
 
-tiff("Figure_1_detection_and_demography.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
+tiff("Figure_1_detection_and_demography_monthly.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
 
 plot1+plot_spacer()+plot2 + plot_layout(width=c(1.0,0.01,1.0)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = 20, face="bold"))
 
