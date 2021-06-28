@@ -7,7 +7,7 @@ library(scales)
 library(patchwork)
 
 axis_size <- 17
-axis_title_size <- 20
+axis_title_size <- 18
 x_axis_angle <- 90
 coeff <- 0.5 
 
@@ -60,7 +60,7 @@ plot1 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade))
   geom_area(color="white") +
   scale_x_date(labels = date_format("%Y"), breaks=date_breaks("1 year"),
                limits = as.Date(c('2011-01-01','2021-03-01'))) +
-  labs( x = "Time", y ="H3 Clade Freq. of Detection - Proportionate", fill = "Clade")+
+  labs( x = "Time", y ="Relative Freq. of Detection", fill = "Clade")+
   theme(
     legend.position = "bottom",
     panel.background = element_rect(fill = "white"),
@@ -116,12 +116,12 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
   geom_line(data = dataDetFreq , aes(y= Count/coeff, color = 'Public Detection'), size = 2) +
   scale_y_continuous(
     name = "Effective Population Size (EPS)",
-    sec.axis = sec_axis(~.*coeff, name = "Avg. Detection Frequency per Month")
+    sec.axis = sec_axis(~.*coeff, name = "Avg. Detection Freq. per Month")
   ) +
   scale_x_continuous(
     name = "Time",
     breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020,2021),
-    limits = c(2010.6,2021.230)
+    limits = c(2011,2021.230)
   ) +
   scale_color_manual(values = c(
     'Median EPS' = 'darkblue',
@@ -145,8 +145,11 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
 
 setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
 
-tiff("Figure_1_detection_and_demography_monthly.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
+tiff("Figure_1_detection_and_demography_monthly.tiff", units = "in", width = 8.5, height = 11, res = 300, compression = "lzw")
 
 plot1+plot_spacer()+plot2 + plot_layout(width=c(1.0,0.01,1.0)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = 20, face="bold"))
+
+plot1 / plot2 + plot_layout(width=c(1.0,0.01,1.0)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = 20, face="bold"))
+
 
 dev.off()

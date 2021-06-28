@@ -5,6 +5,7 @@ library(ggrepel)
 library(tidyr)
 library(patchwork)
 library(colorspace)
+library(RColorBrewer)
 
 min_text_size = 15
 min_point_size = 5
@@ -128,16 +129,30 @@ data$motif <- factor(data$motif, levels = c("NYNNYK", "NYHNYK", "KYNNYK", "SYKNY
 data$xlab <- factor(data$xlab, levels = c("OK/15 \n (NYNNYK)", "NC/19 \n (NYHNYK)", "MN/18 \n (NYNNYK)"))
 str(data)
 
+cols <- brewer.pal(n=12,name="Paired")
+data_nc_ok <- data[ which(data$No1=='2 AG' & data$No2=='8 AG' ), ]
+data_nc_mn <- data[ which(data$No1=='2 AG' & data$No2=='9 AG' ), ]
+data_ok_nc <- data[ which(data$No1=='8 AG' & data$No2=='2 AG' ), ]
+data_ok_mn <- data[ which(data$No1=='8 AG' & data$No2=='9 AG' ), ]
+data_mn_nc <- data[ which(data$No1=='9 AG' & data$No2=='2 AG' ), ]
+data_mn_ok <- data[ which(data$No1=='9 AG' & data$No2=='8 AG' ), ]
+
 g1 <- ggplot(data, aes(xlab, distance)) +
   geom_hline(yintercept = 3, linetype = "longdash") +
   geom_point(aes(color = motif, shape = clade), size = min_point_size) +
   #geom_label_repel(aes(label=strain, color=motif,segment.size = 1), size = min_point_size/1.5, fontface = "bold", show.legend = F, min.segment.length =  0, box.padding = 0.5) + 
   scale_shape_manual(values=c(16,15,17,7)) +
-  scale_color_manual(values=c("#ED6141", "#f37b59", "#00b81f", "#00A5FF", "#C77Cff", "#C77Cff", "#FC61D5")) + 
-  labs(x = "Antigen", y = "HA Antigenic Distance", shape = "H3 Clade", color = "Antigenic Motif") +
+  scale_color_manual(values=c(cols[6],cols[5],cols[4],cols[2],cols[10])) + 
+  geom_text(data=data_nc_ok, label="OK/15",hjust=-0.25,vjust=0.25, size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_nc_mn, label="MN/18",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_ok_nc, label="NC/19",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_ok_mn, label="MN/18",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_mn_nc, label="NC/19",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_mn_ok, label="OK/15",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  labs(x = "Antigen", y = "HA Antigenic Distance (AU)", shape = "H3 Clade", color = "Antigenic Motif") +
   theme (
     axis.text = element_text(size = min_text_size - 1, face = "bold"),
-    axis.text.x = element_text(color = c("#ED6141", "#f37b59", "#ED6141")),
+    axis.text.x = element_text(color = c(cols[6], cols[5], cols[6])),
     axis.title = element_text(size = min_text_size, face = "bold"),
     legend.title = element_text(size = min_text_size, face= "bold"),
     legend.text = element_text(size = min_text_size)
@@ -189,21 +204,37 @@ data <- data %>%
 
 data$xlab <- factor(data$xlab, levels = c("OK/15\n(02B.2)", "NC/19\n(02B.2)", "MN/18\n(02A.2)"))
 
+cols <- brewer.pal(n=11, name="PiYG")
+cols <- brewer.pal(n=8, name="Dark2")
+
+data_nc_ok <- data[ which(data$No1=='6 AG' & data$No2=='5 AG' ), ]
+data_nc_mn <- data[ which(data$No1=='6 AG' & data$No2=='4 AG' ), ]
+data_ok_nc <- data[ which(data$No1=='5 AG' & data$No2=='6 AG' ), ]
+data_ok_mn <- data[ which(data$No1=='5 AG' & data$No2=='4 AG' ), ]
+data_mn_nc <- data[ which(data$No1=='4 AG' & data$No2=='6 AG' ), ]
+data_mn_ok <- data[ which(data$No1=='4 AG' & data$No2=='5 AG' ), ]
+
 g2 <- ggplot(data, aes(xlab, distance)) +
-  geom_hline(yintercept = 3, linetype = "longdash") +
+  #geom_hline(yintercept = 3, linetype = "longdash") +
   #geom_point(aes(color = clade), size = min_point_size, show.legend = F) +
   geom_point(aes(color = clade), size = min_point_size, show.legend = T) +
-  scale_color_hue(l=40) +
+  geom_text(data=data_nc_ok, label="OK/15",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_nc_mn, label="MN/18",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_ok_nc, label="NC/19",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_ok_mn, label="MN/18",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_mn_nc, label="NC/19",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  geom_text(data=data_mn_ok, label="OK/15",hjust=-0.25,size=min_text_size-11, fontface = "bold") +
+  scale_color_manual(values=c(cols[2],cols[6],cols[3],cols[4])) +
   #geom_label_repel(min.segment.length =  0, size = min_point_size, aes(label = clade, color = clade, segment.size = 1), show.legend = F, box.padding = 0.5) +
   #geom_label(aes(label=clade,color=clade), size = 5, fontface = "bold", show.legend = F) +
-  labs(x="Antigen", y="NA Antigenic Distance", color = "NA Lineage") +
+  labs(x="Antigen", y="NA Antigenic Distance (AU)", color = "NA Lineage") +
   theme(
     axis.text = element_text(size = min_text_size - 1, face = "bold"),
     #axis.text.x = element_text(color = c("#C77CFF", "#C77CFF", "#7CAE00")),
-    axis.text.x = element_text(color = darken(c("#C77CFF", "#C77CFF", "#7CAE00"),amount=0.4)),
+    axis.text.x = element_text(color = c(cols[4],cols[4],cols[6])),
     axis.title = element_text(size = min_text_size, face = "bold"),
     legend.title = element_text(size = min_text_size, face="bold"),
-    legend.text = element_text(size=min_text_size)
+    legend.text = element_text(size=min_text_size),
   )
 
 setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
@@ -212,6 +243,6 @@ setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
 g_combo <- g1 + g2 + plot_layout(width=c(1,1)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = min_text_size, face="bold"))
 g_combo <- g_combo & ylim(0,6.5)
 
-tiff("Figure_4_HI_NI_antigenic_distance.tiff", units = "in", width = 11, height = 8.5, res = 300, compression = "lzw")
+tiff("Figure_4_HI_NI_antigenic_distance.tiff", units = "in", width = 11, height = 6, res = 300, compression = "lzw")
 g_combo
 dev.off()

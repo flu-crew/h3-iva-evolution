@@ -9,6 +9,11 @@ setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/")
 #read in tree
 tree <- read.tree("beast_analysis/c-iva_sequences_alignment_RAxML_tree.tre")
 
+ggtree(tree) + geom_text(aes(label=node))
+
+tree <- root(tree,466)
+nodelabels(cex = .75, bg = "yellow")
+
 #split tip label into desired columns
 tips <- tree$tip.label
 df <- as.data.frame(strsplit(tips, "[|]"))
@@ -40,6 +45,7 @@ y <- full_join(tib, df, by= 'label')
 
 #convert to treedata
 z <- as.treedata(y)
+
 
 tiff("supplementary files/Supplementary_Figure_1_ML_Tree.tiff", units = "in", width = 7, height = 5, res = 300, compression = "lzw")
 
