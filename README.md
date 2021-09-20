@@ -1,4 +1,4 @@
-# Genetic and antigenic characterization of an expanding H3 Cluster IV-A influenza A virus clade in US swine visualized by Nextstrain 
+# Genetic and antigenic characterization of an expanding H3influenza A virus clade in US swine visualized by Nextstrain 
 Figures and analysis files associated with the following manuscript: 
 
 Megan N. Neveau, Michael A. Zeller, Bryan S. Kaplan, Carine K. Souza, Phillip C. Gauger, Amy L. Vincent, Tavis K. Anderson (unpublished). Genetic and antigenic characterization of an expanding H3 Cluster IV-A influenza A virus clade in US swine visualized by Nextstrain. 
