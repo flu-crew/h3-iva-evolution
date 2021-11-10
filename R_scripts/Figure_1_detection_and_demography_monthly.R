@@ -5,6 +5,7 @@ library(lubridate)
 library(reshape2)
 library(scales)
 library(patchwork)
+library(viridis)
 
 axis_size <- 17
 axis_title_size <- 18
@@ -56,7 +57,7 @@ df_agg$year <- as.Date(ISOdate(df_agg$year,1,1))
 #  labs(x= "Year", y = "Percent")
 
 #relative frequency area graph
-plot1 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade)) +
+plot3 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade)) +
   geom_area(color="white") +
   scale_x_date(labels = date_format("%Y"), breaks=date_breaks("1 year"),
                limits = as.Date(c('2011-01-01','2021-03-01'))) +
@@ -75,6 +76,42 @@ plot1 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade))
     #legend.title = element_text(size=axis_title_size, face="bold"),
     legend.text = element_text(size=axis_size, face="bold")
   ) 
+
+#### HA-NA Detection Frequency Graph ####
+clades <- read.csv("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/h3-iva-evolution/data_collection/Figure1/ha-na_by_year_for_R.csv", na.strings = 0)
+clades[is.na(clades)] <- 0
+longClades <- melt(clades, id = c("year"))
+
+normClades <- clades/rowSums(clades[2:7])
+normClades[1] <- clades[1]
+normLongClades <- melt(normClades, id = c("year"))
+
+normLongClades$variable <- factor(normLongClades$variable, levels = c("H3_CIVA_2002A","H3_CIVA_2002B","H3_CIVA_Other","H3_2010.1_Other",
+                                                                      "H3_2010.1_2002A",
+                                                                      "H3_2010.1_2002B"))
+
+plot1 <- ggplot(data = normLongClades, aes(x=year, y=value, color=variable, fill=variable))+
+  geom_area(alpha=1, size=.5, colour="white") +
+  #pretty good colors
+  #scale_fill_viridis(discrete = T, option="plasma", name="") +
+  scale_fill_viridis(discrete = T, option="inferno", name="") +
+  labs(y = "Percent of Detection", color="test") +
+  scale_x_continuous(
+    name = "Time",
+    breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020,2021),
+    limits = c(2011,2021.230)
+  ) +
+  scale_y_continuous(limits = c(0,1), expand = c(0, 0)) +
+  theme(legend.position = "bottom", 
+        panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(colour = "gray90"),
+        panel.grid.minor = element_line(colour = "gray90"),
+        axis.title = element_text(size=axis_title_size,face="bold"),
+        axis.text = element_text(size=axis_size,face="bold"),
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.5),
+        legend.title = element_text(size=axis_title_size,),
+        legend.text = element_text(size=axis_size,face="bold"),
+  )
 
 
 #### EPS Graph ####
@@ -143,9 +180,9 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
         legend.text = element_text(size=axis_size, face="bold"),
   )
 
-setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/figures/")
+setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/h3-iva-evolution/figures/")
 
-tiff("Figure_1_detection_and_demography_monthly.tiff", units = "in", width = 8.5, height = 11, res = 300, compression = "lzw")
+tiff("Figure_1_HA-NA_detection_and_demography_monthly.tiff", units = "in", width = 8.5, height = 11, res = 300, compression = "lzw")
 
 plot1+plot_spacer()+plot2 + plot_layout(width=c(1.0,0.01,1.0)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = 20, face="bold"))
 
