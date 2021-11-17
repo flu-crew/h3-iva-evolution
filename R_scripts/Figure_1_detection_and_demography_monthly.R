@@ -86,9 +86,8 @@ normClades <- clades/rowSums(clades[2:7])
 normClades[1] <- clades[1]
 normLongClades <- melt(normClades, id = c("year"))
 
-normLongClades$variable <- factor(normLongClades$variable, levels = c("H3_CIVA_2002A","H3_CIVA_2002B","H3_CIVA_Other","H3_2010.1_Other",
-                                                                      "H3_2010.1_2002A",
-                                                                      "H3_2010.1_2002B"))
+normLongClades$variable <- factor(normLongClades$variable, levels = c("H3_CIVA_2002A","H3_CIVA_2002B","H3_2010.1_2002A",
+                                                                      "H3_2010.1_2002B","H3_CIVA_Other","H3_2010.1_Other"))
 
 plot1 <- ggplot(data = normLongClades, aes(x=year, y=value, color=variable, fill=variable))+
   geom_area(alpha=1, size=.5, colour="white") +
@@ -150,7 +149,7 @@ dataIRD <- read.csv("Results/c-iva_sequences_subset_clean_final_alignment_gmrf_s
 plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
   geom_ribbon(aes(ymin = Lower, ymax = Upper), fill = "blue", alpha = 0.5) +
   geom_line(aes(y = Median, color = "Median EPS"), size = 1.5) + 
-  geom_line(data = dataDetFreq , aes(y= Count/coeff, color = 'Public Detection'), size = 2) +
+  geom_line(data = dataDetFreq , aes(y= Count/coeff, color = 'Detection'), size = 2) +
   scale_y_continuous(
     name = "Effective Population Size (EPS)",
     sec.axis = sec_axis(~.*coeff, name = "Avg. Detection Freq. per Month")
@@ -162,7 +161,7 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
   ) +
   scale_color_manual(values = c(
     'Median EPS' = 'darkblue',
-    'Public Detection' = 'darkorange',
+    'Detection' = 'darkorange',
     'VDL Detection' = 'darkred')) + 
   labs(y = "Effective Population Size (EPS)", x = "Time", color = "") +
   theme(legend.position = "bottom", 
