@@ -1,0 +1,293 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=191;
+	taxlabels
+	'A/swine/Arkansas/A02139135/2017|2010-human_like|2014-08-18'
+	'A/swine/Illinois/0TM119/2017|2010-human_like|2018-11-06'
+	'A/swine/Illinois/A00857134/2011|C_IVA|2019-05-09'[&!color=#000000]
+	'A/swine/Illinois/A01047099/2010|delta1|2015-01-27'[&!color=#000000]
+	'A/swine/Illinois/A01047153/2010|delta1|2020-01-09'[&!color=#000000]
+	'A/swine/Illinois/A01047353/2011|delta1|2014-01-28'
+	'A/swine/Illinois/A01116186/2011|delta1|2016-02-08'
+	'A/swine/Illinois/A01116945/2011|delta1|2015-01-29'[&!color=#000000]
+	'A/swine/Illinois/A01134653/2011|delta1|2021-01-29'[&!color=#000000]
+	'A/swine/Illinois/A01201154/2011|delta1|2018-01-30'[&!color=#000000]
+	'A/swine/Illinois/A01241840/2012|C_IVA|2014-02-01'[&!color=#000000]
+	'A/swine/Illinois/A01291429/2013|delta1|2015-03-25'
+	'A/swine/Illinois/A01291476/2013|delta1|2014-03-26'[&!color=#000000]
+	'A/swine/Illinois/A01327903/2012|C_IVA|2015-02-19'[&!color=#000000]
+	'A/swine/Illinois/A01397556/2013|delta1|2017-03-21'[&!color=#000000]
+	'A/swine/Illinois/A01398533/2013|delta1|2016-03-24'[&!color=#000000]
+	'A/swine/Illinois/A01444083/2012|delta1|2011-03-07'[&!color=#000000]
+	'A/swine/Illinois/A01445274/2013|delta1|2021-03-08'[&!color=#000000]
+	'A/swine/Illinois/A01489872/2014|delta1|2013-04-30'
+	'A/swine/Illinois/A01555015/2014|beta|2016-06-28'
+	'A/swine/Illinois/A01671222/2016|2010-human_like|2012-06-25'
+	'A/swine/Illinois/A02090943/2015|C_IVE|2019-05-12'
+	'A/swine/Indiana/18TOSU2186/2018|C_IVA|2016-10-24'[&!color=#0000cc]
+	'A/swine/Indiana/18TOSU2225/2018|C_IVA|2016-10-24'[&!color=#0000cc]
+	'A/swine/Indiana/18TOSU2860/2018|C_IVA|2017-10-22'[&!color=#0000cc]
+	'A/swine/Indiana/A01260188/2013|delta1|2020-04-08'[&!color=#000000]
+	'A/swine/Iowa/16TOSU2428/2016|2010-human_like|2018-08-29'
+	'A/swine/Iowa/16TOSU8488/2016|2010-human_like|2021-08-04'
+	'A/swine/Iowa/A01049723/2011|delta1|2011-01-19'[&!color=#000000]
+	'A/swine/Iowa/A01202612/2011|delta1|2020-02-03'
+	'A/swine/Iowa/A01410614/2014|delta1|2018-04-11'
+	'A/swine/Iowa/A01432604/2013|gamma|2016-03-14'[&!color=#000000]
+	'A/swine/Iowa/A01445788/2013|delta1|2020-01-22'[&!color=#000000]
+	'A/swine/Iowa/A01476715/2014|delta1|2021-04-23'
+	'A/swine/Iowa/A01671940/2016|2010-human_like|2013-06-13'
+	'A/swine/Iowa/A01733867/2016|2010-human_like|2011-05-26'
+	'A/swine/Iowa/A01781973/2016|C_IV|2017-06-01'
+	'A/swine/Iowa/A01785636/2018|C_IVA|2019-09-16'[&!color=#0000cc]
+	'A/swine/Iowa/A01785787/2018|C_IVA|2013-09-01'[&!color=#0000cc]
+	'A/swine/Iowa/A01795483/2015|beta|2017-07-01'
+	'A/swine/Iowa/A01945783/2015|gamma|2011-07-12'
+	'A/swine/Iowa/A02138601/2017|C_IVA|2018-08-20'[&!color=#0000cc]
+	'A/swine/Iowa/A02157567/2018|C_IVA|2016-08-26'[&!color=#0000cc]
+	'A/swine/Iowa/A02216453/2017|2010-human_like|2019-07-29'
+	'A/swine/Iowa/A02219578/2017|delta1|2017-08-01'
+	'A/swine/Iowa/A02221866/2017|delta1|2011-08-12'
+	'A/swine/Iowa/A02256790/2018|delta1|2015-09-09'
+	'A/swine/Iowa/A02266140/2018|delta1|2019-08-07'
+	'A/swine/Iowa/A02431991/2019|C_IVA|2015-10-16'[&!color=#0000cc]
+	'A/swine/Iowa/A02478878/2019|C_IVA|2018-11-12'[&!color=#0000cc]
+	'A/swine/Iowa/A02478976/2019|C_IVA|2019-11-13'[&!color=#0000cc]
+	'A/swine/Iowa/A02479024/2020|delta2|2010-11-11'
+	'A/swine/Iowa/A02479038/2020|delta1|2013-11-11'
+	'A/swine/Iowa/A02479374/2020|pdm-vaccine|2017-11-21'
+	'A/swine/Iowa/A02524556/2020|C_IVA|2019-11-26'[&!color=#0000cc]
+	'A/swine/Iowa/A02524588/2020|delta1|2010-11-29'
+	'A/swine/Iowa/A02525136/2021|C_IVA|2010-12-07'[&!color=#0000cc]
+	'A/swine/Iowa/A02525376/2021|pdm-vaccine|2013-01-08'
+	'A/swine/Iowa/A02635756/2021|delta1|2012-01-05'
+	'A/swine/Iowa/A02636039/2021|delta1|2015-12-21'
+	'A/swine/Iowa/A02636187/2021|C_IVA|2010-12-22'[&!color=#0000cc]
+	'A/swine/Kansas/A01378025/2017|C_IVA|2018-07-27'[&!color=#0000cc]
+	'A/swine/Kansas/A01378039/2018|C_IVA|2021-08-26'[&!color=#0000cc]
+	'A/swine/Kansas/A01378040/2018|C_IVA|2021-08-25'[&!color=#0000cc]
+	'A/swine/Kansas/A01378042/2019|C_IVA|2016-10-10'[&!color=#0000cc]
+	'A/swine/Kansas/A01785429/2018|C_IVA|2013-08-01'[&!color=#0000cc]
+	'A/swine/Kansas/A01785536/2018|2010-human_like|2015-08-31'
+	'A/swine/Kansas/A01785589/2018|delta1|2015-09-03'
+	'A/swine/Kansas/A01785730/2018|2010-human_like|2017-09-17'
+	'A/swine/Kansas/A01785815/2019|C_IVA|2016-09-22'[&!color=#0000cc]
+	'A/swine/Kansas/A02430272/2019|C_IVA|2014-10-10'[&!color=#0000cc]
+	'A/swine/Kansas/D18_008831/2018|C_IVA|2018-01-02'[&!color=#0000cc]
+	'A/swine/Kansas/D18_018193/2018|C_IVA|2018-01-01'[&!color=#0000cc]
+	'A/swine/Kentucky/18TOSU1508/2018|C_IVA|2018-10-23'[&!color=#0000cc]
+	'A/swine/Kentucky/A02525075/2021|C_IVA|2014-12-11'[&!color=#0000cc]
+	'A/swine/Minnesota/A01076764/2010|delta1|2015-02-02'
+	'A/swine/Minnesota/A01116140/2011|delta1|2011-01-31'
+	'A/swine/Minnesota/A01134332/2010|delta1|2020-02-03'
+	'A/swine/Minnesota/A01201297/2011|delta1|2018-02-14'
+	'A/swine/Minnesota/A01202454/2011|delta1|2021-02-10'
+	'A/swine/Minnesota/A01432433/2013|C_IVB|2021-03-08'
+	'A/swine/Minnesota/A01442415/2012|delta1|2020-03-06'
+	'A/swine/Minnesota/A01480322/2014|C_IVA|2020-04-09'[&!color=#000000]
+	'A/swine/Minnesota/A01678586/2018|C_IVA|2012-08-31'[&!color=#0000cc]
+	'A/swine/Minnesota/A01781978/2016|2010-human_like|2012-06-19'
+	'A/swine/Minnesota/A01785424/2018|delta1|2013-08-01'
+	'A/swine/Minnesota/A01785497/2018|2010-human_like|2021-09-02'
+	'A/swine/Minnesota/A01785731/2018|delta1|2018-09-17'
+	'A/swine/Minnesota/A01785953/2019|C_IVA|2019-10-09'[&!color=#0000cc]
+	'A/swine/Minnesota/A01940686/2015|delta1|2015-05-13'
+	'A/swine/Minnesota/A01941693/2015|2010-human_like|2018-05-17'
+	'A/swine/Minnesota/A02157976/2018|C_IVA|2020-08-26'[&!color=#0000cc]
+	'A/swine/Minnesota/A02245014/2019|C_IVA|2019-10-15'[&!color=#0000cc]
+	'A/swine/Minnesota/A02245255/2019|C_IVA|2018-10-29'[&!color=#0000cc]
+	'A/swine/Minnesota/A02245278/2019|C_IVA|2012-11-05'[&!color=#0000cc]
+	'A/swine/Minnesota/A02245312/2019|C_IVA|2017-10-30'[&!color=#0000cc]
+	'A/swine/Minnesota/A02245655/2020|C_IVA|2011-11-22'[&!color=#0000cc]
+	'A/swine/Minnesota/A02248042/2021|C_IVA|2016-12-22'[&!color=#0000cc]
+	'A/swine/Minnesota/A02266068/2018|C_IVA|2021-09-16'[&!color=#0000cc]
+	'A/swine/Minnesota/A02525044/2021|C_IVA|2014-12-10'[&!color=#0000cc]
+	'A/swine/Minnesota/A02525130/2021|C_IVA|2011-12-30'[&!color=#0000cc]
+	'A/swine/Minnesota/A02636038/2021|gamma|2015-12-18'
+	'A/swine/Minnesota/MT_12_07_2132/2012|delta1|2017-07-25'
+	'A/swine/Missouri/A01270665/2012|delta1|2018-02-22'[&!color=#000000]
+	'A/swine/Missouri/A01432837/2013|beta|2015-03-23'
+	'A/swine/Missouri/A01672702/2017|2010-human_like|2018-07-01'
+	'A/swine/Missouri/A01774733/2016|delta1|2015-05-24'
+	'A/swine/Missouri/A01785257/2017|2010-human_like|2014-07-16'
+	'A/swine/Nebraska/A01300688/2012|beta|2012-02-09'
+	'A/swine/Nebraska/A01300759/2012|beta|2017-02-07'
+	'A/swine/Nebraska/A01395180/2013|delta1|2016-04-01'
+	'A/swine/Nebraska/A01565757/2014|C_IVA|2015-04-21'[&!color=#000000]
+	'A/swine/Nebraska/A01730138/2016|delta1|2017-07-01'
+	'A/swine/Nebraska/A01776410/2016|delta1|2021-05-25'
+	'A/swine/Nebraska/A01778559/2016|delta1|2017-06-01'
+	'A/swine/Nebraska/A01785245/2016|beta|2017-06-01'
+	'A/swine/Nebraska/A01785247/2017|delta1|2013-06-07'
+	'A/swine/Nebraska/A01785250/2017|C_IVA|2016-06-18'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785251/2017|beta|2016-06-18'
+	'A/swine/Nebraska/A01785261/2017|C_IVA|2020-06-15'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785271/2017|C_IVA|2019-07-30'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785272/2017|C_IVA|2014-08-04'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785275/2017|gamma|2014-08-04'
+	'A/swine/Nebraska/A01785278/2017|C_IVA|2020-07-30'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785278/2017|beta|2020-07-30'
+	'A/swine/Nebraska/A01785325/2017|C_IVA|2010-08-12'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785331/2017|C_IVA|2010-08-12'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785383/2017|C_IVA|2011-08-12'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785583/2018|C_IVA|2011-08-31'[&!color=#0000cc]
+	'A/swine/Nebraska/A01785951/2019|C_IVA|2019-10-09'[&!color=#0000cc]
+	'A/swine/Nebraska/A01822263/2015|beta|2019-05-01'
+	'A/swine/Nebraska/A01847285/2015|delta1|2018-05-04'
+	'A/swine/Nebraska/A01894200/2016|delta1|2011-05-26'
+	'A/swine/Nebraska/A01940577/2015|beta|2014-05-01'
+	'A/swine/Nebraska/A01941636/2015|beta|2016-05-17'
+	'A/swine/Nebraska/A01941726/2016|beta|2020-01-28'
+	'A/swine/Nebraska/A01941775/2016|beta|2016-05-17'
+	'A/swine/Nebraska/A01942119/2016|beta|2020-05-18'
+	'A/swine/Nebraska/A01943475/2016|beta|2020-05-26'
+	'A/swine/Nebraska/A02142683/2018|C_IVA|2018-08-16'[&!color=#0000cc]
+	'A/swine/Nebraska/A02155428/2018|C_IVA|2010-08-24'[&!color=#0000cc]
+	'A/swine/Nebraska/A02157995/2018|C_IVA|2013-08-28'[&!color=#0000cc]
+	'A/swine/Nebraska/A02158807/2018|C_IVA|2020-08-27'[&!color=#0000cc]
+	'A/swine/Nebraska/A02169069/2018|C_IVA|2017-08-30'[&!color=#0000cc]
+	'A/swine/Nebraska/A02171019/2018|C_IVA|2019-09-03'[&!color=#0000cc]
+	'A/swine/Nebraska/A02245112/2019|C_IVA|2020-10-17'[&!color=#0000cc]
+	'A/swine/Nebraska/A02245411/2020|C_IVA|2017-11-13'[&!color=#0000cc]
+	'A/swine/Nebraska/A02245566/2020|C_IVA|2013-11-01'[&!color=#0000cc]
+	'A/swine/Nebraska/A02254607/2018|C_IVA|2019-09-03'[&!color=#0000cc]
+	'A/swine/Nebraska/A02254616/2018|C_IVA|2018-09-04'[&!color=#0000cc]
+	'A/swine/Nebraska/A02254796/2018|C_IVA|2020-08-31'[&!color=#0000cc]
+	'A/swine/Nebraska/A02431880/2019|C_IVA|2014-10-16'[&!color=#0000cc]
+	'A/swine/Nebraska/A02432059/2019|C_IVA|2020-10-15'[&!color=#0000cc]
+	'A/swine/Nebraska/A02479422/2020|pdm-vaccine|2015-11-17'
+	'A/swine/Nebraska/A02524936/2020|pdm-vaccine|2020-12-11'
+	'A/swine/Nebraska/A02635893/2021|C_IVA|2012-01-04'[&!color=#0000cc]
+	'A/swine/Nebraska/AA01847227/2015|delta1|2016-05-04'
+	'A/swine/North_Carolina/A01394918/2013|delta1|2016-03-30'
+	'A/swine/North_Carolina/A01476199/2014|delta1|2012-04-17'
+	'A/swine/Ohio/11SW121/2011|delta1|2015-03-17'[&!color=#000000]
+	'A/swine/Ohio/11SW163/2011|C_IVA|2013-03-04'[&!color=#000000]
+	'A/swine/Ohio/11SW179/2011|C_IVA|2018-03-02'[&!color=#000000]
+	'A/swine/Ohio/11SW187/2011|C_IVA|2021-03-05'[&!color=#000000]
+	'A/swine/Ohio/11SW192/2011|delta1|2016-03-02'[&!color=#000000]
+	'A/swine/Ohio/11SW216/2011|delta1|2016-03-05'[&!color=#000000]
+	'A/swine/Ohio/11SW228/2011|delta1|2020-01-21'[&!color=#000000]
+	'A/swine/Ohio/11SW230/2011|delta1|2020-03-18'[&!color=#000000]
+	'A/swine/Ohio/11SW236/2011|delta1|2013-03-04'[&!color=#000000]
+	'A/swine/Ohio/11SW237/2011|delta1|2017-03-02'[&!color=#000000]
+	'A/swine/Ohio/11SW97/2011|C_IVA|2013-02-28'[&!color=#000000]
+	'A/swine/Ohio/16TOSU3220/2016|2010-human_like|2014-06-05'
+	'A/swine/Ohio/16TOSU8302/2016|2010-human_like|2018-07-31'
+	'A/swine/Ohio/18TOSU0342/2018|C_IVA|2020-10-23'[&!color=#0000cc]
+	'A/swine/Ohio/18TOSU0822/2018|C_IVA|2020-10-21'[&!color=#0000cc]
+	'A/swine/Ohio/9/2012|C_IVA|2018-02-13'[&!color=#000000]
+	'A/swine/Ohio/A01279011/2012|delta2|2021-02-25'[&!color=#000000]
+	'A/swine/Ohio/A01279763/2012|delta2|2016-01-19'[&!color=#000000]
+	'A/swine/Oklahoma/02985/2010|C_IV|2017-03-28'
+	'A/swine/Oklahoma/SG1501/2010|delta1|2019-03-25'
+	'A/swine/Pennsylvania/A01432652/2013|C_IVA|2017-03-14'[&!color=#000000]
+	'A/swine/Pennsylvania/A02524832/2020|C_IVA|2016-12-02'[&!color=#0000cc]
+	'A/swine/SouthDakota/A01678549/2018|C_IVA|2018-08-23'[&!color=#0000cc]
+	'A/swine/South_Dakota/20/2012|delta1|2014-02-24'
+	'A/swine/South_Dakota/A01678486/2017|C_IVA|2018-06-07'[&!color=#0000cc]
+	'A/swine/South_Dakota/A01746932/2015|delta1|2016-01-12'
+	'A/swine/South_Dakota/A02142231/2018|delta1|2016-08-16'
+	'A/swine/South_Dakota/A02245350/2019|C_IVA|2014-11-04'[&!color=#0000cc]
+	'A/swine/South_Dakota/A02478745/2019|C_IVA|2015-10-30'[&!color=#0000cc]
+	'A/swine/South_Dakota/A02525007/2020|C_IVA|2014-12-11'[&!color=#0000cc]
+	'A/swine/South_Dakota/A02636046/2021|C_IVA|2017-12-18'[&!color=#0000cc]
+	'A/swine/Texas/A02245420/2020|alpha|2017-11-15'
+;
+end;
+
+begin trees;
+	tree tree1 = [&R] ('A/swine/Nebraska/A02155428/2018|C_IVA|2010-08-24'[&ha_clade="C_IVA"]:5.5E-4,(('A/swine/Nebraska/A02142683/2018|C_IVA|2018-08-16'[&ha_clade="C_IVA"]:0.0,'A/swine/Iowa/A02138601/2017|C_IVA|2018-08-20'[&ha_clade="C_IVA"]:0.0)[&label="NODE_0000002",ha_clade="C_IVA"]:5.5E-4,(('A/swine/Nebraska/A01785951/2019|C_IVA|2019-10-09'[&ha_clade="C_IVA"]:7.5E-4,'A/swine/Nebraska/A02171019/2018|C_IVA|2019-09-03'[&ha_clade="C_IVA"]:0.00149)[&label="NODE_0000004",ha_clade="C_IVA"]:7.5E-4,('A/swine/Nebraska/A02157995/2018|C_IVA|2013-08-28'[&ha_clade="C_IVA"]:0.00149,'A/swine/Nebraska/A02158807/2018|C_IVA|2020-08-27'[&ha_clade="C_IVA"]:0.00224)[&label="NODE_0000005",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000003",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000001",ha_clade="C_IVA"]:5.5E-4,((('A/swine/Ohio/18TOSU0822/2018|C_IVA|2020-10-21'[&ha_clade="C_IVA"]:0.00149,'A/swine/Ohio/18TOSU0342/2018|C_IVA|2020-10-23'[&ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000008",ha_clade="C_IVA"]:7.4E-4,('A/swine/Indiana/18TOSU2860/2018|C_IVA|2017-10-22'[&ha_clade="C_IVA"]:7.4E-4,('A/swine/Kentucky/18TOSU1508/2018|C_IVA|2018-10-23'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Indiana/18TOSU2186/2018|C_IVA|2016-10-24'[&ha_clade="C_IVA"]:0.0,'A/swine/Indiana/18TOSU2225/2018|C_IVA|2016-10-24'[&ha_clade="C_IVA"]:0.0)[&label="NODE_0000011",ha_clade="C_IVA"]:7.5E-4)[&label="NODE_0000010",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000009",ha_clade="C_IVA"]:0.00148)[&label="NODE_0000007",ha_clade="C_IVA"]:0.00149,(((('A/swine/Kansas/D18_018193/2018|C_IVA|2018-01-01'[&ha_clade="C_IVA"]:7.5E-4,'A/swine/Kansas/A01378040/2018|C_IVA|2021-08-25'[&ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000015",ha_clade="C_IVA"]:7.2E-4,('A/swine/SouthDakota/A01678549/2018|C_IVA|2018-08-23'[&ha_clade="C_IVA"]:0.00224,'A/swine/Nebraska/A02169069/2018|C_IVA|2017-08-30'[&ha_clade="C_IVA"]:0.00224)[&label="NODE_0000016",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000014",ha_clade="C_IVA",!cartoon={4,0.02430000000000003}]:7.3E-4,('A/swine/Kansas/A01785429/2018|C_IVA|2013-08-01'[&ha_clade="C_IVA"]:5.5E-4,(('A/swine/Nebraska/A02254796/2018|C_IVA|2020-08-31'[&ha_clade="C_IVA"]:0.00149,(('A/swine/Iowa/A02157567/2018|C_IVA|2016-08-26'[&ha_clade="C_IVA"]:0.00224,'A/swine/Iowa/A01785636/2018|C_IVA|2019-09-16'[&ha_clade="C_IVA"]:0.00374)[&label="NODE_0000021",ha_clade="C_IVA"]:5.5E-4,(('A/swine/Minnesota/A02157976/2018|C_IVA|2020-08-26'[&ha_clade="C_IVA"]:0.00149,('A/swine/Kansas/A01378039/2018|C_IVA|2021-08-26'[&ha_clade="C_IVA"]:5.5E-4,'A/swine/Kansas/D18_008831/2018|C_IVA|2018-01-02'[&ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000024",ha_clade="C_IVA"]:0.00224)[&label="NODE_0000023",ha_clade="C_IVA"]:5.5E-4,('A/swine/Nebraska/A01785383/2017|C_IVA|2011-08-12'[&ha_clade="C_IVA"]:7.5E-4,('A/swine/Iowa/A01785787/2018|C_IVA|2013-09-01'[&ha_clade="C_IVA"]:0.00224,('A/swine/Nebraska/A02254607/2018|C_IVA|2019-09-03'[&ha_clade="C_IVA"]:7.4E-4,('A/swine/Pennsylvania/A02524832/2020|C_IVA|2016-12-02'[&ha_clade="C_IVA"]:0.00916,('A/swine/Minnesota/A02245278/2019|C_IVA|2012-11-05'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Nebraska/A02524936/2020|pdm-vaccine|2020-12-11'[&ha_clade="pdm-vaccine"]:0.00224,('A/swine/Nebraska/A02479422/2020|pdm-vaccine|2015-11-17'[&ha_clade="pdm-vaccine"]:0.0,'A/swine/Iowa/A02479374/2020|pdm-vaccine|2017-11-21'[&ha_clade="pdm-vaccine"]:0.0)[&label="NODE_0000031",ha_clade="pdm-vaccine"]:5.5E-4)[&label="NODE_0000030",ha_clade="pdm-vaccine"]:0.0015)[&label="NODE_0000029",ha_clade="C_IVA"]:0.00219)[&label="NODE_0000028",ha_clade="C_IVA"]:0.00682)[&label="NODE_0000027",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000026",ha_clade="C_IVA"]:7.4E-4)[&label="NODE_0000025",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000022",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000020",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000019",ha_clade="C_IVA",!cartoon={14,0.007070000000000021}]:7.4E-4,('A/swine/Minnesota/A01785953/2019|C_IVA|2019-10-09'[&ha_clade="C_IVA"]:0.00224,('A/swine/Nebraska/A01785583/2018|C_IVA|2011-08-31'[&ha_clade="C_IVA"]:5.5E-4,(('A/swine/Nebraska/A02432059/2019|C_IVA|2020-10-15'[&ha_clade="C_IVA"]:0.0,'A/swine/Nebraska/A02431880/2019|C_IVA|2014-10-16'[&ha_clade="C_IVA"]:0.0)[&label="NODE_0000035",ha_clade="C_IVA"]:0.00676,((('A/swine/Iowa/A02479024/2020|delta2|2010-11-11'[&ha_clade="delta2"]:0.00386,('A/swine/Iowa/A02479038/2020|delta1|2013-11-11'[&ha_clade="delta1"]:0.00152,'A/swine/Iowa/A02636039/2021|delta1|2015-12-21'[&ha_clade="delta1"]:0.00755)[&label="NODE_0000039",ha_clade="delta1"]:6.4E-4)[&label="NODE_0000038",ha_clade="delta1",!cartoon={3,2.7755575615628914E-17}]:0.00923,(('A/swine/Nebraska/A02245411/2020|C_IVA|2017-11-13'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Iowa/A02524556/2020|C_IVA|2019-11-26'[&ha_clade="C_IVA"]:0.00299,'A/swine/Minnesota/A02525044/2021|C_IVA|2014-12-10'[&ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000042",ha_clade="C_IVA"]:7.4E-4)[&label="NODE_0000041",ha_clade="C_IVA"]:0.0015,('A/swine/Minnesota/A02266068/2018|C_IVA|2021-09-16'[&ha_clade="C_IVA"]:7.5E-4,(('A/swine/Minnesota/A02245255/2019|C_IVA|2018-10-29'[&ha_clade="C_IVA"]:0.0038,'A/swine/Minnesota/A02245655/2020|C_IVA|2011-11-22'[&ha_clade="C_IVA"]:0.00607)[&label="NODE_0000045",ha_clade="C_IVA"]:7.0E-4,('A/swine/South_Dakota/A02478745/2019|C_IVA|2015-10-30'[&ha_clade="C_IVA"]:0.0015,('A/swine/Minnesota/A01678586/2018|C_IVA|2012-08-31'[&ha_clade="C_IVA"]:5.4E-4,('A/swine/Kansas/A01785815/2019|C_IVA|2016-09-22'[&ha_clade="C_IVA"]:5.2E-4,'A/swine/Kansas/A01378042/2019|C_IVA|2016-10-10'[&ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000048",ha_clade="C_IVA"]:0.0015)[&label="NODE_0000047",ha_clade="C_IVA"]:9.6E-4)[&label="NODE_0000046",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000044",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000043",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000040",ha_clade="C_IVA",!cartoon={10,0.009000000000000036}]:5.5E-4)[&label="NODE_0000037",ha_clade="C_IVA"]:0.00136,('A/swine/Minnesota/A02245014/2019|C_IVA|2019-10-15'[&ha_clade="C_IVA"]:0.0015,('A/swine/Iowa/A02478878/2019|C_IVA|2018-11-12'[&ha_clade="C_IVA"]:0.00376,('A/swine/Nebraska/A02245112/2019|C_IVA|2020-10-17'[&ha_clade="C_IVA"]:7.5E-4,(('A/swine/South_Dakota/A02245350/2019|C_IVA|2014-11-04'[&ha_clade="C_IVA"]:7.5E-4,'A/swine/Minnesota/A02245312/2019|C_IVA|2017-10-30'[&ha_clade="C_IVA"]:7.5E-4)[&label="NODE_0000053",ha_clade="C_IVA"]:5.5E-4,(('A/swine/Iowa/A02478976/2019|C_IVA|2019-11-13'[&ha_clade="C_IVA"]:7.5E-4,('A/swine/Kentucky/A02525075/2021|C_IVA|2014-12-11'[&ha_clade="C_IVA"]:0.00364,'A/swine/Iowa/A02525376/2021|pdm-vaccine|2013-01-08'[&ha_clade="pdm-vaccine"]:0.00608)[&label="NODE_0000056",ha_clade="C_IVA"]:8.6E-4)[&label="NODE_0000055",ha_clade="C_IVA"]:5.5E-4,('A/swine/Nebraska/A02245566/2020|C_IVA|2013-11-01'[&ha_clade="C_IVA"]:5.5E-4,(('A/swine/Minnesota/A02525130/2021|C_IVA|2011-12-30'[&ha_clade="C_IVA"]:0.00149,'A/swine/South_Dakota/A02525007/2020|C_IVA|2014-12-11'[&ha_clade="C_IVA"]:0.00603)[&label="NODE_0000059",ha_clade="C_IVA"]:5.5E-4,(('A/swine/Minnesota/A02248042/2021|C_IVA|2016-12-22'[&ha_clade="C_IVA"]:0.00225,'A/swine/Minnesota/A02636038/2021|gamma|2015-12-18'[&ha_clade="gamma"]:0.00149)[&label="NODE_0000061",ha_clade="C_IVA"]:7.6E-4,(('A/swine/Iowa/A02636187/2021|C_IVA|2010-12-22'[&ha_clade="C_IVA"]:0.00527,'A/swine/Iowa/A02525136/2021|C_IVA|2010-12-07'[&ha_clade="C_IVA"]:0.00149)[&label="NODE_0000063",ha_clade="C_IVA"]:5.5E-4,('A/swine/Nebraska/A02635893/2021|C_IVA|2012-01-04'[&ha_clade="C_IVA"]:7.5E-4,'A/swine/South_Dakota/A02636046/2021|C_IVA|2017-12-18'[&ha_clade="C_IVA"]:0.00376)[&label="NODE_0000064",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000062",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000060",ha_clade="C_IVA"]:0.0015)[&label="NODE_0000058",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000057",ha_clade="C_IVA",!cartoon={9,0.0017600000000000393}]:0.00225)[&label="NODE_0000054",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000052",ha_clade="C_IVA"]:0.00301)[&label="NODE_0000051",ha_clade="C_IVA"]:7.4E-4)[&label="NODE_0000050",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000049",ha_clade="C_IVA",!cartoon={17,0.0017600000000000393}]:0.0015)[&label="NODE_0000036",ha_clade="C_IVA"]:0.00137)[&label="NODE_0000034",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000033",ha_clade="C_IVA"]:5.3E-4)[&label="NODE_0000032",ha_clade="C_IVA"]:0.0055)[&label="NODE_0000018",ha_clade="C_IVA"]:5.4E-4)[&label="NODE_0000017",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000013",ha_clade="C_IVA"]:5.5E-4,('A/swine/Nebraska/A02254616/2018|C_IVA|2018-09-04'[&ha_clade="C_IVA"]:0.0045,('A/swine/South_Dakota/A01678486/2017|C_IVA|2018-06-07'[&ha_clade="C_IVA"]:0.00149,(('A/swine/Nebraska/A01785275/2017|gamma|2014-08-04'[&ha_clade="gamma"]:5.5E-4,('A/swine/Nebraska/A01785325/2017|C_IVA|2010-08-12'[&ha_clade="C_IVA"]:0.00224,'A/swine/Iowa/A02219578/2017|delta1|2017-08-01'[&ha_clade="delta1"]:0.00224)[&label="NODE_0000069",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000068",ha_clade="C_IVA"]:7.4E-4,(('A/swine/Nebraska/A01785272/2017|C_IVA|2014-08-04'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Kansas/A02430272/2019|C_IVA|2014-10-10'[&ha_clade="C_IVA"]:7.4E-4,'A/swine/Iowa/A02431991/2019|C_IVA|2015-10-16'[&ha_clade="C_IVA"]:0.00226)[&label="NODE_0000072",ha_clade="C_IVA"]:0.00753)[&label="NODE_0000071",ha_clade="C_IVA"]:7.4E-4,('A/swine/Nebraska/A01785331/2017|C_IVA|2010-08-12'[&ha_clade="C_IVA"]:0.00224,('A/swine/Nebraska/A01785261/2017|C_IVA|2020-06-15'[&ha_clade="C_IVA"]:0.00149,(('A/swine/Nebraska/A01785250/2017|C_IVA|2016-06-18'[&ha_clade="C_IVA"]:0.0,'A/swine/Nebraska/A01785271/2017|C_IVA|2019-07-30'[&ha_clade="C_IVA"]:0.0)[&label="NODE_0000076",ha_clade="C_IVA"]:5.5E-4,('A/swine/Kansas/A01378025/2017|C_IVA|2018-07-27'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Nebraska/A01941775/2016|beta|2016-05-17'[&ha_clade="beta"]:5.5E-4,('A/swine/Nebraska/A01942119/2016|beta|2020-05-18'[&ha_clade="beta"]:5.5E-4,(('A/swine/Nebraska/A01941636/2015|beta|2016-05-17'[&ha_clade="beta"]:0.00149,('A/swine/Nebraska/A01940577/2015|beta|2014-05-01'[&ha_clade="beta"]:7.4E-4,('A/swine/Nebraska/A01941726/2016|beta|2020-01-28'[&ha_clade="beta"]:0.00299,('A/swine/Nebraska/A01943475/2016|beta|2020-05-26'[&ha_clade="beta"]:0.00151,('A/swine/Nebraska/A01785251/2017|beta|2016-06-18'[&ha_clade="beta"]:7.4E-4,('A/swine/Nebraska/A01785245/2016|beta|2017-06-01'[&ha_clade="beta"]:0.0,'A/swine/Nebraska/A01785278/2017|beta|2020-07-30'[&ha_clade="beta"]:0.0,'A/swine/Nebraska/A01785278/2017|C_IVA|2020-07-30'[&ha_clade="C_IVA"]:0.0)[&label="NODE_0000086",ha_clade="beta"]:5.5E-4)[&label="NODE_0000085",ha_clade="beta"]:0.00299)[&label="NODE_0000084",ha_clade="beta"]:7.5E-4)[&label="NODE_0000083",ha_clade="beta"]:0.0015)[&label="NODE_0000082",ha_clade="beta"]:5.5E-4)[&label="NODE_0000081",ha_clade="beta",!cartoon={8,0.03223000000000002}]:0.0015,('A/swine/Nebraska/A01822263/2015|beta|2019-05-01'[&ha_clade="beta"]:7.4E-4,(('A/swine/Missouri/A01432837/2013|beta|2015-03-23'[&ha_clade="beta"]:0.00149,('A/swine/Illinois/A01555015/2014|beta|2016-06-28'[&ha_clade="beta"]:7.4E-4,'A/swine/Iowa/A01795483/2015|beta|2017-07-01'[&ha_clade="beta"]:0.00523)[&label="NODE_0000090",ha_clade="beta"]:0.00448)[&label="NODE_0000089",ha_clade="beta"]:5.5E-4,('A/swine/Minnesota/A01940686/2015|delta1|2015-05-13'[&ha_clade="delta1"]:0.01583,(('A/swine/Nebraska/A01300759/2012|beta|2017-02-07'[&ha_clade="beta"]:0.0,'A/swine/Nebraska/A01300688/2012|beta|2012-02-09'[&ha_clade="beta"]:0.0)[&label="NODE_0000093",ha_clade="beta"]:5.5E-4,('A/swine/Oklahoma/SG1501/2010|delta1|2019-03-25'[&ha_clade="delta1"]:0.00857,((('A/swine/Minnesota/A01116140/2011|delta1|2011-01-31'[&ha_clade="delta1"]:0.00756,'A/swine/Minnesota/A01201297/2011|delta1|2018-02-14'[&ha_clade="delta1"]:0.00612)[&label="NODE_0000097",ha_clade="delta1",!cartoon={2,0.046520000000000006}]:0.00373,('A/swine/Minnesota/A01202454/2011|delta1|2021-02-10'[&ha_clade="delta1"]:0.01514,('A/swine/Illinois/A02090943/2015|C_IVE|2019-05-12'[&ha_clade="C_IVE"]:0.01941,'A/swine/Missouri/A01774733/2016|delta1|2015-05-24'[&ha_clade="delta1"]:0.01548)[&label="NODE_0000099",ha_clade="delta1"]:0.01159)[&label="NODE_0000098",ha_clade="delta1"]:7.6E-4)[&label="NODE_0000096",ha_clade="delta1"]:0.0014,((('A/swine/Nebraska/A01894200/2016|delta1|2011-05-26'[&ha_clade="delta1"]:0.00301,(('A/swine/Iowa/A02266140/2018|delta1|2019-08-07'[&ha_clade="delta1"]:0.01014,'A/swine/Minnesota/A01785731/2018|delta1|2018-09-17'[&ha_clade="delta1"]:0.01279)[&label="NODE_0000104",ha_clade="delta1"]:0.00834,('A/swine/South_Dakota/A02142231/2018|delta1|2016-08-16'[&ha_clade="delta1"]:0.01184,(('A/swine/Iowa/A02524588/2020|delta1|2010-11-29'[&ha_clade="delta1"]:0.00926,'A/swine/Iowa/A02635756/2021|delta1|2012-01-05'[&ha_clade="delta1"]:0.00592)[&label="NODE_0000107",ha_clade="delta1"]:0.01036,('A/swine/Nebraska/A01785247/2017|delta1|2013-06-07'[&ha_clade="delta1"]:7.4E-4,('A/swine/Minnesota/A01785424/2018|delta1|2013-08-01'[&ha_clade="delta1"]:0.003,'A/swine/Iowa/A02256790/2018|delta1|2015-09-09'[&ha_clade="delta1"]:0.00451)[&label="NODE_0000109",ha_clade="delta1"]:0.00152)[&label="NODE_0000108",ha_clade="delta1"]:0.0073)[&label="NODE_0000106",ha_clade="delta1"]:0.00297)[&label="NODE_0000105",ha_clade="delta1"]:0.0023)[&label="NODE_0000103",ha_clade="delta1"]:0.00107)[&label="NODE_0000102",ha_clade="delta1",!cartoon={9,0.006649999999999989}]:0.02527,(('A/swine/Oklahoma/02985/2010|C_IV|2017-03-28'[&ha_clade="C_IV"]:0.00768,'A/swine/Nebraska/A01776410/2016|delta1|2021-05-25'[&ha_clade="delta1"]:0.04522)[&label="NODE_0000111",ha_clade="delta1"]:0.00391,(('A/swine/Minnesota/A01076764/2010|delta1|2015-02-02'[&ha_clade="delta1"]:0.01058,'A/swine/Iowa/A01202612/2011|delta1|2020-02-03'[&ha_clade="delta1"]:0.00679)[&label="NODE_0000113",ha_clade="delta1"]:0.00584,('A/swine/Kansas/A01785589/2018|delta1|2015-09-03'[&ha_clade="delta1"]:0.02641,((('A/swine/Iowa/A01945783/2015|gamma|2011-07-12'[&ha_clade="gamma"]:0.003,'A/swine/Nebraska/A01730138/2016|delta1|2017-07-01'[&ha_clade="delta1"]:0.00225)[&label="NODE_0000117",ha_clade="delta1"]:0.00183,('A/swine/Iowa/A01781973/2016|C_IV|2017-06-01'[&ha_clade="C_IV"]:0.00715,'A/swine/Minnesota/A01785497/2018|2010-human_like|2021-09-02'[&ha_clade="2010-human_like"]:0.00881)[&label="NODE_0000118",ha_clade="delta1"]:0.00453)[&label="NODE_0000116",ha_clade="delta1"]:0.00275,('A/swine/Iowa/A01476715/2014|delta1|2021-04-23'[&ha_clade="delta1"]:0.00932,('A/swine/South_Dakota/A01746932/2015|delta1|2016-01-12'[&ha_clade="delta1"]:0.01537,('A/swine/Illinois/A01489872/2014|delta1|2013-04-30'[&ha_clade="delta1"]:0.00627,('A/swine/Iowa/A02221866/2017|delta1|2011-08-12'[&ha_clade="delta1"]:0.01598,('A/swine/Nebraska/A01778559/2016|delta1|2017-06-01'[&ha_clade="delta1"]:0.00678,('A/swine/Nebraska/AA01847227/2015|delta1|2016-05-04'[&ha_clade="delta1"]:0.0,'A/swine/Nebraska/A01847285/2015|delta1|2018-05-04'[&ha_clade="delta1"]:0.0)[&label="NODE_0000124",ha_clade="delta1"]:0.0015)[&label="NODE_0000123",ha_clade="delta1"]:0.0038)[&label="NODE_0000122",ha_clade="delta1"]:0.00355)[&label="NODE_0000121",ha_clade="delta1"]:7.5E-4)[&label="NODE_0000120",ha_clade="delta1"]:7.0E-4)[&label="NODE_0000119",ha_clade="delta1",!cartoon={7,0.0021000000000000046}]:5.5E-4)[&label="NODE_0000115",ha_clade="delta1"]:0.00278)[&label="NODE_0000114",ha_clade="delta1"]:0.01272)[&label="NODE_0000112",ha_clade="delta1"]:0.01805)[&label="NODE_0000110",ha_clade="delta1"]:7.0E-4)[&label="NODE_0000101",ha_clade="delta1"]:7.8E-4,('A/swine/Ohio/9/2012|C_IVA|2018-02-13'[&ha_clade="C_IVA"]:0.01542,(((('A/swine/Iowa/A01445788/2013|delta1|2020-01-22'[&ha_clade="delta1"]:0.00524,('A/swine/Minnesota/A01480322/2014|C_IVA|2020-04-09'[&ha_clade="C_IVA"]:0.00143,'A/swine/Nebraska/A01565757/2014|C_IVA|2015-04-21'[&ha_clade="C_IVA"]:0.00455)[&label="NODE_0000130",ha_clade="C_IVA"]:0.00609)[&label="NODE_0000129",ha_clade="delta1"]:5.5E-4,(('A/swine/Ohio/11SW187/2011|C_IVA|2021-03-05'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Indiana/A01260188/2013|delta1|2020-04-08'[&ha_clade="delta1"]:0.00751,'A/swine/Ohio/11SW121/2011|delta1|2015-03-17'[&ha_clade="delta1"]:5.5E-4)[&label="NODE_0000133",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000132",ha_clade="delta1"]:5.5E-4,(('A/swine/Ohio/11SW179/2011|C_IVA|2018-03-02'[&ha_clade="C_IVA"]:7.3E-4,'A/swine/Ohio/11SW97/2011|C_IVA|2013-02-28'[&ha_clade="C_IVA"]:0.00147)[&label="NODE_0000135",ha_clade="C_IVA"]:5.5E-4,('A/swine/Ohio/11SW230/2011|delta1|2020-03-18'[&ha_clade="delta1"]:5.5E-4,('A/swine/Ohio/11SW236/2011|delta1|2013-03-04'[&ha_clade="delta1"]:0.0,'A/swine/Ohio/11SW216/2011|delta1|2016-03-05'[&ha_clade="delta1"]:0.0,'A/swine/Ohio/11SW237/2011|delta1|2017-03-02'[&ha_clade="delta1"]:0.0,'A/swine/Ohio/11SW228/2011|delta1|2020-01-21'[&ha_clade="delta1"]:0.0)[&label="NODE_0000137",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000136",ha_clade="delta1"]:7.3E-4)[&label="NODE_0000134",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000131",ha_clade="delta1"]:7.5E-4)[&label="NODE_0000128",ha_clade="delta1"]:7.4E-4,('A/swine/Iowa/A01049723/2011|delta1|2011-01-19'[&ha_clade="delta1"]:0.00373,(('A/swine/Illinois/A01201154/2011|delta1|2018-01-30'[&ha_clade="delta1"]:0.00448,('A/swine/Illinois/A01134653/2011|delta1|2021-01-29'[&ha_clade="delta1"]:0.0,'A/swine/Illinois/A01047099/2010|delta1|2015-01-27'[&ha_clade="delta1"]:0.0,'A/swine/Illinois/A01047153/2010|delta1|2020-01-09'[&ha_clade="delta1"]:0.0)[&label="NODE_0000141",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000140",ha_clade="delta1"]:5.5E-4,(('A/swine/Ohio/11SW192/2011|delta1|2016-03-02'[&ha_clade="delta1"]:7.3E-4,('A/swine/Illinois/A01116945/2011|delta1|2015-01-29'[&ha_clade="delta1"]:5.5E-4,'A/swine/Ohio/11SW163/2011|C_IVA|2013-03-04'[&ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000144",ha_clade="delta1"]:7.3E-4)[&label="NODE_0000143",ha_clade="delta1"]:0.00198,(('A/swine/Illinois/A01398533/2013|delta1|2016-03-24'[&ha_clade="delta1"]:0.00748,('A/swine/Iowa/A01432604/2013|gamma|2016-03-14'[&ha_clade="gamma"]:7.6E-4,'A/swine/Missouri/A01270665/2012|delta1|2018-02-22'[&ha_clade="delta1"]:0.00148)[&label="NODE_0000147",ha_clade="delta1"]:7.5E-4)[&label="NODE_0000146",ha_clade="delta1"]:5.4E-4,('A/swine/Illinois/A01291476/2013|delta1|2014-03-26'[&ha_clade="delta1"]:0.01363,('A/swine/Illinois/A01445274/2013|delta1|2021-03-08'[&ha_clade="delta1"]:0.00374,('A/swine/Illinois/A01444083/2012|delta1|2011-03-07'[&ha_clade="delta1"]:5.5E-4,'A/swine/Illinois/A01397556/2013|delta1|2017-03-21'[&ha_clade="delta1"]:0.00675)[&label="NODE_0000150",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000149",ha_clade="delta1"]:0.00444)[&label="NODE_0000148",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000145",ha_clade="delta1"]:7.4E-4)[&label="NODE_0000142",ha_clade="delta1"]:5.3E-4)[&label="NODE_0000139",ha_clade="delta1"]:0.00146)[&label="NODE_0000138",ha_clade="delta1",!cartoon={15,0.027389999999999984}]:5.5E-4)[&label="NODE_0000127",ha_clade="delta1"]:5.5E-4,(((('A/swine/Illinois/A01327903/2012|C_IVA|2015-02-19'[&ha_clade="C_IVA"]:0.00224,'A/swine/Illinois/A01241840/2012|C_IVA|2014-02-01'[&ha_clade="C_IVA"]:0.003)[&label="NODE_0000154",ha_clade="C_IVA",!cartoon={2,0.03831999999999999}]:0.00224,('A/swine/Illinois/A00857134/2011|C_IVA|2019-05-09'[&ha_clade="C_IVA"]:5.5E-4,('A/swine/Pennsylvania/A01432652/2013|C_IVA|2017-03-14'[&ha_clade="C_IVA"]:0.006,('A/swine/Ohio/A01279011/2012|delta2|2021-02-25'[&ha_clade="delta2"]:0.00149,'A/swine/Ohio/A01279763/2012|delta2|2016-01-19'[&ha_clade="delta2"]:0.0015)[&label="NODE_0000157",ha_clade="delta2"]:0.00375)[&label="NODE_0000156",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000155",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000153",ha_clade="C_IVA"]:7.4E-4,('A/swine/Illinois/A01047353/2011|delta1|2014-01-28'[&ha_clade="delta1"]:0.00149,(('A/swine/Minnesota/A01134332/2010|delta1|2020-02-03'[&ha_clade="delta1"]:5.5E-4,'A/swine/South_Dakota/20/2012|delta1|2014-02-24'[&ha_clade="delta1"]:0.00981)[&label="NODE_0000160",ha_clade="delta1"]:0.00224,('A/swine/Illinois/A01291429/2013|delta1|2015-03-25'[&ha_clade="delta1"]:0.0144,('A/swine/Minnesota/MT_12_07_2132/2012|delta1|2017-07-25'[&ha_clade="delta1"]:0.00804,('A/swine/Minnesota/A01442415/2012|delta1|2020-03-06'[&ha_clade="delta1"]:0.00826,('A/swine/Minnesota/A01432433/2013|C_IVB|2021-03-08'[&ha_clade="C_IVB"]:0.01226,'A/swine/Nebraska/A01395180/2013|delta1|2016-04-01'[&ha_clade="delta1"]:0.01456)[&label="NODE_0000164",ha_clade="delta1"]:5.7E-4)[&label="NODE_0000163",ha_clade="delta1"]:7.5E-4)[&label="NODE_0000162",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000161",ha_clade="delta1"]:0.00176)[&label="NODE_0000159",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000158",ha_clade="delta1",!cartoon={8,0.02500999999999999}]:5.5E-4)[&label="NODE_0000152",ha_clade="delta1"]:5.5E-4,(('A/swine/Illinois/A01116186/2011|delta1|2016-02-08'[&ha_clade="delta1"]:7.4E-4,('A/swine/North_Carolina/A01476199/2014|delta1|2012-04-17'[&ha_clade="delta1"]:0.00601,'A/swine/North_Carolina/A01394918/2013|delta1|2016-03-30'[&ha_clade="delta1"]:0.00606)[&label="NODE_0000167",ha_clade="delta1"]:0.0076)[&label="NODE_0000166",ha_clade="delta1"]:5.5E-4,('A/swine/Iowa/A01410614/2014|delta1|2018-04-11'[&ha_clade="delta1"]:0.00305,('A/swine/Minnesota/A01941693/2015|2010-human_like|2018-05-17'[&ha_clade="2010-human_like"]:0.01071,(('A/swine/Iowa/A02216453/2017|2010-human_like|2019-07-29'[&ha_clade="2010-human_like"]:0.00449,('A/swine/Minnesota/A01781978/2016|2010-human_like|2012-06-19'[&ha_clade="2010-human_like"]:0.0,'A/swine/Iowa/A01671940/2016|2010-human_like|2013-06-13'[&ha_clade="2010-human_like"]:0.0)[&label="NODE_0000172",ha_clade="2010-human_like"]:0.00148)[&label="NODE_0000171",ha_clade="2010-human_like"]:0.00232,('A/swine/Iowa/A01733867/2016|2010-human_like|2011-05-26'[&ha_clade="2010-human_like"]:7.5E-4,(('A/swine/Ohio/16TOSU3220/2016|2010-human_like|2014-06-05'[&ha_clade="2010-human_like"]:7.5E-4,'A/swine/Iowa/16TOSU8488/2016|2010-human_like|2021-08-04'[&ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000175",ha_clade="2010-human_like"]:5.5E-4,('A/swine/Ohio/16TOSU8302/2016|2010-human_like|2018-07-31'[&ha_clade="2010-human_like"]:5.5E-4,('A/swine/Iowa/16TOSU2428/2016|2010-human_like|2018-08-29'[&ha_clade="2010-human_like"]:5.5E-4,('A/swine/Arkansas/A02139135/2017|2010-human_like|2014-08-18'[&ha_clade="2010-human_like"]:0.00675,(('A/swine/Kansas/A01785536/2018|2010-human_like|2015-08-31'[&ha_clade="2010-human_like"]:0.00301,('A/swine/Kansas/A01785730/2018|2010-human_like|2017-09-17'[&ha_clade="2010-human_like"]:5.5E-4,'A/swine/Texas/A02245420/2020|alpha|2017-11-15'[&ha_clade="alpha"]:0.00675)[&label="NODE_0000181",ha_clade="2010-human_like"]:7.3E-4)[&label="NODE_0000180",ha_clade="2010-human_like"]:0.0045,('A/swine/Illinois/0TM119/2017|2010-human_like|2018-11-06'[&ha_clade="2010-human_like"]:0.00209,('A/swine/Illinois/A01671222/2016|2010-human_like|2012-06-25'[&ha_clade="2010-human_like"]:7.6E-4,('A/swine/Missouri/A01672702/2017|2010-human_like|2018-07-01'[&ha_clade="2010-human_like"]:7.4E-4,'A/swine/Missouri/A01785257/2017|2010-human_like|2014-07-16'[&ha_clade="2010-human_like"]:0.00374)[&label="NODE_0000184",ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000183",ha_clade="2010-human_like"]:0.00148)[&label="NODE_0000182",ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000179",ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000178",ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000177",ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000176",ha_clade="2010-human_like"]:5.5E-4)[&label="NODE_0000174",ha_clade="2010-human_like"]:0.00293)[&label="NODE_0000173",ha_clade="2010-human_like"]:6.5E-4)[&label="NODE_0000170",ha_clade="2010-human_like"]:0.00524)[&label="NODE_0000169",ha_clade="2010-human_like",!cartoon={17,0.013160000000000005}]:0.00138)[&label="NODE_0000168",ha_clade="delta1"]:0.00585)[&label="NODE_0000165",ha_clade="delta1"]:0.00146)[&label="NODE_0000151",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000126",ha_clade="delta1"]:0.00437)[&label="NODE_0000125",ha_clade="delta1"]:0.00889)[&label="NODE_0000100",ha_clade="delta1"]:5.5E-4)[&label="NODE_0000095",ha_clade="delta1"]:0.00203)[&label="NODE_0000094",ha_clade="delta1"]:0.0111)[&label="NODE_0000092",ha_clade="beta"]:7.4E-4)[&label="NODE_0000091",ha_clade="beta"]:0.00144)[&label="NODE_0000088",ha_clade="beta"]:0.01109)[&label="NODE_0000087",ha_clade="beta"]:0.00147)[&label="NODE_0000080",ha_clade="beta"]:0.00219)[&label="NODE_0000079",ha_clade="beta"]:7.3E-4)[&label="NODE_0000078",ha_clade="beta"]:0.00292)[&label="NODE_0000077",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000075",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000074",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000073",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000070",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000067",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000066",ha_clade="C_IVA"]:9.1E-4)[&label="NODE_0000065",ha_clade="C_IVA"]:0.00184)[&label="NODE_0000012",ha_clade="C_IVA",!cartoon={13,0.02317000000000001}]:7.6E-4)[&label="NODE_0000006",ha_clade="C_IVA"]:5.5E-4)[&label="NODE_0000000"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="ha_clade";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Adobe Devanagari";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="ha_clade";
+	set legend.fontSize=18.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="ha_clade";
+	set nodeLabels.fontName="Adobe Devanagari";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Adobe Devanagari";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
