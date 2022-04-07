@@ -1,0 +1,433 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=331;
+	taxlabels
+	'A/Alabama/02/2009|Human-09'[&!color=#cc0000]
+	'A/Arkansas/05/2016|Human-16'[&!color=#cc0000]
+	'A/Boston/DOA2_099/2012|Human-13'[&!color=#cc0000]
+	'A/Boston/YGA_01202/2013|Human-13'[&!color=#cc0000]
+	'A/Boston/YGA_01218/2013|Human-13'[&!color=#cc0000]
+	'A/California/06/2017|Human-17'[&!color=#cc0000]
+	'A/California/17/2017|Human-17'[&!color=#cc0000]
+	'A/California/44/2018|Human-18'[&!color=#cc0000]
+	'A/California/49/2015|Human-15'[&!color=#cc0000]
+	'A/California/56/2014|Human-15'[&!color=#cc0000]
+	'A/Connecticut/32/2016|Human-16'[&!color=#cc0000]
+	'A/Connecticut/45/2016|Human-17'[&!color=#cc0000]
+	'A/Connecticut/Flu113/2013|Human-13'[&!color=#cc0000]
+	'A/Connecticut/Flu150/2013|Human-13'[&!color=#cc0000]
+	'A/Delaware/40/2015|Human-15'[&!color=#cc0000]
+	'A/Florida/62/2014|Human-15'[&!color=#cc0000]
+	'A/Florida/99/2017|Human-18'[&!color=#cc0000]
+	'A/Georgia/39/2016|Human-16'[&!color=#cc0000]
+	'A/Georgia/63/2016|Human-17'[&!color=#cc0000]
+	'A/Houston/JMM_155/2013|Human-13'[&!color=#cc0000]
+	'A/Illinois/16/2018|Human-18'[&!color=#cc0000]
+	'A/Iowa/01/2015|Human-15'[&!color=#cc0000]
+	'A/Iowa/64/2018|Human-19'[&!color=#cc0000]
+	'A/Iowa/79/2017|Human-18'[&!color=#cc0000]
+	'A/Kansas/14/2016|Human-16'[&!color=#cc0000]
+	'A/Louisiana/03/2015|Human-15'[&!color=#cc0000]
+	'A/Maryland/27/2017|Human-17'[&!color=#cc0000]
+	'A/Maryland/49/2018|Human-19'[&!color=#cc0000]
+	'A/Massachusetts/20/2016|Human-16'[&!color=#cc0000]
+	'A/Minnesota/29/2016|Human-16'[&!color=#cc0000]
+	'A/Minnesota/38/2016|Human-16'[&!color=#cc0000]
+	'A/Montana/08/2015|Human-15'[&!color=#cc0000]
+	'A/Montana/28/2016|Human-16'[&!color=#cc0000]
+	'A/Montana/50/2016|Human-17'[&!color=#cc0000]
+	'A/Nebraska/07/2018|Human-18'[&!color=#cc0000]
+	'A/Nevada/08/2016|Human-16'[&!color=#cc0000]
+	'A/Nevada/7560/2018|Human-19'[&!color=#cc0000]
+	'A/New_Hampshire/26/2018|Human-19'[&!color=#cc0000]
+	'A/New_Jersey/56/2018|Human-19'[&!color=#cc0000]
+	'A/New_Mexico/17/2015|Human-15'[&!color=#cc0000]
+	'A/New_York/24/2018|Human-18'[&!color=#cc0000]
+	'A/New_York/41/2014|Human-15'[&!color=#cc0000]
+	'A/New_York/51/2018|Human-19'[&!color=#cc0000]
+	'A/New_York/58/2018|Human-19'[&!color=#cc0000]
+	'A/New_York/WC_LVD_13_003/2013|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_13_015/2013|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_13_022/2013|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_011/2014|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_015/2014|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_031/2014|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_033/2014|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_037/2014|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_042/2014|Human-14'[&!color=#cc0000]
+	'A/New_York/WC_LVD_14_043/2014|Human-14'[&!color=#cc0000]
+	'A/North_Carolina/08/2011|Human-11'[&!color=#cc0000]
+	'A/North_Carolina/13/2017|Human-17'[&!color=#cc0000]
+	'A/North_Carolina/40/2018|Human-18'[&!color=#cc0000]
+	'A/North_Carolina/61/2016|Human-17'[&!color=#cc0000]
+	'A/North_Carolina/7036/2018|Human-18'[&!color=#cc0000]
+	'A/North_Dakota/28/2018|Human-18'[&!color=#cc0000]
+	'A/Ohio/07/2017|Human-17'[&!color=#cc0000]
+	'A/Oklahoma/7042/2018|Human-18'[&!color=#cc0000]
+	'A/Pennsylvania/504/2018|Human-19'[&!color=#cc0000]
+	'A/Rochester/0069/2013|Human-13'[&!color=#cc0000]
+	'A/Santa_Clara/YGA_03031/2013|Human-13'[&!color=#cc0000]
+	'A/Santa_Clara/YGA_03033/2013|Human-13'[&!color=#cc0000]
+	'A/Santa_Clara/YGA_03053/2013|Human-13'[&!color=#cc0000]
+	'A/South_Dakota/45/2018|Human-19'[&!color=#cc0000]
+	'A/Texas/103/2017|Human-17'[&!color=#cc0000]
+	'A/Texas/23/2012|Human-12'[&!color=#cc0000]
+	'A/Utah/43/2018|Human-19'[&!color=#cc0000]
+	'A/Washington/73/2016|Human-16'[&!color=#cc0000]
+	'A/Wisconsin/629_S1397/2009|Human-10'[&!color=#cc0000]
+	'A/swine/Arizona/A02524632/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Arkansas/A01476717/2014|gamma'
+	'A/swine/Arkansas/A01555090/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/Arkansas/A01840184/2014|gamma'
+	'A/swine/Arkansas/A02218161/2017|gamma'
+	'A/swine/California/A00968949/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/California/A01104141/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/California/A01104142/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Colorado/A01668653/2016|delta1b'
+	'A/swine/Illinois/A00843191/2013|delta1b'
+	'A/swine/Illinois/A00857318a/2012|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A01125988/2012|delta1b'
+	'A/swine/Illinois/A01158947/2012|delta1b'
+	'A/swine/Illinois/A01203226/2012|gamma'
+	'A/swine/Illinois/A01243094/2012|delta1b'
+	'A/swine/Illinois/A01328594/2012|delta1b'
+	'A/swine/Illinois/A01427261/2013|gamma'
+	'A/swine/Illinois/A01427305/2013|gamma'
+	'A/swine/Illinois/A01427360/2013|gamma'
+	'A/swine/Illinois/A01444513/2013|delta1b'
+	'A/swine/Illinois/A01565507/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A01672615/2017|delta2'
+	'A/swine/Illinois/A01778711/2016|delta2'
+	'A/swine/Illinois/A01782816/2016|delta1a'
+	'A/swine/Illinois/A01895418/2016|delta1a'
+	'A/swine/Illinois/A02024646/2015|gamma'
+	'A/swine/Illinois/A02090113/2015|gamma'
+	'A/swine/Illinois/A02139356/2018|delta2'
+	'A/swine/Illinois/A02215044/2017|delta1a'
+	'A/swine/Illinois/A02218757/2017|2010.1'
+	'A/swine/Illinois/A02223243/2017|delta1a'
+	'A/swine/Illinois/A02427656/2018|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A02478510/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A02478564/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A02478926/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A02479016/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A02479045/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Illinois/A02524485/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/13TOSU1207/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/13TOSU1217/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/13TOSU5095/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A00968358/2012|delta1b'
+	'A/swine/Indiana/A00968366/2012|delta1b'
+	'A/swine/Indiana/A01203372/2012|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A01260254/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A01260976/2015|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A01778367/2016|delta1b'
+	'A/swine/Indiana/A01812202/2016|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A01812305/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02136747/2017|delta2'
+	'A/swine/Indiana/A02216644/2017|gamma'
+	'A/swine/Indiana/A02478727/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02478890/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02478980/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02479023/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02479029/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02479057/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02479148/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02479161/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02479428/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Indiana/A02524539/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H065/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H073/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H076/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H090/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H091/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H092/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/13H098/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A01668528/2016|gamma'
+	'A/swine/Iowa/A01668659/2016|delta2'
+	'A/swine/Iowa/A01671454/2016|delta1a'
+	'A/swine/Iowa/A01671477/2016|delta1b'
+	'A/swine/Iowa/A01776531/2016|gamma'
+	'A/swine/Iowa/A01777665/2016|delta1b'
+	'A/swine/Iowa/A01777892/2016|delta1a'
+	'A/swine/Iowa/A01777895/2016|delta1b'
+	'A/swine/Iowa/A01778372/2016|delta1a'
+	'A/swine/Iowa/A01781050/2016|gamma'
+	'A/swine/Iowa/A01781147/2016|delta1a'
+	'A/swine/Iowa/A01781219/2016|delta2'
+	'A/swine/Iowa/A01782281/2016|delta1b'
+	'A/swine/Iowa/A01797178/2015|delta1a'
+	'A/swine/Iowa/A01932420/2017|gamma'
+	'A/swine/Iowa/A01941927/2016|gamma'
+	'A/swine/Iowa/A02077646/2015|2010.1'
+	'A/swine/Iowa/A02134229/2017|delta1b'
+	'A/swine/Iowa/A02134236/2017|delta1a'
+	'A/swine/Iowa/A02135000/2017|2010.1'
+	'A/swine/Iowa/A02137183/2017|delta1b'
+	'A/swine/Iowa/A02139353/2018|2010.1'
+	'A/swine/Iowa/A02140816/2018|delta2'
+	'A/swine/Iowa/A02214242/2017|delta1b'
+	'A/swine/Iowa/A02214654/2017|delta1b'
+	'A/swine/Iowa/A02215041/2017|gamma'
+	'A/swine/Iowa/A02216044/2017|gamma'
+	'A/swine/Iowa/A02216716/2017|delta2'
+	'A/swine/Iowa/A02217286/2017|delta1a'
+	'A/swine/Iowa/A02217289/2017|delta2'
+	'A/swine/Iowa/A02218171/2017|gamma'
+	'A/swine/Iowa/A02218755/2017|gamma'
+	'A/swine/Iowa/A02219790/2017|delta2'
+	'A/swine/Iowa/A02221508/2017|gamma'
+	'A/swine/Iowa/A02221865/2017|delta1a'
+	'A/swine/Iowa/A02223025/2017|gamma'
+	'A/swine/Iowa/A02223241/2017|gamma'
+	'A/swine/Iowa/A02223471/2017|delta2'
+	'A/swine/Iowa/A02432156/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02478553/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02478584/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02478604/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02478636/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02479026/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02479154/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02479259/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02479304/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02479429/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524423/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524435/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524447/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524509/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524591/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524639/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524689/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Iowa/A02524768/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Kansas/A01290646/2013|delta1b'
+	'A/swine/Kansas/A01777675/2016|delta1b'
+	'A/swine/Kansas/A01781760/2016|delta1b'
+	'A/swine/Kansas/A01782583/2016|delta1b'
+	'A/swine/Kansas/A02245371/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Michigan/A02479299/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Minnesota/A01279807/2012|delta1b'
+	'A/swine/Minnesota/A01349281/2013|delta1b'
+	'A/swine/Minnesota/A01567011/2014|delta1a'
+	'A/swine/Minnesota/A01567012/2014|delta1a'
+	'A/swine/Minnesota/A01567013/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/Minnesota/A01567671/2015|delta1a'
+	'A/swine/Minnesota/A01567833/2015|delta1a'
+	'A/swine/Minnesota/A01672344/2017|gamma'
+	'A/swine/Minnesota/A01676797/2016|delta1b'
+	'A/swine/Minnesota/A01781044/2016|2010.1'
+	'A/swine/Minnesota/A02245661/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Minnesota/A02524484/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Minnesota/A02524760/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Missouri/A01567015/2014|gamma'
+	'A/swine/Missouri/A01668216/2016|gamma'
+	'A/swine/Missouri/A01671486/2016|delta1a'
+	'A/swine/Missouri/A02136836/2017|gamma'
+	'A/swine/Missouri/A02139358/2018|gamma'
+	'A/swine/Missouri/A02524505/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Missouri/A02524544/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Nebraska/A01277808/2012|delta1b'
+	'A/swine/Nebraska/A01300150/2012|delta1b'
+	'A/swine/Nebraska/A01350362/2013|delta1a'
+	'A/swine/Nebraska/A01379861/2013|delta1b'
+	'A/swine/Nebraska/A01381819/2013|delta1b'
+	'A/swine/Nebraska/A01443969/2013|delta1b'
+	'A/swine/Nebraska/A01444489/2013|delta1b'
+	'A/swine/Nebraska/A01476438/2014|delta1b'
+	'A/swine/Nebraska/A01476672/2014|delta1a'
+	'A/swine/Nebraska/A01554747/2015|delta1a'
+	'A/swine/Nebraska/A01727959/2015|delta1a'
+	'A/swine/Nebraska/A01776543/2016|delta1b'
+	'A/swine/Nebraska/A01778104/2016|delta1a'
+	'A/swine/Nebraska/A01781225/2016|C-IVA'[&!color=#0000cc]
+	'A/swine/Nebraska/A01894200/2016|delta1b'
+	'A/swine/Nebraska/A01933901/2017|delta1a'
+	'A/swine/Nebraska/A02218433/2017|delta1b'
+	'A/swine/NorthCarolina/A02221556/2017|'
+	'A/swine/North_Carolina/157671/2015|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01290378/2013|gamma'
+	'A/swine/North_Carolina/A01364596/2013|gamma'
+	'A/swine/North_Carolina/A01377457/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01409423/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01410354/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01432660/2013|delta1b'
+	'A/swine/North_Carolina/A01432766/2013|delta1b'
+	'A/swine/North_Carolina/A01476862/2014|gamma'
+	'A/swine/North_Carolina/A01478870/2014|gamma'
+	'A/swine/North_Carolina/A01566286/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01668056/2016|delta2'
+	'A/swine/North_Carolina/A01668901/2016|gamma'
+	'A/swine/North_Carolina/A01672751/2017|gamma'
+	'A/swine/North_Carolina/A01728545/2015|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01732197/2016|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01732322/2016|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01776362/2016|gamma'
+	'A/swine/North_Carolina/A01777394/2016|delta2'
+	'A/swine/North_Carolina/A01778373/2016|delta2'
+	'A/swine/North_Carolina/A01782003/2016|delta2'
+	'A/swine/North_Carolina/A01785281/2017|gamma'
+	'A/swine/North_Carolina/A01785282/2017|gamma'
+	'A/swine/North_Carolina/A01795443/2015|gamma'
+	'A/swine/North_Carolina/A01795841/2015|gamma'
+	'A/swine/North_Carolina/A01796310/2015|delta2'
+	'A/swine/North_Carolina/A01797415/2015|gamma'
+	'A/swine/North_Carolina/A01797589/2015|gamma'
+	'A/swine/North_Carolina/A01841556/2015|gamma'
+	'A/swine/North_Carolina/A01945452/2015|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A01945861/2015|delta2'
+	'A/swine/North_Carolina/A01945949/2015|delta2'
+	'A/swine/North_Carolina/A02137008/2017|gamma'
+	'A/swine/North_Carolina/A02137329/2017|gamma'
+	'A/swine/North_Carolina/A02138817/2017|delta2'
+	'A/swine/North_Carolina/A02218135/2017|delta2'
+	'A/swine/North_Carolina/A02218894/2017|delta2'
+	'A/swine/North_Carolina/A02218906/2017|delta2'
+	'A/swine/North_Carolina/A02223226/2017|gamma'
+	'A/swine/North_Carolina/A02245294/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A02479237/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A02524478/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A02524576/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/North_Carolina/A02524712/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/13TOSU1238/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/13TOSU1560/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/13TOSU2130/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/13TOSU2132/2013|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/A01476448/2014|gamma'
+	'A/swine/Ohio/A01840053/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/A02214229/2017|gamma'
+	'A/swine/Ohio/A02215367/2017|gamma'
+	'A/swine/Ohio/A02219547/2017|gamma'
+	'A/swine/Ohio/A02478686/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/A02479175/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/A02479280/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/A02479354/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Ohio/A02524829/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Oklahoma/A01290605/2013|delta1b'
+	'A/swine/Oklahoma/A01432269/2012|delta1a'
+	'A/swine/Oklahoma/A01475757/2014|C-IVA'[&!color=#0000cc]
+	'A/swine/Oklahoma/A01566774/2014|delta1a'
+	'A/swine/Oklahoma/A01672680/2017|delta1b'
+	'A/swine/Oklahoma/A01728023/2015|C-IVA'[&!color=#0000cc]
+	'A/swine/Oklahoma/A01728097/2015|delta1a'
+	'A/swine/Oklahoma/A01785279/2017|delta1a'
+	'A/swine/Oklahoma/A01785992/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Oklahoma/A02025582/2015|delta1a'
+	'A/swine/Oklahoma/A02076949/2015|delta1a'
+	'A/swine/Oklahoma/A02214419/2017|delta1b'
+	'A/swine/Pennsylvania/A01933903/2017|delta2'
+	'A/swine/Pennsylvania/A02135726/2017|delta2'
+	'A/swine/Pennsylvania/A02138663/2017|delta2'
+	'A/swine/Pennsylvania/A02140798/2018|gamma'
+	'A/swine/Pennsylvania/A02218034/2017|delta2'
+	'A/swine/Pennsylvania/A02223370/2017|delta2'
+	'A/swine/Pennsylvania/A02479128/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Pennsylvania/A02524416/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Pennsylvania/A02524504/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/Pennsylvania/A02524606/2020|C-IVA'[&!color=#0000cc]
+	'A/swine/South_Dakota/A01675111/2016|delta1b'
+	'A/swine/South_Dakota/A01678450/2016|delta1b'
+	'A/swine/South_Dakota/A01678503/2017|delta1b'
+	'A/swine/South_Dakota/A01941705/2015|delta1b'
+	'A/swine/South_Dakota/A02025413/2015|delta1b'
+	'A/swine/Texas/A01785299/2017|C-IVA'[&!color=#0000cc]
+	'A/swine/Texas/A01785616/2018|C-IVA'[&!color=#0000cc]
+	'A/swine/Texas/A01785724/2018|C-IVA'[&!color=#0000cc]
+	'A/swine/Virginia/A01104140/2019|C-IVA'[&!color=#0000cc]
+	'A/swine/Wisconsin/A01104088/2015|delta1b'
+;
+end;
+
+begin trees;
+	tree tree1 = [&R] (('A/swine/Oklahoma/A01475757/2014|C-IVA'[&ha_clade="C-IVA"]:6.9E-4,('A/swine/Arkansas/A01555090/2014|C-IVA'[&ha_clade="C-IVA"]:0.00206,('A/swine/North_Carolina/A01377457/2014|C-IVA'[&ha_clade="C-IVA"]:6.8E-4,'A/swine/North_Carolina/157671/2015|C-IVA'[&ha_clade="C-IVA"]:0.00255)[&label="NODE_0000003",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000002",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000001",ha_clade="C-IVA",!cartoon={4,0.019459999999999998}]:5.5E-4,('A/swine/North_Carolina/A01732322/2016|C-IVA'[&ha_clade="C-IVA"]:0.00556,(('A/swine/Iowa/A02135000/2017|2010.1'[&ha_clade="2010.1"]:0.00413,('A/swine/Iowa/A01781219/2016|delta2'[&ha_clade="delta2"]:5.5E-4,('A/swine/Iowa/A02140816/2018|delta2'[&ha_clade="delta2"]:0.00275,'A/swine/Iowa/A01668659/2016|delta2'[&ha_clade="delta2"]:0.00137)[&label="NODE_0000008",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000007",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000006",ha_clade="delta2"]:0.00274,('A/swine/North_Carolina/A01945861/2015|delta2'[&ha_clade="delta2"]:5.5E-4,(('A/swine/Illinois/A01672615/2017|delta2'[&ha_clade="delta2"]:0.00204,('A/swine/Iowa/A02219790/2017|delta2'[&ha_clade="delta2"]:0.00271,('A/swine/Illinois/A01778711/2016|delta2'[&ha_clade="delta2"]:5.5E-4,('A/swine/Illinois/A02139356/2018|delta2'[&ha_clade="delta2"]:0.00413,('A/swine/Iowa/A02216716/2017|delta2'[&ha_clade="delta2"]:0.00137,'A/swine/Iowa/A02223471/2017|delta2'[&ha_clade="delta2"]:0.00414)[&label="NODE_0000015",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000014",ha_clade="delta2"]:0.00344)[&label="NODE_0000013",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000012",ha_clade="delta2"]:6.8E-4)[&label="NODE_0000011",ha_clade="delta2"]:5.5E-4,('A/swine/North_Carolina/A01796310/2015|delta2'[&ha_clade="delta2"]:5.5E-4,('A/swine/North_Carolina/A02138817/2017|delta2'[&ha_clade="delta2"]:0.00684,(('A/swine/North_Carolina/A01782003/2016|delta2'[&ha_clade="delta2"]:5.5E-4,('A/swine/North_Carolina/A02218135/2017|delta2'[&ha_clade="delta2"]:5.5E-4,'A/swine/NorthCarolina/A02221556/2017|'[&ha_clade="nan"]:0.00206)[&label="NODE_0000020",ha_clade="delta2"]:0.00206)[&label="NODE_0000019",ha_clade="delta2"]:6.9E-4,('A/swine/North_Carolina/A01777394/2016|delta2'[&ha_clade="delta2"]:0.00121,('A/swine/North_Carolina/A02218906/2017|delta2'[&ha_clade="delta2"]:0.00154,'A/swine/North_Carolina/A02223226/2017|gamma'[&ha_clade="gamma"]:0.0019)[&label="NODE_0000022",ha_clade="delta2"]:0.00346)[&label="NODE_0000021",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000018",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000017",ha_clade="delta2"]:0.00134)[&label="NODE_0000016",ha_clade="delta2"]:0.00137)[&label="NODE_0000010",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000009",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000005",ha_clade="delta2",!cartoon={19,0.007850000000000003}]:0.00414)[&label="NODE_0000004",ha_clade="C-IVA"]:6.6E-4,('A/swine/North_Carolina/A01410354/2014|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,(((('A/swine/Ohio/A01840053/2014|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,('A/swine/Arkansas/A01840184/2014|gamma'[&ha_clade="gamma"]:0.00137,'A/swine/Arkansas/A01476717/2014|gamma'[&ha_clade="gamma"]:5.5E-4)[&label="NODE_0000028",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000027",ha_clade="C-IVA"]:6.9E-4,('A/swine/Iowa/A02217289/2017|delta2'[&ha_clade="delta2"]:0.00598,('A/swine/North_Carolina/A01728545/2015|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Oklahoma/A01728023/2015|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000030",ha_clade="C-IVA"]:0.00161)[&label="NODE_0000029",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000026",ha_clade="C-IVA"]:6.8E-4,('A/swine/North_Carolina/A01945949/2015|delta2'[&ha_clade="delta2"]:0.00137,(('A/swine/North_Carolina/A01672751/2017|gamma'[&ha_clade="gamma"]:0.00275,('A/swine/North_Carolina/A01785281/2017|gamma'[&ha_clade="gamma"]:0.00413,'A/swine/Missouri/A01668216/2016|gamma'[&ha_clade="gamma"]:0.00621)[&label="NODE_0000034",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000033",ha_clade="gamma"]:7.0E-4,('A/swine/North_Carolina/A01668056/2016|delta2'[&ha_clade="delta2"]:0.00623,('A/swine/North_Carolina/A02218894/2017|delta2'[&ha_clade="delta2"]:0.00415,('A/swine/North_Carolina/A01778373/2016|delta2'[&ha_clade="delta2"]:5.5E-4,'A/swine/Iowa/A02524689/2020|C-IVA'[&ha_clade="C-IVA"]:0.01395)[&label="NODE_0000037",ha_clade="delta2"]:0.00137)[&label="NODE_0000036",ha_clade="delta2"]:6.6E-4)[&label="NODE_0000035",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000032",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000031",ha_clade="delta2",!cartoon={8,0.006209999999999993}]:9.2E-4)[&label="NODE_0000025",ha_clade="C-IVA"]:5.5E-4,('A/swine/Minnesota/A01567013/2014|C-IVA'[&ha_clade="C-IVA"]:0.00137,((('A/swine/North_Carolina/A01945452/2015|C-IVA'[&ha_clade="C-IVA"]:0.00692,('A/swine/North_Carolina/A01732197/2016|C-IVA'[&ha_clade="C-IVA"]:0.00206,'A/swine/Indiana/A01260976/2015|C-IVA'[&ha_clade="C-IVA"]:0.00344)[&label="NODE_0000042",ha_clade="C-IVA"]:6.9E-4)[&label="NODE_0000041",ha_clade="C-IVA",!cartoon={3,0.017870000000000004}]:6.8E-4,('A/swine/North_Carolina/A01566286/2014|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,('A/swine/Pennsylvania/A02218034/2017|delta2'[&ha_clade="delta2"]:0.00414,('A/swine/Pennsylvania/A01933903/2017|delta2'[&ha_clade="delta2"]:0.00205,('A/swine/Pennsylvania/A02135726/2017|delta2'[&ha_clade="delta2"]:6.8E-4,('A/swine/Pennsylvania/A02223370/2017|delta2'[&ha_clade="delta2"]:0.0,'A/swine/Indiana/A02136747/2017|delta2'[&ha_clade="delta2"]:0.0,'A/swine/Pennsylvania/A02138663/2017|delta2'[&ha_clade="delta2"]:0.0,'A/swine/Pennsylvania/A02140798/2018|gamma'[&ha_clade="gamma"]:0.0)[&label="NODE_0000047",ha_clade="delta2"]:5.5E-4)[&label="NODE_0000046",ha_clade="delta2"]:0.00556)[&label="NODE_0000045",ha_clade="delta2"]:0.00421)[&label="NODE_0000044",ha_clade="delta2",!cartoon={7,0.00877}]:0.00557)[&label="NODE_0000043",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000040",ha_clade="C-IVA"]:6.9E-4,(('A/swine/Ohio/A01476448/2014|gamma'[&ha_clade="gamma"]:0.00624,(('A/swine/Iowa/A01671454/2016|delta1a'[&ha_clade="delta1a"]:0.01751,('A/swine/Iowa/A01781050/2016|gamma'[&ha_clade="gamma"]:0.00901,('A/swine/California/A00968949/2014|C-IVA'[&ha_clade="C-IVA"]:0.00348,'A/swine/Illinois/A02427656/2018|C-IVA'[&ha_clade="C-IVA"]:0.01825)[&label="NODE_0000053",ha_clade="C-IVA"]:0.00137)[&label="NODE_0000052",ha_clade="C-IVA"]:6.6E-4)[&label="NODE_0000051",ha_clade="C-IVA"]:7.0E-4,(('A/swine/Ohio/13TOSU1238/2013|C-IVA'[&ha_clade="C-IVA"]:0.00405,(('A/swine/Iowa/13H090/2013|C-IVA'[&ha_clade="C-IVA"]:7.5E-4,'A/swine/Ohio/13TOSU1560/2013|C-IVA'[&ha_clade="C-IVA"]:0.01108)[&label="NODE_0000057",ha_clade="C-IVA"]:0.00146,('A/swine/Iowa/13H065/2013|C-IVA'[&ha_clade="C-IVA"]:6.9E-4,('A/swine/Iowa/13H098/2013|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Iowa/13H073/2013|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Iowa/13H076/2013|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Iowa/13H092/2013|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000059",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000058",ha_clade="C-IVA"]:7.3E-4)[&label="NODE_0000056",ha_clade="C-IVA"]:6.5E-4)[&label="NODE_0000055",ha_clade="C-IVA",!cartoon={8,0.011619999999999998}]:0.00132,(('A/swine/North_Carolina/A02137329/2017|gamma'[&ha_clade="gamma"]:0.00208,('A/swine/North_Carolina/A01785282/2017|gamma'[&ha_clade="gamma"]:0.00138,'A/swine/North_Carolina/A02137008/2017|gamma'[&ha_clade="gamma"]:0.00138)[&label="NODE_0000062",ha_clade="gamma"]:6.6E-4)[&label="NODE_0000061",ha_clade="gamma",!cartoon={3,0.016299999999999995}]:0.00567,(('A/swine/Iowa/A02218755/2017|gamma'[&ha_clade="gamma"]:0.00388,('A/swine/Iowa/A01777895/2016|delta1b'[&ha_clade="delta1b"]:0.0,'A/swine/Iowa/A01777665/2016|delta1b'[&ha_clade="delta1b"]:0.0,'A/swine/Indiana/A01778367/2016|delta1b'[&ha_clade="delta1b"]:0.0)[&label="NODE_0000065",ha_clade="delta1b"]:0.00302)[&label="NODE_0000064",ha_clade="gamma",!cartoon={4,0.01826}]:0.00137,(('A/swine/Ohio/A02219547/2017|gamma'[&ha_clade="gamma"]:0.00206,('A/swine/Illinois/A01895418/2016|delta1a'[&ha_clade="delta1a"]:5.5E-4,('A/swine/Missouri/A01671486/2016|delta1a'[&ha_clade="delta1a"]:5.5E-4,('A/swine/Illinois/A02215044/2017|delta1a'[&ha_clade="delta1a"]:0.00137,'A/swine/Illinois/A02223243/2017|delta1a'[&ha_clade="delta1a"]:0.00414)[&label="NODE_0000070",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000069",ha_clade="delta1a"]:6.9E-4)[&label="NODE_0000068",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000067",ha_clade="gamma",!cartoon={5,0.012839999999999997}]:0.00419,((('A/swine/North_Carolina/A01776362/2016|gamma'[&ha_clade="gamma"]:0.0,'A/swine/North_Carolina/A01668901/2016|gamma'[&ha_clade="gamma"]:0.0)[&label="NODE_0000073",ha_clade="gamma"]:7.0E-4,('A/swine/Iowa/A01668528/2016|gamma'[&ha_clade="gamma"]:0.00266,'A/swine/Iowa/A02524435/2020|C-IVA'[&ha_clade="C-IVA"]:0.0139)[&label="NODE_0000074",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000072",ha_clade="gamma"]:6.8E-4,(('A/swine/Iowa/A02223025/2017|gamma'[&ha_clade="gamma"]:0.00207,('A/swine/Illinois/A02479045/2020|C-IVA'[&ha_clade="C-IVA"]:0.00627,'A/swine/Iowa/A02432156/2019|C-IVA'[&ha_clade="C-IVA"]:0.00419)[&label="NODE_0000077",ha_clade="C-IVA"]:0.00274)[&label="NODE_0000076",ha_clade="gamma"]:0.00207,('A/swine/Iowa/A02215041/2017|gamma'[&ha_clade="gamma"]:0.00621,('A/swine/Ohio/A02215367/2017|gamma'[&ha_clade="gamma"]:6.8E-4,('A/swine/Ohio/A02214229/2017|gamma'[&ha_clade="gamma"]:5.5E-4,'A/swine/Indiana/A02216644/2017|gamma'[&ha_clade="gamma"]:6.9E-4)[&label="NODE_0000080",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000079",ha_clade="gamma"]:0.00413)[&label="NODE_0000078",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000075",ha_clade="gamma",!cartoon={7,0.009109999999999993}]:0.00138)[&label="NODE_0000071",ha_clade="gamma"]:0.00139)[&label="NODE_0000066",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000063",ha_clade="gamma"]:5.4E-4)[&label="NODE_0000060",ha_clade="gamma"]:0.00208)[&label="NODE_0000054",ha_clade="C-IVA"]:6.6E-4)[&label="NODE_0000050",ha_clade="C-IVA"]:6.3E-4)[&label="NODE_0000049",ha_clade="C-IVA"]:0.00133,(('A/swine/Iowa/13H091/2013|C-IVA'[&ha_clade="C-IVA"]:0.00272,'A/swine/Wisconsin/A01104088/2015|delta1b'[&ha_clade="delta1b"]:0.00207)[&label="NODE_0000082",ha_clade="C-IVA"]:0.00981,((('A/swine/Illinois/A00857318a/2012|C-IVA'[&ha_clade="C-IVA"]:0.00551,('A/swine/Indiana/A01203372/2012|C-IVA'[&ha_clade="C-IVA"]:6.7E-4,(('A/swine/Indiana/13TOSU1217/2013|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Indiana/13TOSU1207/2013|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000088",ha_clade="C-IVA"]:5.5E-4,('A/swine/Ohio/13TOSU2132/2013|C-IVA'[&ha_clade="C-IVA"]:0.00106,('A/swine/Indiana/13TOSU5095/2013|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,'A/swine/Ohio/13TOSU2130/2013|C-IVA'[&ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000090",ha_clade="C-IVA"]:0.00265)[&label="NODE_0000089",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000087",ha_clade="C-IVA"]:0.00553)[&label="NODE_0000086",ha_clade="C-IVA"]:0.00138)[&label="NODE_0000085",ha_clade="C-IVA",!cartoon={7,0.02460000000000001}]:5.5E-4,((('A/swine/Indiana/A00968366/2012|delta1b'[&ha_clade="delta1b"]:0.00298,'A/swine/Illinois/A01158947/2012|delta1b'[&ha_clade="delta1b"]:0.00955)[&label="NODE_0000093",ha_clade="delta1b",!cartoon={2,0.023740000000000004}]:0.00134,('A/swine/Illinois/A01243094/2012|delta1b'[&ha_clade="delta1b"]:0.00482,('A/swine/North_Carolina/A01409423/2013|C-IVA'[&ha_clade="C-IVA"]:0.00837,'A/swine/Indiana/A01260254/2013|C-IVA'[&ha_clade="C-IVA"]:0.00558)[&label="NODE_0000095",ha_clade="C-IVA",!cartoon={2,0.025080000000000005}]:6.3E-4)[&label="NODE_0000094",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000092",ha_clade="delta1b"]:5.0E-4,('A/swine/Illinois/A01328594/2012|delta1b'[&ha_clade="delta1b"]:0.00344,('A/swine/Minnesota/A01279807/2012|delta1b'[&ha_clade="delta1b"]:0.00275,('A/swine/Indiana/A00968358/2012|delta1b'[&ha_clade="delta1b"]:6.9E-4,('A/swine/Illinois/A01125988/2012|delta1b'[&ha_clade="delta1b"]:5.5E-4,('A/swine/Illinois/A01444513/2013|delta1b'[&ha_clade="delta1b"]:0.00277,('A/swine/Illinois/A00843191/2013|delta1b'[&ha_clade="delta1b"]:0.00136,('A/swine/Illinois/A01427261/2013|gamma'[&ha_clade="gamma"]:6.8E-4,('A/swine/Illinois/A01427305/2013|gamma'[&ha_clade="gamma"]:0.0,'A/swine/Illinois/A01427360/2013|gamma'[&ha_clade="gamma"]:0.0)[&label="NODE_0000103",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000102",ha_clade="gamma"]:0.00415)[&label="NODE_0000101",ha_clade="delta1b"]:0.00277)[&label="NODE_0000100",ha_clade="delta1b"]:6.8E-4)[&label="NODE_0000099",ha_clade="delta1b"]:6.9E-4)[&label="NODE_0000098",ha_clade="delta1b"]:6.9E-4)[&label="NODE_0000097",ha_clade="delta1b"]:6.8E-4)[&label="NODE_0000096",ha_clade="delta1b",!cartoon={9,0.022720000000000004}]:0.00207)[&label="NODE_0000091",ha_clade="delta1b"]:6.8E-4)[&label="NODE_0000084",ha_clade="C-IVA"]:5.5E-4,((('A/swine/Illinois/A01203226/2012|gamma'[&ha_clade="gamma"]:0.00414,'A/swine/Illinois/A01565507/2014|C-IVA'[&ha_clade="C-IVA"]:0.01246)[&label="NODE_0000106",ha_clade="gamma"]:0.00345,((('A/swine/North_Carolina/A01432660/2013|delta1b'[&ha_clade="delta1b"]:0.00137,(('A/swine/North_Carolina/A01290378/2013|gamma'[&ha_clade="gamma"]:0.00343,'A/swine/North_Carolina/A01432766/2013|delta1b'[&ha_clade="delta1b"]:0.00621)[&label="NODE_0000111",ha_clade="delta1b"]:5.5E-4,(('A/swine/North_Carolina/A01476862/2014|gamma'[&ha_clade="gamma"]:5.5E-4,('A/swine/North_Carolina/A01841556/2015|gamma'[&ha_clade="gamma"]:6.8E-4,'A/swine/North_Carolina/A01797415/2015|gamma'[&ha_clade="gamma"]:0.00275)[&label="NODE_0000114",ha_clade="gamma"]:6.8E-4)[&label="NODE_0000113",ha_clade="gamma"]:0.00344,(('A/swine/Illinois/A02090113/2015|gamma'[&ha_clade="gamma"]:0.00201,('A/swine/North_Carolina/A01478870/2014|gamma'[&ha_clade="gamma"]:5.5E-4,'A/swine/North_Carolina/A01795841/2015|gamma'[&ha_clade="gamma"]:0.00344)[&label="NODE_0000117",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000116",ha_clade="gamma"]:0.00205,(('A/swine/North_Carolina/A01797589/2015|gamma'[&ha_clade="gamma"]:0.00137,'A/swine/North_Carolina/A01795443/2015|gamma'[&ha_clade="gamma"]:5.5E-4)[&label="NODE_0000119",ha_clade="gamma"]:0.00414,('A/swine/Indiana/A01812202/2016|C-IVA'[&ha_clade="C-IVA"]:0.00551,('A/swine/Iowa/A02077646/2015|2010.1'[&ha_clade="2010.1"]:0.0,'A/swine/Illinois/A02024646/2015|gamma'[&ha_clade="gamma"]:0.0)[&label="NODE_0000121",ha_clade="gamma"]:0.00205)[&label="NODE_0000120",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000118",ha_clade="gamma"]:0.00272)[&label="NODE_0000115",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000112",ha_clade="gamma",!cartoon={11,0.02185}]:0.00416)[&label="NODE_0000110",ha_clade="delta1b"]:6.8E-4)[&label="NODE_0000109",ha_clade="delta1b"]:0.00547,(('A/swine/Minnesota/A01349281/2013|delta1b'[&ha_clade="delta1b"]:0.00205,(('A/swine/Nebraska/A01379861/2013|delta1b'[&ha_clade="delta1b"]:0.00138,'A/swine/Nebraska/A01381819/2013|delta1b'[&ha_clade="delta1b"]:0.00206)[&label="NODE_0000125",ha_clade="delta1b"]:5.5E-4,('A/swine/Nebraska/A01277808/2012|delta1b'[&ha_clade="delta1b"]:5.5E-4,('A/swine/Nebraska/A01444489/2013|delta1b'[&ha_clade="delta1b"]:6.8E-4,'A/swine/Nebraska/A01443969/2013|delta1b'[&ha_clade="delta1b"]:0.00138)[&label="NODE_0000127",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000126",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000124",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000123",ha_clade="delta1b",!cartoon={6,0.02447}]:0.01314,(('A/swine/Oklahoma/A02214419/2017|delta1b'[&ha_clade="delta1b"]:0.00204,'A/swine/Oklahoma/A01672680/2017|delta1b'[&ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000129",ha_clade="delta1b"]:0.01764,(('A/swine/Kansas/A01781760/2016|delta1b'[&ha_clade="delta1b"]:0.00113,'A/swine/Kansas/A01782583/2016|delta1b'[&ha_clade="delta1b"]:9.3E-4)[&label="NODE_0000131",ha_clade="delta1b"]:0.00759,('A/swine/Oklahoma/A01290605/2013|delta1b'[&ha_clade="delta1b"]:5.5E-4,(('A/swine/Kansas/A01777675/2016|delta1b'[&ha_clade="delta1b"]:0.00273,'A/swine/Nebraska/A01776543/2016|delta1b'[&ha_clade="delta1b"]:0.00209)[&label="NODE_0000134",ha_clade="delta1b"]:0.00976,('A/swine/Missouri/A01567015/2014|gamma'[&ha_clade="gamma"]:0.0,'A/swine/Oklahoma/A01566774/2014|delta1a'[&ha_clade="delta1a"]:0.0)[&label="NODE_0000135",ha_clade="gamma"]:0.00689)[&label="NODE_0000133",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000132",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000130",ha_clade="delta1b"]:0.00423)[&label="NODE_0000128",ha_clade="delta1b",!cartoon={9,0.01464}]:0.00645)[&label="NODE_0000122",ha_clade="delta1b"]:7.2E-4)[&label="NODE_0000108",ha_clade="delta1b"]:5.5E-4,('A/Alabama/02/2009|Human-09'[&ha_clade="Human-09"]:0.00204,('A/Wisconsin/629_S1397/2009|Human-10'[&ha_clade="Human-10"]:5.5E-4,((('A/Connecticut/Flu113/2013|Human-13'[&ha_clade="Human-13"]:7.0E-4,'A/Boston/YGA_01218/2013|Human-13'[&ha_clade="Human-13"]:6.9E-4)[&label="NODE_0000140",ha_clade="Human-13"]:0.00414,('A/North_Carolina/08/2011|Human-11'[&ha_clade="Human-11"]:0.00137,('A/Connecticut/Flu150/2013|Human-13'[&ha_clade="Human-13"]:0.00138,'A/Rochester/0069/2013|Human-13'[&ha_clade="Human-13"]:0.00137)[&label="NODE_0000142",ha_clade="Human-13"]:0.00276)[&label="NODE_0000141",ha_clade="Human-13"]:5.5E-4)[&label="NODE_0000139",ha_clade="Human-13"]:6.4E-4,('A/swine/Nebraska/A01300150/2012|delta1b'[&ha_clade="delta1b"]:0.01189,('A/Texas/23/2012|Human-12'[&ha_clade="Human-12"]:0.00132,(('A/Houston/JMM_155/2013|Human-13'[&ha_clade="Human-13"]:0.00206,('A/Santa_Clara/YGA_03053/2013|Human-13'[&ha_clade="Human-13"]:0.00206,('A/Santa_Clara/YGA_03033/2013|Human-13'[&ha_clade="Human-13"]:0.00137,('A/Boston/YGA_01202/2013|Human-13'[&ha_clade="Human-13"]:0.0,'A/Boston/DOA2_099/2012|Human-13'[&ha_clade="Human-13"]:0.0)[&label="NODE_0000149",ha_clade="Human-13"]:0.00275)[&label="NODE_0000148",ha_clade="Human-13"]:5.5E-4)[&label="NODE_0000147",ha_clade="Human-13"]:5.5E-4)[&label="NODE_0000146",ha_clade="Human-13"]:0.00227,('A/Santa_Clara/YGA_03031/2013|Human-13'[&ha_clade="Human-13"]:8.8E-4,(('A/New_York/WC_LVD_13_015/2013|Human-14'[&ha_clade="Human-14"]:0.00278,('A/Iowa/01/2015|Human-15'[&ha_clade="Human-15"]:0.00207,('A/Florida/62/2014|Human-15'[&ha_clade="Human-15"]:5.5E-4,(('A/Montana/08/2015|Human-15'[&ha_clade="Human-15"]:6.9E-4,'A/Delaware/40/2015|Human-15'[&ha_clade="Human-15"]:6.9E-4)[&label="NODE_0000156",ha_clade="Human-15"]:5.5E-4,('A/California/49/2015|Human-15'[&ha_clade="Human-15"]:0.00137,'A/New_Mexico/17/2015|Human-15'[&ha_clade="Human-15"]:6.9E-4)[&label="NODE_0000157",ha_clade="Human-15"]:5.5E-4)[&label="NODE_0000155",ha_clade="Human-15"]:5.5E-4)[&label="NODE_0000154",ha_clade="Human-15"]:6.8E-4)[&label="NODE_0000153",ha_clade="Human-15"]:0.00557)[&label="NODE_0000152",ha_clade="Human-14"]:0.00135,(('A/New_York/WC_LVD_14_031/2014|Human-14'[&ha_clade="Human-14"]:0.00137,('A/New_York/WC_LVD_13_003/2013|Human-14'[&ha_clade="Human-14"]:5.5E-4,('A/New_York/WC_LVD_14_037/2014|Human-14'[&ha_clade="Human-14"]:6.8E-4,('A/New_York/WC_LVD_14_011/2014|Human-14'[&ha_clade="Human-14"]:0.00137,'A/New_York/WC_LVD_14_015/2014|Human-14'[&ha_clade="Human-14"]:6.9E-4)[&label="NODE_0000162",ha_clade="Human-14"]:0.00137)[&label="NODE_0000161",ha_clade="Human-14"]:5.5E-4)[&label="NODE_0000160",ha_clade="Human-14"]:5.5E-4)[&label="NODE_0000159",ha_clade="Human-14"]:6.9E-4,(('A/New_York/WC_LVD_14_043/2014|Human-14'[&ha_clade="Human-14"]:5.5E-4,'A/California/56/2014|Human-15'[&ha_clade="Human-15"]:0.00137)[&label="NODE_0000164",ha_clade="Human-14"]:6.8E-4,(('A/Louisiana/03/2015|Human-15'[&ha_clade="Human-15"]:0.00137,'A/New_York/41/2014|Human-15'[&ha_clade="Human-15"]:0.00206)[&label="NODE_0000166",ha_clade="Human-15"]:5.5E-4,(('A/New_York/WC_LVD_13_022/2013|Human-14'[&ha_clade="Human-14"]:6.8E-4,('A/New_York/WC_LVD_14_033/2014|Human-14'[&ha_clade="Human-14"]:6.8E-4,'A/New_York/WC_LVD_14_042/2014|Human-14'[&ha_clade="Human-14"]:6.9E-4)[&label="NODE_0000169",ha_clade="Human-14"]:5.5E-4)[&label="NODE_0000168",ha_clade="Human-14"]:6.8E-4,(('A/Texas/103/2017|Human-17'[&ha_clade="Human-17"]:6.8E-4,'A/Georgia/63/2016|Human-17'[&ha_clade="Human-17"]:5.5E-4)[&label="NODE_0000171",ha_clade="Human-17"]:6.9E-4,(('A/Connecticut/32/2016|Human-16'[&ha_clade="Human-16"]:0.00137,(('A/Kansas/14/2016|Human-16'[&ha_clade="Human-16"]:0.0,'A/Montana/28/2016|Human-16'[&ha_clade="Human-16"]:0.0)[&label="NODE_0000175",ha_clade="Human-16"]:5.5E-4,('A/Nevada/08/2016|Human-16'[&ha_clade="Human-16"]:0.00137,'A/Minnesota/29/2016|Human-16'[&ha_clade="Human-16"]:0.00136)[&label="NODE_0000176",ha_clade="Human-16"]:5.5E-4)[&label="NODE_0000174",ha_clade="Human-16"]:5.5E-4)[&label="NODE_0000173",ha_clade="Human-16"]:0.00138,(('A/Georgia/39/2016|Human-16'[&ha_clade="Human-16"]:5.5E-4,('A/Minnesota/38/2016|Human-16'[&ha_clade="Human-16"]:0.00137,'A/Washington/73/2016|Human-16'[&ha_clade="Human-16"]:0.00345)[&label="NODE_0000179",ha_clade="Human-16"]:5.5E-4)[&label="NODE_0000178",ha_clade="Human-16"]:5.5E-4,('A/Arkansas/05/2016|Human-16'[&ha_clade="Human-16"]:6.8E-4,(('A/Montana/50/2016|Human-17'[&ha_clade="Human-17"]:0.00137,('A/Connecticut/45/2016|Human-17'[&ha_clade="Human-17"]:6.9E-4,'A/North_Carolina/61/2016|Human-17'[&ha_clade="Human-17"]:0.00276)[&label="NODE_0000183",ha_clade="Human-17"]:0.00137)[&label="NODE_0000182",ha_clade="Human-17"]:7.0E-4,('A/Massachusetts/20/2016|Human-16'[&ha_clade="Human-16"]:5.5E-4,(('A/North_Carolina/13/2017|Human-17'[&ha_clade="Human-17"]:0.00275,('A/California/17/2017|Human-17'[&ha_clade="Human-17"]:5.5E-4,'A/California/06/2017|Human-17'[&ha_clade="Human-17"]:6.9E-4)[&label="NODE_0000187",ha_clade="Human-17"]:5.5E-4)[&label="NODE_0000186",ha_clade="Human-17"]:0.00137,(('A/Ohio/07/2017|Human-17'[&ha_clade="Human-17"]:5.5E-4,('A/Maryland/27/2017|Human-17'[&ha_clade="Human-17"]:6.9E-4,'A/Utah/43/2018|Human-19'[&ha_clade="Human-19"]:6.9E-4)[&label="NODE_0000190",ha_clade="Human-17"]:5.5E-4)[&label="NODE_0000189",ha_clade="Human-17"]:5.5E-4,(('A/Nevada/7560/2018|Human-19'[&ha_clade="Human-19"]:0.00276,('A/North_Dakota/28/2018|Human-18'[&ha_clade="Human-18"]:0.00138,'A/Iowa/64/2018|Human-19'[&ha_clade="Human-19"]:6.9E-4)[&label="NODE_0000193",ha_clade="Human-19"]:5.5E-4)[&label="NODE_0000192",ha_clade="Human-19"]:0.00137,(('A/Oklahoma/7042/2018|Human-18'[&ha_clade="Human-18"]:0.00275,(('A/North_Carolina/40/2018|Human-18'[&ha_clade="Human-18"]:0.00206,'A/South_Dakota/45/2018|Human-19'[&ha_clade="Human-19"]:0.00206)[&label="NODE_0000197",ha_clade="Human-18"]:6.9E-4,('A/New_York/24/2018|Human-18'[&ha_clade="Human-18"]:0.00137,('A/Pennsylvania/504/2018|Human-19'[&ha_clade="Human-19"]:0.0,'A/New_York/51/2018|Human-19'[&ha_clade="Human-19"]:0.0)[&label="NODE_0000199",ha_clade="Human-19"]:0.00138)[&label="NODE_0000198",ha_clade="Human-18"]:0.00137)[&label="NODE_0000196",ha_clade="Human-18"]:0.00276)[&label="NODE_0000195",ha_clade="Human-18"]:5.5E-4,((('A/Illinois/16/2018|Human-18'[&ha_clade="Human-18"]:5.5E-4,'A/North_Carolina/7036/2018|Human-18'[&ha_clade="Human-18"]:0.00138)[&label="NODE_0000202",ha_clade="Human-18"]:0.00137,('A/Florida/99/2017|Human-18'[&ha_clade="Human-18"]:0.00137,('A/New_Hampshire/26/2018|Human-19'[&ha_clade="Human-19"]:6.9E-4,'A/New_Jersey/56/2018|Human-19'[&ha_clade="Human-19"]:6.9E-4)[&label="NODE_0000204",ha_clade="Human-19"]:0.00275)[&label="NODE_0000203",ha_clade="Human-18"]:5.5E-4)[&label="NODE_0000201",ha_clade="Human-18"]:5.5E-4,(('A/Nebraska/07/2018|Human-18'[&ha_clade="Human-18"]:0.00207,'A/New_York/58/2018|Human-19'[&ha_clade="Human-19"]:0.00138)[&label="NODE_0000206",ha_clade="Human-18"]:0.00137,('A/Maryland/49/2018|Human-19'[&ha_clade="Human-19"]:0.00413,('A/Iowa/79/2017|Human-18'[&ha_clade="Human-18"]:6.8E-4,'A/California/44/2018|Human-18'[&ha_clade="Human-18"]:5.5E-4)[&label="NODE_0000208",ha_clade="Human-18"]:0.00137)[&label="NODE_0000207",ha_clade="Human-18"]:5.5E-4)[&label="NODE_0000205",ha_clade="Human-18"]:5.5E-4)[&label="NODE_0000200",ha_clade="Human-18"]:5.5E-4)[&label="NODE_0000194",ha_clade="Human-18"]:5.5E-4)[&label="NODE_0000191",ha_clade="Human-18"]:6.8E-4)[&label="NODE_0000188",ha_clade="Human-17"]:0.00137)[&label="NODE_0000185",ha_clade="Human-17"]:5.5E-4)[&label="NODE_0000184",ha_clade="Human-16"]:5.5E-4)[&label="NODE_0000181",ha_clade="Human-16"]:6.9E-4)[&label="NODE_0000180",ha_clade="Human-16"]:5.5E-4)[&label="NODE_0000177",ha_clade="Human-16"]:5.5E-4)[&label="NODE_0000172",ha_clade="Human-16"]:6.8E-4)[&label="NODE_0000170",ha_clade="Human-17",!cartoon={40,0.011389999999999977}]:0.00277)[&label="NODE_0000167",ha_clade="Human-14"]:5.5E-4)[&label="NODE_0000165",ha_clade="Human-14"]:5.5E-4)[&label="NODE_0000163",ha_clade="Human-14"]:0.00206)[&label="NODE_0000158",ha_clade="Human-14"]:6.9E-4)[&label="NODE_0000151",ha_clade="Human-14"]:0.00188)[&label="NODE_0000150",ha_clade="Human-13"]:0.00346)[&label="NODE_0000145",ha_clade="Human-13",!cartoon={65,0.011389999999999977}]:0.00332)[&label="NODE_0000144",ha_clade="Human-13",!cartoon={66,0.011389999999999977}]:0.00208)[&label="NODE_0000143",ha_clade="Human-13"]:6.8E-4)[&label="NODE_0000138",ha_clade="Human-13"]:5.5E-4)[&label="NODE_0000137",ha_clade="Human-13"]:5.1E-4)[&label="NODE_0000136",ha_clade="delta1b"]:6.8E-4)[&label="NODE_0000107",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000105",ha_clade="delta1b"]:0.00127,(('A/swine/Oklahoma/A01728097/2015|delta1a'[&ha_clade="delta1a"]:0.01315,(('A/swine/Kansas/A01290646/2013|delta1b'[&ha_clade="delta1b"]:5.5E-4,'A/swine/Oklahoma/A01432269/2012|delta1a'[&ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000212",ha_clade="delta1a"]:5.5E-4,((('A/swine/Minnesota/A01567671/2015|delta1a'[&ha_clade="delta1a"]:0.0011,'A/swine/Minnesota/A01567833/2015|delta1a'[&ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000215",ha_clade="delta1a"]:0.00183,(('A/swine/Minnesota/A01567011/2014|delta1a'[&ha_clade="delta1a"]:0.0,'A/swine/Minnesota/A01567012/2014|delta1a'[&ha_clade="delta1a"]:0.0)[&label="NODE_0000217",ha_clade="delta1a"]:5.5E-4,('A/swine/Iowa/A01941927/2016|gamma'[&ha_clade="gamma"]:0.00207,'A/swine/Minnesota/A01781044/2016|2010.1'[&ha_clade="2010.1"]:0.00207)[&label="NODE_0000218",ha_clade="delta1a"]:0.00137)[&label="NODE_0000216",ha_clade="delta1a"]:0.00133)[&label="NODE_0000214",ha_clade="delta1a"]:0.00166,('A/swine/Illinois/A01782816/2016|delta1a'[&ha_clade="delta1a"]:0.00277,(('A/swine/Oklahoma/A02025582/2015|delta1a'[&ha_clade="delta1a"]:0.0,'A/swine/Oklahoma/A02076949/2015|delta1a'[&ha_clade="delta1a"]:0.0)[&label="NODE_0000221",ha_clade="delta1a"]:0.00137,('A/swine/Oklahoma/A01785279/2017|delta1a'[&ha_clade="delta1a"]:0.01111,('A/swine/Iowa/A01777892/2016|delta1a'[&ha_clade="delta1a"]:0.00137,('A/swine/Texas/A01785299/2017|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,('A/swine/Kansas/A02245371/2019|C-IVA'[&ha_clade="C-IVA"]:0.00346,('A/swine/Oklahoma/A01785992/2019|C-IVA'[&ha_clade="C-IVA"]:6.9E-4,('A/swine/Texas/A01785724/2018|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Texas/A01785616/2018|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000227",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000226",ha_clade="C-IVA"]:0.00137)[&label="NODE_0000225",ha_clade="C-IVA"]:0.00137)[&label="NODE_0000224",ha_clade="C-IVA"]:0.00344)[&label="NODE_0000223",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000222",ha_clade="delta1a"]:6.7E-4)[&label="NODE_0000220",ha_clade="delta1a"]:0.00208)[&label="NODE_0000219",ha_clade="delta1a"]:0.00252)[&label="NODE_0000213",ha_clade="delta1a"]:0.0023)[&label="NODE_0000211",ha_clade="delta1a"]:5.4E-4)[&label="NODE_0000210",ha_clade="delta1a",!cartoon={19,0.01236000000000001}]:0.00205,((('A/swine/Iowa/A02221865/2017|delta1a'[&ha_clade="delta1a"]:0.00972,('A/swine/Nebraska/A01727959/2015|delta1a'[&ha_clade="delta1a"]:0.00477,'A/swine/Nebraska/A01778104/2016|delta1a'[&ha_clade="delta1a"]:0.00902)[&label="NODE_0000231",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000230",ha_clade="delta1a"]:0.00137,('A/swine/Nebraska/A01476672/2014|delta1a'[&ha_clade="delta1a"]:5.5E-4,('A/swine/Nebraska/A01781225/2016|C-IVA'[&ha_clade="C-IVA"]:0.00206,('A/swine/Nebraska/A01933901/2017|delta1a'[&ha_clade="delta1a"]:0.0055,'A/swine/Nebraska/A01554747/2015|delta1a'[&ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000234",ha_clade="delta1a"]:7.0E-4)[&label="NODE_0000233",ha_clade="delta1a"]:0.00137)[&label="NODE_0000232",ha_clade="delta1a"]:0.00138)[&label="NODE_0000229",ha_clade="delta1a",!cartoon={7,0.016960000000000003}]:0.00277,(('A/swine/North_Carolina/A01364596/2013|gamma'[&ha_clade="gamma"]:0.00137,'A/swine/Nebraska/A01350362/2013|delta1a'[&ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000236",ha_clade="delta1a"]:6.8E-4,(('A/swine/Nebraska/A01476438/2014|delta1b'[&ha_clade="delta1b"]:5.5E-4,(('A/swine/Nebraska/A02218433/2017|delta1b'[&ha_clade="delta1b"]:0.00689,('A/swine/Iowa/A02134229/2017|delta1b'[&ha_clade="delta1b"]:0.00343,('A/swine/Iowa/A01782281/2016|delta1b'[&ha_clade="delta1b"]:0.00206,('A/swine/Iowa/A01671477/2016|delta1b'[&ha_clade="delta1b"]:5.5E-4,('A/swine/Iowa/A02214654/2017|delta1b'[&ha_clade="delta1b"]:0.00274,('A/swine/Iowa/A02214242/2017|delta1b'[&ha_clade="delta1b"]:6.8E-4,'A/swine/Iowa/A02137183/2017|delta1b'[&ha_clade="delta1b"]:0.00551)[&label="NODE_0000245",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000244",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000243",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000242",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000241",ha_clade="delta1b"]:0.00119)[&label="NODE_0000240",ha_clade="delta1b"]:5.3E-4,('A/swine/Iowa/A01776531/2016|gamma'[&ha_clade="gamma"]:0.00551,(('A/swine/South_Dakota/A02025413/2015|delta1b'[&ha_clade="delta1b"]:0.0,'A/swine/South_Dakota/A01675111/2016|delta1b'[&ha_clade="delta1b"]:0.0)[&label="NODE_0000248",ha_clade="delta1b"]:5.5E-4,(('A/swine/Nebraska/A01894200/2016|delta1b'[&ha_clade="delta1b"]:0.00137,'A/swine/Minnesota/A01676797/2016|delta1b'[&ha_clade="delta1b"]:0.00206)[&label="NODE_0000250",ha_clade="delta1b"]:5.5E-4,('A/swine/South_Dakota/A01941705/2015|delta1b'[&ha_clade="delta1b"]:0.00206,('A/swine/South_Dakota/A01678450/2016|delta1b'[&ha_clade="delta1b"]:6.9E-4,'A/swine/South_Dakota/A01678503/2017|delta1b'[&ha_clade="delta1b"]:0.00483)[&label="NODE_0000252",ha_clade="delta1b"]:6.9E-4)[&label="NODE_0000251",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000249",ha_clade="delta1b"]:5.5E-4)[&label="NODE_0000247",ha_clade="delta1b"]:6.8E-4)[&label="NODE_0000246",ha_clade="delta1b"]:7.0E-4)[&label="NODE_0000239",ha_clade="delta1b"]:0.0027)[&label="NODE_0000238",ha_clade="delta1b",!cartoon={16,0.010569999999999996}]:0.00621,(('A/swine/Minnesota/A01672344/2017|gamma'[&ha_clade="gamma"]:0.00277,('A/swine/Iowa/A01932420/2017|gamma'[&ha_clade="gamma"]:5.5E-4,('A/swine/Iowa/A02223241/2017|gamma'[&ha_clade="gamma"]:5.5E-4,('A/swine/Arkansas/A02218161/2017|gamma'[&ha_clade="gamma"]:0.00206,(('A/swine/Iowa/A02216044/2017|gamma'[&ha_clade="gamma"]:5.5E-4,'A/swine/Iowa/A02218171/2017|gamma'[&ha_clade="gamma"]:0.00114)[&label="NODE_0000259",ha_clade="gamma"]:6.8E-4,('A/swine/Iowa/A02221508/2017|gamma'[&ha_clade="gamma"]:7.0E-4,('A/swine/Missouri/A02136836/2017|gamma'[&ha_clade="gamma"]:6.9E-4,'A/swine/Missouri/A02139358/2018|gamma'[&ha_clade="gamma"]:6.9E-4)[&label="NODE_0000261",ha_clade="gamma"]:0.00138)[&label="NODE_0000260",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000258",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000257",ha_clade="gamma"]:5.5E-4)[&label="NODE_0000256",ha_clade="gamma"]:0.00138)[&label="NODE_0000255",ha_clade="gamma"]:6.7E-4)[&label="NODE_0000254",ha_clade="gamma",!cartoon={9,0.016290000000000006}]:0.00485,('A/swine/Iowa/A01797178/2015|delta1a'[&ha_clade="delta1a"]:5.5E-4,(('A/swine/Iowa/A01778372/2016|delta1a'[&ha_clade="delta1a"]:0.00412,'A/swine/Iowa/A01781147/2016|delta1a'[&ha_clade="delta1a"]:0.00343)[&label="NODE_0000264",ha_clade="delta1a",!cartoon={2,0.021140000000000013}]:5.5E-4,(('A/swine/Iowa/A02217286/2017|delta1a'[&ha_clade="delta1a"]:0.0049,'A/swine/Iowa/A02134236/2017|delta1a'[&ha_clade="delta1a"]:0.00551)[&label="NODE_0000266",ha_clade="delta1a",!cartoon={2,0.01560000000000001}]:0.00415,('A/swine/Illinois/A02218757/2017|2010.1'[&ha_clade="2010.1"]:0.00471,('A/swine/Colorado/A01668653/2016|delta1b'[&ha_clade="delta1b"]:0.00684,('A/swine/Iowa/A02139353/2018|2010.1'[&ha_clade="2010.1"]:0.00274,((('A/swine/Iowa/A02524447/2020|C-IVA'[&ha_clade="C-IVA"]:0.0055,('A/swine/Michigan/A02479299/2020|C-IVA'[&ha_clade="C-IVA"]:0.00412,('A/swine/Minnesota/A02524760/2020|C-IVA'[&ha_clade="C-IVA"]:0.00413,(('A/swine/Illinois/A02478564/2019|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Illinois/A02478510/2019|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000276",ha_clade="C-IVA"]:5.5E-4,('A/swine/Indiana/A02478727/2019|C-IVA'[&ha_clade="C-IVA"]:6.9E-4,'A/swine/Iowa/A02478636/2019|C-IVA'[&ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000277",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000275",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000274",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000273",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000272",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Iowa/A02524423/2020|C-IVA'[&ha_clade="C-IVA"]:0.00275,('A/swine/Iowa/A02479259/2020|C-IVA'[&ha_clade="C-IVA"]:0.00276,'A/swine/Iowa/A02479026/2020|C-IVA'[&ha_clade="C-IVA"]:0.00276)[&label="NODE_0000280",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000279",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Minnesota/A02245661/2020|C-IVA'[&ha_clade="C-IVA"]:0.00274,('A/swine/Iowa/A02478553/2019|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,'A/swine/Iowa/A02479429/2020|C-IVA'[&ha_clade="C-IVA"]:0.00622)[&label="NODE_0000283",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000282",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Iowa/A02524639/2020|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/California/A01104141/2020|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000285",ha_clade="C-IVA"]:5.5E-4,('A/swine/Iowa/A02524768/2020|C-IVA'[&ha_clade="C-IVA"]:0.00274,('A/swine/California/A01104142/2020|C-IVA'[&ha_clade="C-IVA"]:6.9E-4,('A/swine/Missouri/A02524544/2020|C-IVA'[&ha_clade="C-IVA"]:6.8E-4,('A/swine/Arizona/A02524632/2020|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Missouri/A02524505/2020|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000289",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000288",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000287",ha_clade="C-IVA"]:0.00206)[&label="NODE_0000286",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000284",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000281",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000278",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000271",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Iowa/A02524591/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137,('A/swine/Minnesota/A02524484/2020|C-IVA'[&ha_clade="C-IVA"]:0.00414,'A/swine/Iowa/A02479304/2020|C-IVA'[&ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000292",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000291",ha_clade="C-IVA"]:6.9E-4,((('A/swine/Iowa/A02478604/2019|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Iowa/A02478584/2019|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000295",ha_clade="C-IVA"]:0.00137,(('A/swine/North_Carolina/A02524576/2020|C-IVA'[&ha_clade="C-IVA"]:6.9E-4,'A/swine/North_Carolina/A02524478/2020|C-IVA'[&ha_clade="C-IVA"]:0.00345)[&label="NODE_0000297",ha_clade="C-IVA"]:6.8E-4,(('A/swine/North_Carolina/A02479237/2020|C-IVA'[&ha_clade="C-IVA"]:0.00206,('A/swine/North_Carolina/A02524712/2020|C-IVA'[&ha_clade="C-IVA"]:0.00413,'A/swine/North_Carolina/A02245294/2019|C-IVA'[&ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000300",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000299",ha_clade="C-IVA"]:6.9E-4,('A/swine/Ohio/A02524829/2020|C-IVA'[&ha_clade="C-IVA"]:0.00344,('A/swine/Ohio/A02479354/2020|C-IVA'[&ha_clade="C-IVA"]:0.00206,'A/swine/Ohio/A02479280/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137)[&label="NODE_0000302",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000301",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000298",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000296",ha_clade="C-IVA"]:0.00137)[&label="NODE_0000294",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Indiana/A02478890/2019|C-IVA'[&ha_clade="C-IVA"]:0.00137,(('A/swine/Pennsylvania/A02479128/2020|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,('A/swine/Pennsylvania/A02524606/2020|C-IVA'[&ha_clade="C-IVA"]:0.00206,'A/swine/Pennsylvania/A02524504/2020|C-IVA'[&ha_clade="C-IVA"]:0.00275)[&label="NODE_0000307",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000306",ha_clade="C-IVA"]:0.00137,('A/swine/Virginia/A01104140/2019|C-IVA'[&ha_clade="C-IVA"]:0.00138,('A/swine/Indiana/A02524539/2020|C-IVA'[&ha_clade="C-IVA"]:0.00206,'A/swine/Pennsylvania/A02524416/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137)[&label="NODE_0000309",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000308",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000305",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000304",ha_clade="C-IVA"]:6.8E-4,('A/swine/Ohio/A02479175/2020|C-IVA'[&ha_clade="C-IVA"]:0.00207,(('A/swine/Ohio/A02478686/2019|C-IVA'[&ha_clade="C-IVA"]:6.8E-4,('A/swine/Indiana/A02479161/2020|C-IVA'[&ha_clade="C-IVA"]:5.5E-4,'A/swine/Iowa/A02524509/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137)[&label="NODE_0000313",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000312",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Iowa/A02479154/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137,'A/swine/Illinois/A02524485/2020|C-IVA'[&ha_clade="C-IVA"]:0.00344)[&label="NODE_0000315",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Indiana/A02479148/2020|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Indiana/A02479057/2020|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Indiana/A02479029/2019|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Illinois/A02478926/2019|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000317",ha_clade="C-IVA"]:5.5E-4,(('A/swine/Indiana/A01812305/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137,'A/swine/Indiana/A02478980/2020|C-IVA'[&ha_clade="C-IVA"]:0.00206)[&label="NODE_0000319",ha_clade="C-IVA"]:5.5E-4,('A/swine/Indiana/A02479428/2020|C-IVA'[&ha_clade="C-IVA"]:0.00137,('A/swine/Indiana/A02479023/2020|C-IVA'[&ha_clade="C-IVA"]:0.0,'A/swine/Illinois/A02479016/2020|C-IVA'[&ha_clade="C-IVA"]:0.0)[&label="NODE_0000321",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000320",ha_clade="C-IVA"]:6.8E-4)[&label="NODE_0000318",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000316",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000314",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000311",ha_clade="C-IVA"]:6.9E-4)[&label="NODE_0000310",ha_clade="C-IVA"]:0.00137)[&label="NODE_0000303",ha_clade="C-IVA"]:6.9E-4)[&label="NODE_0000293",ha_clade="C-IVA"]:7.0E-4)[&label="NODE_0000290",ha_clade="C-IVA"]:6.7E-4)[&label="NODE_0000270",ha_clade="C-IVA",!cartoon={55,0.0}]:0.00418)[&label="NODE_0000269",ha_clade="2010.1"]:0.00785)[&label="NODE_0000268",ha_clade="2010.1"]:0.00347)[&label="NODE_0000267",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000265",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000263",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000262",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000253",ha_clade="delta1a"]:0.002)[&label="NODE_0000237",ha_clade="delta1a"]:5.5E-4)[&label="NODE_0000235",ha_clade="delta1a"]:0.00136)[&label="NODE_0000228",ha_clade="delta1a"]:0.00281)[&label="NODE_0000209",ha_clade="delta1a"]:0.00659)[&label="NODE_0000104",ha_clade="delta1b"]:0.00386)[&label="NODE_0000083",ha_clade="C-IVA"]:0.00267)[&label="NODE_0000081",ha_clade="C-IVA"]:0.00494)[&label="NODE_0000048",ha_clade="C-IVA"]:0.00259)[&label="NODE_0000039",ha_clade="C-IVA"]:8.5E-4)[&label="NODE_0000038",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000024",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000023",ha_clade="C-IVA"]:5.5E-4)[&label="NODE_0000000"];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="ha_clade";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Adobe Devanagari";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="ha_clade";
+	set legend.fontSize=18.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="ha_clade";
+	set nodeLabels.fontName="Adobe Devanagari";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Adobe Devanagari";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
