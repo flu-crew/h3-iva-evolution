@@ -12,7 +12,7 @@ axis_title_size <- 18
 x_axis_angle <- 90
 coeff <- 0.5 
 
-setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/data_collection/HA/")
+setwd("//iastate/lss/research/pcgauger-lab/Megan/manuscripts/IV_a Paper/h3-iva-evolution/data_collection/HA/")
 
 #read in table and format dates
 df <- read.csv("classification_for_detection_frequency.csv", header = T)
@@ -78,7 +78,7 @@ plot3 <- ggplot(df_agg, aes(x=year,y=freq * 100, fill=most.similar.blast.clade))
   ) 
 
 #### HA-NA Detection Frequency Graph ####
-clades <- read.csv("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/h3-iva-evolution/data_collection/Figure1/ha-na_by_year_for_R.csv", na.strings = 0)
+clades <- read.csv("//iastate/lss/research/pcgauger-lab/Megan/manuscripts/IV_a Paper/h3-iva-evolution/data_collection/Figure1/ha-na_by_year_for_R.csv", na.strings = 0)
 clades[is.na(clades)] <- 0
 longClades <- melt(clades, id = c("year"))
 
@@ -94,7 +94,7 @@ plot1 <- ggplot(data = normLongClades, aes(x=year, y=value, color=variable, fill
   #pretty good colors
   #scale_fill_viridis(discrete = T, option="plasma", name="") +
   scale_fill_viridis(discrete = T, option="inferno", name="") +
-  labs(y = "Percent of Detection", color="test") +
+  labs(y = "Proportion of Detection", color="test") +
   scale_x_continuous(
     name = "Time",
     breaks = c(2011, 2012, 2013,2014,2015,2016,2017,2018,2019,2020,2021),
@@ -114,7 +114,7 @@ plot1 <- ggplot(data = normLongClades, aes(x=year, y=value, color=variable, fill
 
 
 #### EPS Graph ####
-setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/c-iva/beast_analysis/")
+setwd("//iastate/lss/research/pcgauger-lab/Megan/manuscripts/IV_a Paper/h3-iva-evolution/beast_analysis/")
 
 #get C-IVA detection frequency from dataframe above
 df_civa <- df[df$most.similar.blast.clade == "Cluster IVA",]
@@ -179,9 +179,9 @@ plot2 <- ggplot(dataIRD, aes(x = Time, y = Median)) +
         legend.text = element_text(size=axis_size, face="bold"),
   )
 
-setwd("//iastate/lss/research/pcgauger-lab/Megan/IV_a Paper/h3-iva-evolution/figures/")
+setwd("//iastate/lss/research/pcgauger-lab/Megan/manuscripts/IV_a Paper/h3-iva-evolution/figures/")
 
-tiff("Figure_1_HA-NA_detection_and_demography_monthly.tiff", units = "in", width = 8.5, height = 11, res = 300, compression = "lzw")
+tiff("Figure_1_HA-NA_detection_and_demography.tiff", units = "in", width = 8.5, height = 11, res = 300, compression = "lzw")
 
 plot1+plot_spacer()+plot2 + plot_layout(width=c(1.0,0.01,1.0)) + plot_annotation(tag_levels = 'A') & theme(plot.tag = element_text(size = 20, face="bold"))
 
